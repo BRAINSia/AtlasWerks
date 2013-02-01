@@ -1,0 +1,22 @@
+ADD_LIBRARY(atlasWerksUtilImMapAttic
+  ${LIBTYPE} 
+  BasicException.cxx
+  BasicFileParser.cxx
+  BinaryIO.cxx
+  Debugging.cxx
+  Fl_Table.cxx
+  Fl_Table_Row.cxx
+  Fl_VTK_Window.cxx
+  MultiScaleFluidWarp.cxx
+  vtkFLTKObjectFactory.cxx
+  vtkFLTKOpenGLRenderWindow.cxx
+  vtkFLTKRenderWindowInteractor.cxx
+  ImageIO/ImageIO.cxx
+  ImageIO/Dicom/DicomITK.cxx
+  ImageIO/Dicom/dicomContour.cxx
+  ImageIO/Dicom/dicomImage.cxx
+  ImageIO/Dicom/dicom_.cxx
+  ImageIO/PlanIM/PlanIO.cpp                      
+  ImageIO/PlanIM/PlanIM_Functions.cpp     
+)
+

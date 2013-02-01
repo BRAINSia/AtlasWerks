@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <title>AtlasWerks Project</title>
+  </head>
+  <body>
+
+    <h1>AtlasWerks Project</h1>
+    <br>
+    <h2>About</h2>
+    <p>
+      AtlasWerks is a set of high-performance tools for diffeomorphic
+      3D image registration and atlas building.  Applications support
+      atlas building on GPUs, clusters, and clusters of GPUs.  While
+      in theory the project is cross-platform, at this point we only
+      test and support linux.
+    </p>
+
+    <h2>Executables</h2> 
+    <p>
+      The four primary executables follow a simple naming convention
+      and generate either atlases or individual warps using either the
+      greedy or full LDMM equations:
+    </p>
+    <table border="1">
+      <tr><td></td><td>LDMM</td><td>Greedy</td></tr>
+      <tr><td>Atlas Generation</td><td>LDMMAtlas</td><td>GreedyAtlas</td></tr>
+      <tr><td>Individual Warp</td><td>LDMMWarp</td><td>GreedyWarp</td></tr>
+    </table>
+    <p>
+      All four executables 
+    </p>
+    <h2>Setup Script</h2>
+    <p>
+      There is a somewhat experimental setup script which will attempt
+      to download and compile the dependencies and code available in
+      the source distribution, called BuildAtlasWerks.sh
+    </p>
+
+    <h2>Requirements</h2>
+    <p>
+      Although in theory the AtlasWerks library is cross-platform,
+      right now it is only being tested and used on linux systems, so
+      this is all that is actively supported.  However, if you are
+      interested in working with us to add support for your favorite
+      platform (and possibly willing to run a nightly build on your
+      machine), let us know.
+    </p>
+
+    <h2>Dependencies</h2>
+    <p>
+      There are a few external dependencies you will need to download
+      and install in order to compile the AtlasWerks library.  ITK and
+      VTK use the CMake build system.  If you are unfamiliar with
+      CMake, you can either read the install documentation of these
+      packages, visit <a href="http://www.cmake.org">cmake.org</a>, or
+      look at the brief description about compiling
+      AtlasWerks <a href="#building">below</a>.  Compiling ITK and VTK
+      is a very similar process.
+      <dl>
+	<dt><a href="http://www.itk.org">ITK</a></dt>
+	<dd>
+	  Latest version is supported as of last check.  Version 3.10
+	  has also been tested, but earlier (perhaps much earlier)
+	  versions are believed to be compatible.
+	</dd>
+	<dt><a href="http://www.vtk.org">VTK</a></dt>
+	<dd>
+	  Latest version as of last check (5.4.2) is supported.
+	  Versions 5.0.4 and 5.2.1 have been tested as well, and
+	  earlier versions should work here too.
+	</dd>
+	<dt><a href="http://www.fltk.org">FLTK</a></dt>
+	<dd>
+	  Currently only the 1.1.* branch is supported (1.3.* and 2.*
+	  do not work).  Version 1.1.7 has been tested.
+	</dd>
+	<dt>LAPACK and BLAS</dt>
+	<dd>
+	  LAPACK Version 3.1.1 has been tested, but any version should
+	  work.  Get the libraries through your operating system's
+	  software management system.
+	</dd>
+	<dt>FFTW3</dt>
+	<dd>
+	  Version 3.1.* has been tested, but others should work as
+	  well.  Get the development libraries (fftw3-devel and
+	  fftw3-threads-devel) through your operating system's
+	  software management system.
+	</dd>
+      </dl>
+      <h3>Optional Dependencies</h3>
+
+      <dl>
+	<dt><a href="http://www.nvidia.com/object/cuda_get.html">CUDA</a></dt>
+	<dd>
+	  To compile GPU code, CUDA 3.1 or 3.2 is required, as well as
+	  the CUDA SDK and a compatible NVidia card.  Testing has only
+	  been performed on NVidia Tesla cards and newer Fermi cards.
+	  To compile with GPU support, set the USE_CUDA CMake flag to
+	  True.  See the section in Building for build instructions
+	  for CUDA.
+	</dd>
+	<dt><a href="http://www.open-mpi.org/">MPI</a></dt>
+	<dd>
+	  To support cluster processing, an MPI implementation must be
+	  avaiable.  We currently
+	  use <a href="http://www.open-mpi.org/">OpenMPI</a> 1.4.1.
+	</dd>
+	<dt><a href="http://dicom.offis.de/dcmtk">dcmtk</a></dt>
+	<dd>
+	</dd>
+      </dl>
+    </p>
+
+    <h2><a name="cmake">Building</a></h2>
+    <p>
+      The AtlasWerks project is built
+      using <a href="http://www.cmake.org">CMake</a> version 2.6,
+      although there have been reports of success using v. 2.4.  CMake
+      generates standard build files for your platform, Makefiles on
+      linux and Visual Studio projects on Windows.
+    </p>
+    <p>
+      If you have already installed and built the dependencies (which
+      you should have already done), then you should be somewhat
+      familiar with building a project using CMake.  However, we'll go
+      over the basic procedure here:
+      <ol>
+	<li>Create a directory where the project will be built</li>
+	<li>Run ccmake to configure the project and generate the
+	makefiles</li>
+	<li>Run make to build the project</li>
+      </ol>
+      <br>
+      For instance, if your top-level AtlasWerks directory (the
+      highest-level directory containing a <kbd>CMakeLists.txt</kbd>
+      file) is located at <kbd>..../AtlasWerks</kbd>, first create a
+      directory to build the project in.  You can do this anywhere,
+      but assume we put it inside the AtlasWerks directory and call it
+      'build'.  Now cd into the <kbd>..../AtlasWerks/build</kbd>
+      directory and run <kbd>ccmake ..</kbd>, since the first time you
+      run ccmake for this project you need to give it the path to the
+      directory containing the top-level CMakeLists.txt file.  To
+      configure a CMake project with the default options, the general
+      procedure is to press the 'c' key (for 'configure') until no new
+      options are shown in the interface (new options are denoted by a
+      '*').  After no new options are shown, the build files can be
+      generated by pressing 'g'.  This will exit CMake, and you can
+      build the project by running <kbd>make</kbd>.
+    </p>
+    <h3> Building with CUDA </h3>
+    <p>
+      If you have CUDA installed and want to compile cuda-enabled
+      code, first set the <kbd>USE_CUDA</kbd> CMake flag to True.  You
+      will most likely have to provide the path to the CUDA SDK on
+      your machine as well.  To do this with CUDA SDK v. 3.1/3.2, set
+      the <kbd>CUDA_SDK_ROOT_DIR</kbd> to the location of
+      the <kbd>C</kbd> directory in the SDK, for
+      example <kbd>/home/myhome/NVIDIA_GPU_Computing_SDK/C</kbd>. Unfortunately
+      CMake often fails to find the 'cutil' and 'cudpp' libraries,
+      which must be specified manually via the <kbd>CUDPP_LIB</kbd>
+      and <kbd>CUDA_CUT_LIBRARY</kbd> CMake variables.  These are, for
+      example, at
+      <br/><kbd>/home/myhome/NVIDIA_GPU_Computing_SDK/C/lib/libcutil_x86_64.a</kbd>
+      <br/> and
+      <br/><kbd>/home/myhome/NVIDIA_GPU_Computing_SDK/C/common/lib/linux/libcudpp_x86_64.a</kbd>
+      <br/> respecively.
+    </p>
+
+    <h3> Building with MPI support </h3>
+    <p>
+      To enable MPI support, set the <kbd>USE_MPI</kbd> CMake flag to
+      True, and specify the location of <kbd>MPI_COMPILER</kbd>.
+      CMake should be able to figure out the rest.
+    </p>
+
+    <h3> Possible Problems </h3>
+    <p>
+      If CMake does not automatically find your ITK or VTK directories, enter the
+      path to the <kbd>build</kbd> directory of your ITK or VTK installation.
+    </p>
+
+
+    <h2>Mailing List</h2>
+    <p>
+      For help using or developing with AtlasWerks, please join the atlaswerks-users
+      mailing list at:<br>
+      <a href="https://gforge.sci.utah.edu/mailman/listinfo/atlaswerks-users">
+	https://gforge.sci.utah.edu/mailman/listinfo/atlaswerks-users
+      </a>
+      <br><br>
+      If you would like an automatic notification of commits to the AtlasWerks project,
+      you can subscribe to atlaswerks-commits:<br>
+      <a href="https://gforge.sci.utah.edu/mailman/listinfo/atlaswerks-commits">
+	https://gforge.sci.utah.edu/mailman/listinfo/atlaswerks-commits
+      </a>
+    </p>
+  </body>
+</html>

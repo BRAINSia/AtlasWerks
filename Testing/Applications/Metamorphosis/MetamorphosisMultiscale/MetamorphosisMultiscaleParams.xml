@@ -1,0 +1,42 @@
+<!--top-level node-->
+<MetamorphosisRegParameterFile>
+  <!--initial image filename-->
+  <InitialImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur00.nhdr" />
+  <!--final image filename-->
+  <FinalImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur01.nhdr" />
+  <!--Settings for Metamorphosis registration/atlas building-->
+  <Metamorphosis>
+    <!--Multiple of the following can occur...-->
+    <!--Settings for Metamorphosis iteration-->
+    <MetamorphosisScaleLevel>
+      <!--Controls tradeoff between image matching and velocity field smoothness-->
+      <!--<Lambda val="0.05" />-->
+      <Lambda val="0.2" />
+      <!--Differential operator parameters-->
+      <DiffOper>
+        <Beta val="0.0" />
+      </DiffOper>
+      <!--Number of iterations-->
+      <NIterations val="1000" />
+      <!--setting for a single scale level-->
+      <ScaleLevel>
+        <!--factor by which to downsample images-->
+        <DownsampleFactor val="1" />
+      </ScaleLevel>
+      <!--Image (intensity) gradient descent step size-->
+      <StepSizeI val="0.5" />
+      <!--Use an adaptive step size for velocity gradient descent, where each step is scaled to be maxPert*minSpacing-->
+      <UseAdaptiveStepV val="false" />
+      <!--Velocity gradient descent step size-->
+      <StepSizeV val="0.05" />
+    </MetamorphosisScaleLevel>
+    <NTimeSteps val="10" />
+  </Metamorphosis>
+  <!--filename prefix to use-->
+  <outputPrefix val="MetamorphosisWarp" />
+  <!--filename extension to use (determines format)-->
+  <outputSuffix val="nhdr" />
+  <WriteVelFields val="false"/>
+  <WriteImages val="true"/>
+  <WriteDefField val="false"/>
+</MetamorphosisRegParameterFile>

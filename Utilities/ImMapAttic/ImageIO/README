@@ -1,0 +1,3 @@
+Library to load and save images.
+Supported Format : Analyze, Gipl, Meta, Dicom and PlanIM.
+This library use the GreyVolume class (in Utilities).

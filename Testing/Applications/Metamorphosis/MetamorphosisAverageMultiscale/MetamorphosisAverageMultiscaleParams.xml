@@ -1,0 +1,85 @@
+<!--top-level node-->
+<ParameterFile>
+    <!--Settings for Metamorphosis registration/atlas building-->
+    <Metamorphosis>
+        <!--Multiple of the following can occur...-->
+        <!--Settings for Metamorphosis iteration-->
+        <MetamorphosisScaleLevel>
+            <!--Differential operator parameters-->
+            <DiffOper>
+                <!--Controls the 'viscosity' of the fluid-->
+                <Alpha val="0.01" />
+                <!--Controls the 'viscosity' of the fluid-->
+                <Beta val="0.01" />
+                <!--Compute a divergence-free deformation-->
+                <DivergenceFree val="false" />
+                <!--Do performance measuring during plan construction-->
+                <FFTWMeasure val="true" />
+                <!--Number of threads for FFTW library to use-->
+                <FFTWNumberOfThreads val="1" />
+                <!--ensures inverability of the operator-->
+                <Gamma val="0.001" />
+                <!--'power' of L to use-->
+                <LPow val="1" />
+                <!--Use lookup table of eigenvalues, trades memory for speed-->
+                <UseEigenLUT val="true" />
+            </DiffOper>
+            <!--Controls tradeoff between image matching and velocity field smoothness-->
+            <Lambda val="10" />
+            <!--when using adaptive step size, step will be scaled to maxPert*minSpacing-->
+            <MaxPert val="0.1" />
+            <!--Number of iterations-->
+            <NIterations val="1000" />
+            <!--setting for a single scale level-->
+            <ScaleLevel>
+                <!--factor by which to downsample images-->
+                <DownsampleFactor val="1" />
+            </ScaleLevel>
+            <!--Image (intensity) gradient descent step size-->
+            <StepSizeI val="0.1" />
+            <!--Velocity gradient descent step size-->
+            <StepSizeV val="0.0005" />
+            <!--Use an adaptive step size for velocity gradient descent, where each step is scaled to be maxPert*minSpacing-->
+            <UseAdaptiveStepV val="false" />
+        </MetamorphosisScaleLevel>
+        <MetamorphosisScaleLevel>
+            <NIterations val="50" />
+            <!--setting for a single scale level-->
+            <ScaleLevel>
+                <!--factor by which to downsample images-->
+                <DownsampleFactor val="2" />
+            </ScaleLevel>
+            <StepSizeI val="0.5" />
+            <StepSizeV val="0.005" />
+        </MetamorphosisScaleLevel>
+        <!--Number of timesteps (and therefore intermediate vector fields) to use-->
+        <NTimeSteps val="4" />
+    </Metamorphosis>
+    <!--filename prefix to use-->
+    <OutputPrefix val="MetamorphosisAtlas" />
+    <!--filename extension to use (determines format)-->
+    <OutputSuffix val="nhdr" />
+    <!--Specify a set of input images, possibly weighted-->
+    <WeightedImageSet>
+        <!--printf-style format string-->
+        <InputImageFormatString>
+            <!--filename format, expects single integer format (%d or %0d)-->
+	    <FormatString val="../../../../Data/Input/Bullseyes/BullseyeTestBlur%02d.nhdr" />
+            <!--Minimum image index-->
+            <Base val="0" />
+            <!--Number of files to read in (filnames from Base to NumImages-1)-->
+            <NumFiles val="4" />
+            <!--Weight given to each of the input images-->
+            <Weight val="1.0" />
+        </InputImageFormatString>
+        <!--If true, scale the image weights to 1.0-->
+        <ScaleImageWeights val="true" />
+    </WeightedImageSet>
+    <WriteDefImages val="false" />
+    <WriteMeanImage val="true" />
+    <WriteDefFields val="false" />
+    <WriteIntermediateImages val="true" />
+    <WriteAlphas val="true" />
+    <!--number of threads to use, 0=one per image-->
+    <nThreads val="0" />
+</ParameterFile>

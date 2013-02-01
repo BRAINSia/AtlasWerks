@@ -1,0 +1,2355 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0104 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include <iostream>} {public
+} 
+
+decl {\#include "Window2D.h"} {public
+} 
+
+decl {\#include "SurfaceViewWindow.h"} {public
+} 
+
+class ImMapGUI {
+  callback {this->loadImage();} open
+} {
+  Function {ImMapGUI()} {open
+  } {
+    Fl_Window mainWindow {
+      label ImMap
+      xywh {569 41 650 650} type Double hide resizable
+    } {
+      Fl_Group windowsGroup {open
+        xywh {34 0 616 595} align 16 resizable
+      } {
+        Fl_Group {} {open
+          xywh {34 0 308 293} box PLASTIC_UP_BOX color 75
+        } {
+          Fl_Box axial2DWindow {
+            label axial2DWindow
+            xywh {39 5 283 283} box ENGRAVED_BOX resizable
+            class Window2D
+          }
+          Fl_Scrollbar axialScrollBar {
+            callback {this->scrollbarCallback();}
+            xywh {323 5 15 283} box PLASTIC_DOWN_BOX color 85 minimum 1 maximum 0
+          }
+        }
+        Fl_Group {} {open
+          xywh {342 0 308 293} box PLASTIC_UP_BOX color 75
+        } {
+          Fl_Box coronal2DWindow {
+            label coronal2DWindow
+            xywh {347 5 283 283} box ENGRAVED_BOX resizable
+            class Window2D
+          }
+          Fl_Scrollbar coronalScrollBar {
+            callback {this->scrollbarCallback();}
+            xywh {630 5 15 283} box PLASTIC_DOWN_BOX color 85
+          }
+        }
+        Fl_Group {} {open
+          xywh {34 293 308 293} box PLASTIC_UP_BOX color 75
+        } {
+          Fl_Box sagittal2DWindow {
+            label sagittal2DWindow
+            xywh {39 298 283 283} box ENGRAVED_BOX resizable
+            class Window2D
+          }
+          Fl_Scrollbar sagittalScrollBar {
+            callback {this->scrollbarCallback();}
+            xywh {322 298 15 283} box PLASTIC_DOWN_BOX color 85
+          }
+        }
+        Fl_Group {} {open
+          xywh {342 293 308 293} box PLASTIC_UP_BOX color 75
+        } {
+          Fl_Box surface3DWindow {
+            label surface3DWindow
+            xywh {347 298 298 283} box ENGRAVED_BOX resizable
+            class SurfaceViewWindow
+          }
+        }
+      }
+      Fl_Group menuGroup {open
+        xywh {0 0 34 624} box PLASTIC_UP_BOX color 75
+      } {
+        Fl_Menu_Button {} {
+          xywh {8 12 20 20} box PLASTIC_UP_BOX color 74
+        } {
+          menuitem {} {
+            label {Control Panel}
+            callback {controlPanelWindow->show();}
+            xywh {0 0 100 20} shortcut 0x40063
+          }
+          menuitem {} {
+            label {Registration Wizard}
+            callback {initWizardCallback();
+wizardWindow->show();}
+            xywh {10 10 100 20} deactivate
+          }
+          submenu {} {
+            label {Screen Shots}
+            xywh {5 5 100 20}
+          } {
+            menuitem {} {
+              label Axial
+              callback {screenCaptureAxialCallback();}
+              xywh {5 5 100 20}
+            }
+            menuitem {} {
+              label Coronal
+              callback {screenCaptureCoronalCallback();}
+              xywh {5 5 100 20}
+            }
+            menuitem {} {
+              label Sagittal
+              callback {screenCaptureSagittalCallback();}
+              xywh {5 5 100 20}
+            }
+            menuitem {} {
+              label 3D
+              callback {screenCapture3DCallback();}
+              xywh {5 5 100 20}
+            }
+            menuitem {} {
+              label All
+              callback {screenCaptureAllCallback();}
+              xywh {5 5 100 20} shortcut 0x40073
+            }
+          }
+          menuitem {} {
+            label {Load Script}
+            callback {scriptCallback();}
+            xywh {0 0 100 20}
+          }
+          menuitem {} {
+            label Quit
+            callback {if (fl_choice("Do you want to quit ImMap ?","No","Yes",NULL)){
+mainWindow->hide();
+controlPanelWindow->hide();
+wizardWindow->hide();
+}}
+            xywh {30 30 100 20} shortcut 0x40071
+          }
+        }
+        Fl_Group zoomGroup {
+          xywh {8 45 20 78}
+        } {
+          Fl_Button {} {
+            label {-}
+            callback {zoomButtonCallback(-0.1);}
+            tooltip {Zoom out slow.} xywh {8 83 19 20} box PLASTIC_UP_BOX color 74
+          }
+          Fl_Button {} {
+            label {@-22>>}
+            callback {zoomButtonCallback(-1.0);}
+            tooltip {Zoom out fast.} xywh {8 103 19 20} box PLASTIC_UP_BOX color 74
+          }
+          Fl_Button {} {
+            label {@-28>>}
+            callback {zoomButtonCallback(1.0);}
+            tooltip {Zoom in fast.} xywh {8 45 19 20} box PLASTIC_UP_BOX color 74 labeltype ENGRAVED_LABEL align 17
+          }
+          Fl_Button {} {
+            label {+}
+            callback {zoomButtonCallback(0.1);}
+            tooltip {Zoom in slow.} xywh {8 64 19 20} box PLASTIC_UP_BOX color 74
+          }
+        }
+        Fl_Group histogramGroup {
+          xywh {7 140 22 476}
+        } {
+          Fl_Box histogramSlider {
+            label H
+            xywh {10 140 15 420} box PLASTIC_DOWN_BOX color 85 align 16
+            code0 {\#include "WindowCS.h"}
+            code3 {o->SetGUI(this);}
+            class WindowCS
+          }
+          Fl_Button histogramButton {
+            label I
+            callback {histogramButtonCallback();}
+            tooltip Image xywh {7 568 22 22} box PLASTIC_UP_BOX color 74
+          }
+          Fl_Button histogramLinkButton {
+            label L
+            callback {histogramLinkCallback();}
+            tooltip {Histograms are Unlinked} xywh {7 594 22 22} box PLASTIC_UP_BOX color 74
+          }
+        }
+      }
+      Fl_Group alphaGroup {open
+        xywh {35 587 616 38} box PLASTIC_UP_BOX color 75 align 24
+      } {
+        Fl_Slider alphaSlider {
+          callback {overlayAlphaSlider->value(o->value());
+overlayAlphaSlider->do_callback();}
+          tooltip {Adjust overlay opacity (blend between image and overlay).} xywh {255 597 160 19} type Horizontal box PLASTIC_DOWN_BOX color 85 align 1 step 0.01
+        }
+        Fl_Box {} {
+          label Image
+          xywh {200 597 50 20}
+        }
+        Fl_Box {} {
+          label Overlay
+          xywh {425 595 60 20}
+        }
+        Fl_Box {} {
+          label {Snapshot:}
+          xywh {50 595 75 20}
+        }
+      }
+      Fl_Group statusGroup {open
+        xywh {0 624 650 26} box PLASTIC_UP_BOX color 75
+      } {
+        Fl_Output statusText {
+          label Status
+          xywh {54 627 590 20} box PLASTIC_DOWN_BOX
+        }
+      }
+      Fl_Button screenCaptureAxialButton {
+        label A
+        callback {screenCaptureAxialCallback()}
+        tooltip {Create snapshot of axial (upper left) window.} xywh {125 590 20 15} box PLASTIC_UP_BOX labelsize 10
+      }
+      Fl_Button screenCaptureSagittalButton {
+        label S
+        callback {screenCaptureSagittalCallback()}
+        tooltip {Create snapshot of sagittal (lower left) window.} xywh {125 605 20 15} box PLASTIC_UP_BOX labelsize 10
+      }
+      Fl_Button screenCaptureCoronalButton {
+        label C
+        callback {screenCaptureCoronalCallback()}
+        tooltip {Create snapshot of coronal (upper right) window.} xywh {145 590 20 15} box PLASTIC_UP_BOX labelsize 10
+      }
+      Fl_Button screenCapture3DButton {
+        label 3
+        callback {screenCapture3DCallback()}
+        tooltip {Create snapshot of 3D (lower right) window.} xywh {145 605 20 15} box PLASTIC_UP_BOX labelsize 10
+      }
+    }
+    Fl_Window controlPanelWindow {
+      label {Control Panel} open
+      xywh {1393 296 460 525} type Double visible
+    } {
+      Fl_Tabs controlPanelTabs {open
+        xywh {-10 0 485 564} box PLASTIC_UP_BOX color 76 labelcolor 76
+      } {
+        Fl_Group {} {
+          label { Image}
+          xywh {0 35 460 490}
+        } {
+          Fl_Group {} {open
+            xywh {0 415 460 60} box PLASTIC_UP_BOX color 83
+          } {
+            Fl_Value_Slider overlayAlphaSlider {
+              label {Overlay Opacity}
+              callback {this->overlayPropertyChangedCallback();}
+              tooltip {Adjust the opacity of the overlay image.} xywh {120 425 200 25} type Horizontal box PLASTIC_DOWN_BOX color 75 step 0.05
+            }
+            Fl_Choice colorPresetChoice {
+              label {Color Preset}
+              callback {imagePropertyChangedCallback();
+overlayPropertyChangedCallback();}
+              tooltip {preset RGB color of the image and the overlay} xywh {330 425 115 25} box PLASTIC_UP_BOX down_box PLASTIC_UP_BOX align 2
+            } {}
+            Fl_Light_Button ROIvisibleCheckButton {
+              label {ROI Visible}
+              callback {roiPropertyChangedCallback();}
+              tooltip {make the region of interest visible or not} xywh {15 425 95 20} box PLASTIC_UP_BOX
+            }
+            Fl_Value_Input imageZoomVal {
+              label {Zoom :}
+              callback {this->zoomCallback();}
+              tooltip {set the value of the zoom between 0.05 to 10.0} xywh {65 450 40 20} minimum 0.05 maximum 10 step 0.05 value 1
+            }
+          }
+          Fl_Group {} {open
+            xywh {0 35 460 380}
+          } {
+            Fl_Group imageGroup {open
+              xywh {0 35 230 380} box PLASTIC_UP_BOX color 84
+            } {
+              Fl_Group {} {
+                label Image open
+                xywh {0 60 230 355} color 84 labelfont 1 labelsize 19
+              } {
+                Fl_Choice imageChoice {
+                  label {Image: }
+                  callback {this->imageChoiceCallback();} open
+                  tooltip {Select an Image} xywh {10 65 200 25} box PLASTIC_UP_BOX down_box PLASTIC_DOWN_BOX labeltype NO_LABEL
+                } {}
+                Fl_Group {} {open
+                  xywh {10 185 205 230} color 84
+                } {}
+                Fl_Button transmitImage {
+                  label {->}
+                  callback {transmitHistoImageCallback();}
+                  tooltip {Apply image window settings to overlay.} xywh {145 210 45 20} box PLASTIC_UP_BOX color 75
+                }
+                Fl_Choice imagePresetIntensityChoice {
+                  label {Preset Intensity :}
+                  callback {presetIntensityCallback(1);}
+                  tooltip {Preset intensity window.} xywh {50 375 120 25} box PLASTIC_UP_BOX down_box PLASTIC_DOWN_BOX align 1 when 6
+                } {}
+                Fl_Group {} {
+                  label {image Info} open
+                  xywh {0 95 230 120} labeltype NO_LABEL
+                } {
+                  Fl_Output DimensionsInfoImage {
+                    label {Dimensions :}
+                    xywh {92 95 138 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                  }
+                  Fl_Output PixelSizeInfoImage {
+                    label {Voxel Scale :}
+                    xywh {92 113 138 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                  }
+                  Fl_Output OrientationInfoImage {
+                    label {Orientation :}
+                    xywh {92 148 138 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                  }
+                  Fl_Output OriginInfoImage {
+                    label {Origin  :}
+                    xywh {92 133 128 25} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                  }
+                  Fl_Output MinMaxInfoImage {
+                    label {Min/Max :}
+                    xywh {92 165 138 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                  }
+                  Fl_Output DataTypeInfoImage {
+                    label {DataType :}
+                    xywh {92 183 138 32} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                  }
+                }
+                Fl_Group {} {
+                  label {histogram Image} open
+                  xywh {0 205 220 150} labeltype NO_LABEL
+                } {
+                  Fl_Box HistogramDisplay {
+                    label {Image histogram}
+                    xywh {25 235 180 120} box DOWN_BOX color 0 labelfont 1 labelsize 16 labelcolor 1
+                    code0 {\#include"HistogramWin.h"}
+                    class HistogramWin
+                  }
+                  Fl_Value_Input imageValMin {
+                    callback {if (o->value()>=imageValMax->value()){
+o->value(imageValMax->value()-1);
+}
+imageValMinMaxCallback();}
+                    tooltip {Select intensity window minimum.} xywh {25 210 50 20} color 55 maximum 255 step 1
+                  }
+                  Fl_Value_Input imageValMax {
+                    callback {if (o->value()<=imageValMin->value()){
+o->value(imageValMin->value()+1);
+}
+imageValMinMaxCallback();}
+                    tooltip {Select intensity window maximun.} xywh {85 210 50 20} maximum 255 step 1
+                  }
+                }
+              }
+            }
+            Fl_Group {} {open
+              xywh {230 35 230 380} box PLASTIC_UP_BOX color 98
+            } {
+              Fl_Group {} {
+                label Overlay
+                xywh {230 60 230 355} color 84 labelfont 1 labelsize 19
+              } {
+                Fl_Choice overlayChoice {
+                  callback {this->overlayChoiceCallback();}
+                  tooltip {Select an Overlay Image} xywh {240 65 200 25} box PLASTIC_UP_BOX down_box PLASTIC_DOWN_BOX labeltype NO_LABEL
+                } {}
+                Fl_Group {} {
+                  xywh {245 142 215 273} color 84
+                } {}
+                Fl_Group {} {
+                  label {histogram overlay} open
+                  xywh {230 210 220 155} labeltype NO_LABEL
+                } {
+                  Fl_Value_Input overlayValMin {
+                    callback {if (o->value()>=overlayValMax->value()){
+o->value(overlayValMax->value()-1);
+}
+overlayValMinMaxCallback();}
+                    tooltip {Select intensity window minimum.} xywh {325 210 50 20} maximum 255 step 1
+                  }
+                  Fl_Value_Input overlayValMax {
+                    callback {if (o->value()<=overlayValMin->value()){
+o->value(overlayValMin->value()+1);
+}
+overlayValMinMaxCallback();}
+                    tooltip {Select intensity window maximum.} xywh {385 210 50 20} maximum 255 step 1
+                  }
+                  Fl_Box HistogramOverlayDisplay {
+                    label {Overlay histogram}
+                    xywh {255 235 180 120} box DOWN_BOX color 0 labelfont 1 labelsize 16 labelcolor 1
+                    code0 {\#include"HistogramWin.h"}
+                    class HistogramWin
+                  }
+                }
+              }
+              Fl_Button transmitOverlay {
+                label {<-}
+                callback {transmitHistoOverlayCallback();}
+                tooltip {Apply overlay window settings to image.} xywh {270 210 45 20} box PLASTIC_UP_BOX color 97
+              }
+              Fl_Group {} {
+                label {overlay Info}
+                xywh {230 95 230 120} labeltype NO_LABEL
+              } {
+                Fl_Output DimensionsInfoOverlay {
+                  label {Dimensions :}
+                  xywh {325 95 135 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                }
+                Fl_Output PixelSizeInfoOverlay {
+                  label {Voxel Scale :}
+                  xywh {326 113 134 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                }
+                Fl_Output OrientationInfoOverlay {
+                  label {Orientation :}
+                  xywh {325 148 124 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                }
+                Fl_Output OriginInfoOverlay {
+                  label {Origin :}
+                  xywh {326 133 129 27} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                }
+                Fl_Output MinMaxInfoOverlay {
+                  label {Min/Max :}
+                  xywh {326 165 134 30} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                }
+                Fl_Output DataTypeInfoOverlay {
+                  label {DataType :}
+                  xywh {326 183 134 32} box NO_BOX color 85 labelfont 1 labelsize 12 textsize 12
+                }
+              }
+              Fl_Choice overlayPresetIntensityChoice {
+                label {Preset Intensity :}
+                callback {presetIntensityCallback(2);}
+                tooltip {Preset intensity window.} xywh {280 374 120 25} box PLASTIC_UP_BOX down_box PLASTIC_DOWN_BOX align 1 when 6
+              } {}
+            }
+          }
+          Fl_Group {} {
+            xywh {0 475 460 50} box PLASTIC_UP_BOX color 76
+          } {
+            Fl_Button unloadImageButton {
+              label Unload
+              callback {unloadImageCallback();}
+              tooltip {Unload the selected image.} xywh {276 487 75 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button saveImageButton {
+              label Save
+              callback {saveImageCallback();}
+              tooltip {Save the selected image.} xywh {366 487 75 25} box PLASTIC_UP_BOX
+            }
+            Fl_Choice imageSaveChoice {
+              label {Image: } open
+              xywh {116 487 145 25} box PLASTIC_UP_BOX down_box PLASTIC_DOWN_BOX labeltype NO_LABEL
+            } {}
+            Fl_Button loadImageButton {
+              label Load
+              callback {loadImage();}
+              tooltip {Load An Image} xywh {16 487 90 25} box PLASTIC_UP_BOX color 17
+            }
+          }
+          Fl_Light_Button lockedIntensity {
+            label Locked
+            callback {lockedIntensityCallback();}
+            tooltip {image and overlay intensity are locked together} xywh {195 210 70 20} box PLASTIC_UP_BOX value 1 color 40 when 3
+          }
+        }
+        Fl_Group {} {
+          label Surface
+          xywh {0 30 465 495} hide
+        } {
+          Fl_Group {} {
+            xywh {0 33 465 492} box PLASTIC_UP_BOX color 76
+          } {
+            Fl_Group {} {open
+              xywh {0 435 460 87}
+            } {
+              Fl_Button {} {
+                label {Load BYU}
+                callback {loadBYUCallback();}
+                tooltip {Load a surface and attach to selected image.} xywh {15 445 120 25} box PLASTIC_UP_BOX
+              }
+              Fl_Button {} {
+                label {Save BYU}
+                callback {saveBYUCallback();}
+                tooltip {Save the selected surface.} xywh {14 483 120 25} box PLASTIC_UP_BOX
+              }
+              Fl_Button {} {
+                label Info
+                callback {infoBYUCallback();}
+                xywh {355 485 70 25} box PLASTIC_UP_BOX
+              }
+              Fl_Button {} {
+                label Unload
+                callback {unloadBYUCallback();}
+                tooltip {Remove a surface from the selected image.} xywh {355 445 70 25} box PLASTIC_UP_BOX
+              }
+              Fl_Button {} {
+                label {Load Anastruct}
+                callback {loadAnastructCallback();}
+                tooltip {Load a surface and attach to selected image.} xywh {180 445 120 25} box PLASTIC_UP_BOX
+              }
+              Fl_Button {} {
+                label {Save anastruct}
+                callback {saveAnastructCallback();}
+                tooltip {Save the selected surface.} xywh {180 485 120 25} box PLASTIC_UP_BOX
+              }
+            }
+            Fl_Box BYUImageList {
+              label {Images:}
+              callback {displayBYUListCallback();}
+              xywh {10 85 120 245} box PLASTIC_DOWN_BOX color 55 labelfont 1 align 1
+              code0 {\#include <FL/Fl_Multi_Browser.H>}
+              class Fl_Multi_Browser
+            }
+            Fl_Group BYUTableGroup {open
+              xywh {140 85 320 280} color 84
+            } {
+              Fl_Box BYUTableDisplay {
+                label {Anastructs:}
+                xywh {140 85 306 245} color 46 labelfont 1 align 1 when 3
+                code0 {\#include "BYUTable.h"}
+                class BYUTable
+              }
+            }
+            Fl_Group selectedObjectGroup {open
+              xywh {30 45 435 370}
+            } {
+              Fl_Light_Button viewSelectedObjectButton {
+                callback {BYUTableCallback(1);}
+                xywh {265 340 30 25} align 2
+              }
+              Fl_Menu_Button colorSelectedObjectMenu {
+                callback {BYUTableCallback(2);} open
+                xywh {295 340 35 25} when 3
+              } {}
+              Fl_Button selectAllObjectButton {
+                label {Select All}
+                callback {BYUTableCallback(0);}
+                xywh {140 340 125 25}
+              }
+              Fl_Choice aspectSelectedObjectChooser {
+                callback {BYUTableCallback(3);} open
+                xywh {330 340 60 25} down_box BORDER_BOX when 6
+              } {}
+              Fl_Value_Input alphaSelectedObjectInput {
+                callback {BYUTableCallback(4);}
+                xywh {390 340 35 25} step 0.1
+              }
+              Fl_Button refineBYUButton {
+                label Refine
+                callback {refineBYUCallback();}
+                xywh {70 340 70 25}
+              }
+            }
+          }
+        }
+        Fl_Group {} {
+          label ROI open
+          xywh {0 37 460 488} box PLASTIC_UP_BOX color 84 hide
+        } {
+          Fl_Group {} {
+            xywh {0 40 260 110} box PLASTIC_UP_BOX color 98
+          } {
+            Fl_Value_Slider roiOpacitySlider {
+              label {Fill Opacity}
+              callback {roiPropertyChangedCallback();}
+              tooltip {Adjust opacity of ROI.} xywh {8 95 245 25} type Horizontal box PLASTIC_DOWN_BOX step 0.05 value 0.25
+            }
+            Fl_Light_Button roiLockedButton {
+              label Locked
+              callback {roiLockCallback();}
+              tooltip {Toggle lock ROI.} xywh {155 55 75 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {Initialize the ROI}
+              callback {roiInitializeCallback();}
+              tooltip {reset the ROI to the initial coordonates} xywh {15 55 120 25} box PLASTIC_UP_BOX
+            }
+          }
+          Fl_Group {} {
+            xywh {260 41 200 109} box PLASTIC_UP_BOX color 147
+          } {
+            Fl_Button {} {
+              label {Extract Image ROI}
+              callback {roiImageAddAsImageCallback();}
+              tooltip {Extract the ROI as an image and add it to the image list.} xywh {285 78 150 29} box PLASTIC_UP_BOX
+            }
+          }
+          Fl_Group {} {
+            xywh {2 150 458 170} box PLASTIC_UP_BOX color 76
+          } {
+            Fl_Group roiCoordinatesGroup {
+              label Coordinates
+              xywh {2 187 458 133} labelfont 1 labelsize 19
+            } {
+              Fl_Group {} {
+                label Start open
+                xywh {19 212 102 100}
+              } {
+                Fl_Value_Input roiStartX {
+                  label {X: }
+                  callback {WroiStartX->value(o->value());
+roiPropertyChangedCallback();}
+                  xywh {49 222 45 25} maximum 0 step 1
+                }
+                Fl_Value_Input roiStartY {
+                  label {Y: }
+                  callback {WroiStartY->value(o->value());
+roiPropertyChangedCallback();}
+                  xywh {49 251 45 25} maximum 0 step 1
+                }
+                Fl_Value_Input roiStartZ {
+                  label {Z: }
+                  callback {WroiStartZ->value(o->value());
+roiPropertyChangedCallback();}
+                  xywh {49 280 45 25} maximum 0 step 1
+                }
+              }
+              Fl_Group {} {
+                label Stop open
+                xywh {175 210 112 100}
+              } {
+                Fl_Value_Input roiStopX {
+                  label {X: }
+                  callback {WroiStopX->value(o->value());
+roiPropertyChangedCallback();}
+                  xywh {205 220 45 25} maximum 0 step 1
+                }
+                Fl_Value_Input roiStopY {
+                  label {Y: }
+                  callback {WroiStopY->value(o->value());
+roiPropertyChangedCallback();}
+                  xywh {205 249 45 25} maximum 0 step 1
+                }
+                Fl_Value_Input roiStopZ {
+                  label {Z: }
+                  callback {WroiStopZ->value(o->value());
+roiPropertyChangedCallback();}
+                  xywh {205 278 45 25} maximum 0 step 1
+                }
+              }
+              Fl_Group {} {
+                label Size open
+                xywh {310 210 150 110}
+              } {
+                Fl_Value_Output roiSizeX {
+                  label {X:}
+                  xywh {360 220 45 25} box PLASTIC_UP_BOX color 76
+                }
+                Fl_Value_Output roiSizeY {
+                  label {Y:}
+                  xywh {360 250 45 25} box PLASTIC_UP_BOX color 76
+                }
+                Fl_Value_Output roiSizeZ {
+                  label {Z:}
+                  xywh {360 280 45 25} box PLASTIC_UP_BOX color 76
+                }
+              }
+            }
+          }
+          Fl_Group ROIinfo {
+            xywh {0 320 460 150} box PLASTIC_UP_BOX color 85
+          } {
+            Fl_Group roiInfoGroup {
+              label {ROI info} open
+              xywh {0 355 460 115} labelfont 1 labelsize 19
+            } {}
+            Fl_Group {} {
+              label Area open
+              xywh {40 372 150 95}
+            } {
+              Fl_Value_Output roiAreaXY {
+                label {XY:}
+                xywh {85 377 75 25} box PLASTIC_UP_BOX color 85
+              }
+              Fl_Value_Output roiAreaXZ {
+                label {XZ:}
+                xywh {85 407 75 25} box PLASTIC_UP_BOX color 85
+              }
+              Fl_Value_Output roiAreaYZ {
+                label {YZ:}
+                xywh {85 437 75 25} box PLASTIC_UP_BOX color 85
+              }
+            }
+            Fl_Group {} {
+              label Volume open
+              xywh {263 373 175 65}
+            } {
+              Fl_Output roiVolumeXYZoutput {
+                label {XYZ:}
+                xywh {313 383 115 25} box PLASTIC_UP_BOX color 85
+              }
+            }
+          }
+        }
+        Fl_Group {} {
+          label Registration
+          xywh {-5 32 465 493} hide
+        } {
+          Fl_Group {} {
+            xywh {0 35 460 215} box PLASTIC_UP_BOX color 84
+          } {
+            Fl_Button resampleButton {
+              label Resample
+              callback {resampleCallback();}
+              tooltip {Resample the overlay into the space of the image.} xywh {175 75 104 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button applyTranslationVectorButton {
+              label {Apply Translation}
+              callback {setTranslationWindow->show();}
+              tooltip {Apply user specified translation to the overlay, resample into space of the image.} xywh {10 160 133 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button alignCentroidsButton {
+              label {Align Centroids}
+              callback {alignCentroidsCallback();}
+              tooltip {Translate the overlay by the centroid difference and resample into space of the image.} xywh {310 75 125 25} box PLASTIC_UP_BOX
+            }
+            Fl_Box {} {
+              label Affine
+              xywh {215 45 25 25} labelfont 1 labelsize 16
+            }
+            Fl_Button {} {
+              label {Save Translation}
+              callback {saveTranslationCallback();}
+              tooltip {save the value of the translation} xywh {10 130 133 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button applyMatrixButton {
+              label {Apply Matrix}
+              callback {applyMatrixCallback();}
+              tooltip {Apply to the overlay a translation vector loaded into a matrix , resample into space of the image.} xywh {10 220 105 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button saveMatrixButton {
+              label {Save Matrix}
+              callback {saveMatrixCallback();}
+              tooltip {save the matrix of translation} xywh {10 190 105 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button affineRegisterButton {
+              label Start
+              callback {affineRegisterCallback();}
+              tooltip {Register the images.} xywh {10 45 120 25} box PLASTIC_UP_BOX color 7
+            }
+            Fl_Choice affineChoice {
+              label {Registration Type} open
+              tooltip {Type of low-dimension registration.} xywh {10 90 130 25} down_box BORDER_BOX align 5
+            } {}
+            Fl_Text_Display matrixDisplay {
+              label {Last Registration Result}
+              xywh {170 125 265 115}
+            }
+          }
+          Fl_Group {} {
+            xywh {0 250 460 190} box PLASTIC_UP_BOX color 98
+          } {
+            Fl_Group {} {
+              label {Actions For Fluid Warping:}
+              xywh {255 330 168 90}
+            } {
+              Fl_Light_Button createOToIImageButton {
+                label {Create O->I Image}
+                callback {createOToIImageButtonCallback();}
+                tooltip {Warp overlay into space of image, add as new image..} xywh {257 334 166 25} box PLASTIC_UP_BOX value 1
+              }
+              Fl_Light_Button createOToISurfacesButton {
+                label {Create O->I Surfaces}
+                tooltip {Warp overlay surfaces into space of image.} xywh {257 364 166 25} box PLASTIC_UP_BOX
+              }
+              Fl_Light_Button addIToOSurfaceButton {
+                label {Add I->O Surfaces}
+                tooltip {Warp image surfaces into space of overlay, add to overlay surface list.} xywh {257 394 166 25} box PLASTIC_UP_BOX value 1
+              }
+            }
+            Fl_Button fluidRegisterButton {
+              label Start
+              callback {fluidRegisterCallback();}
+              tooltip {Compute fluid warp between image and overlay.} xywh {49 280 135 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button applyHFieldButton {
+              label {Apply h Field}
+              callback {applyHFieldCallback();}
+              tooltip {Apply user specified h field (fluid warp).} xywh {269 280 135 25} box PLASTIC_UP_BOX
+            }
+            Fl_Box {} {
+              label {Fluid Warp}
+              xywh {220 250 25 40} labelfont 1 labelsize 16
+            }
+            Fl_Light_Button resliceButton {
+              label {reslice image}
+              tooltip {reslice the image in z direction} xywh {5 368 120 22} box PLASTIC_UP_BOX value 1
+            }
+            Fl_Choice deformationChoice {
+              label {Deformation Type:} open
+              tooltip {select the type of deformation computed} xywh {50 335 135 25} down_box BORDER_BOX align 1
+            } {}
+            Fl_Light_Button refineButton {
+              label {refine surfaces}
+              tooltip {refine each triangle of the surfaces} xywh {130 368 120 22} box PLASTIC_UP_BOX
+            }
+            Fl_Button fillRegionButton {
+              label {Fill Region}
+              callback {fillRegionCallback();}
+              xywh {5 400 120 25} box PLASTIC_UP_BOX
+            }
+            Fl_Value_Input pixelValueInput {
+              xywh {130 400 45 25} value 1000
+            }
+          }
+          Fl_Group {} {
+            xywh {225 440 235 85} box PLASTIC_UP_BOX color 76
+          } {
+            Fl_Light_Button useROIButton {
+              label {     Use ROI}
+              tooltip {Use ROI for registration computation.} xywh {275 470 135 25} box PLASTIC_UP_BOX value 1
+            }
+          }
+          Fl_Group {} {open
+            xywh {0 440 225 85} box PLASTIC_UP_BOX color 86
+          } {
+            Fl_Button {} {
+              label {Create Mask}
+              callback {createMaskCallback();}
+              xywh {10 455 95 25} box PLASTIC_UP_BOX
+            }
+            Fl_Choice maskChoice {
+              callback {maskViewCallback();} open
+              xywh {70 485 100 25} down_box BORDER_BOX
+            } {}
+            Fl_Light_Button viewMaskButton {
+              label {View Mask}
+              callback {maskViewCallback();}
+              xywh {110 455 105 25} box PLASTIC_UP_BOX
+            }
+          }
+        }
+        Fl_Group {} {
+          label Parameters open
+          xywh {0 30 460 534} hide
+        } {
+          Fl_Group {} {open
+            xywh {0 30 460 310} color 76
+          } {
+            Fl_Group {} {open
+              xywh {0 35 460 211} box PLASTIC_UP_BOX color 95
+            } {
+              Fl_Group {} {
+                label {Translation Pyramid Schedule}
+                xywh {0 71 460 175} color 95 labelfont 1 labelsize 16
+              } {
+                Fl_Group {} {
+                  label {         X        Y        Z         } open
+                  xywh {150 95 155 120} box PLASTIC_DOWN_BOX
+                } {
+                  Fl_Group {} {open
+                    xywh {163 105 135 25}
+                  } {
+                    Fl_Value_Input registrationPyramidX1 {
+                      label {1:}
+                      xywh {168 105 40 25} maximum 0 value 8
+                    }
+                    Fl_Value_Input registrationPyramidY1 {
+                      xywh {210 105 40 25} align 2 maximum 0 value 8
+                    }
+                    Fl_Value_Input registrationPyramidZ1 {
+                      xywh {252 105 40 25} align 2 value 2
+                    }
+                  }
+                  Fl_Group {} {open
+                    xywh {163 131 135 29}
+                  } {
+                    Fl_Value_Input registrationPyramidX2 {
+                      label {2:}
+                      xywh {168 131 40 25} value 4
+                    }
+                    Fl_Value_Input registrationPyramidY2 {
+                      xywh {210 131 40 25} align 2 value 4
+                    }
+                    Fl_Value_Input registrationPyramidZ2 {
+                      xywh {252 131 39 25} align 2 value 2
+                    }
+                  }
+                  Fl_Group {} {open
+                    xywh {163 155 139 28}
+                  } {
+                    Fl_Value_Input registrationPyramidX3 {
+                      label {3:}
+                      xywh {168 157 40 25} value 2
+                    }
+                    Fl_Value_Input registrationPyramidY3 {
+                      xywh {210 157 40 25} align 2 value 2
+                    }
+                    Fl_Value_Input registrationPyramidZ3 {
+                      xywh {252 157 40 25} align 2 value 1
+                    }
+                  }
+                  Fl_Group {} {open
+                    xywh {163 180 142 29}
+                  } {
+                    Fl_Value_Input registrationPyramidX4 {
+                      label {4:}
+                      xywh {168 183 40 25} value 1
+                    }
+                    Fl_Value_Input registrationPyramidY4 {
+                      xywh {210 183 40 25} align 2 value 1
+                    }
+                    Fl_Value_Input registrationPyramidZ4 {
+                      xywh {252 183 40 25} align 2 value 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+          Fl_Group {} {open
+            xywh {0 245 460 319} box PLASTIC_UP_BOX color 98
+          } {
+            Fl_Group {} {
+              label {Fluid Registration} open
+              xywh {0 276 460 249} color 76 labelfont 1 labelsize 16
+            } {
+              Fl_Group fluidCoarseParameterGroup {
+                xywh {5 341 425 40}
+              } {
+                Fl_Value_Input fluidCoarseMaxIterations {
+                  xywh {373 345 47 25} align 1 minimum 1 maximum 500 step 1 value 500
+                }
+                Fl_Value_Input fluidCoarseAlpha {
+                  xywh {94 345 56 25} align 1 step 0.01 value 0.1
+                }
+                Fl_Value_Input fluidCoarseBeta {
+                  xywh {163 345 57 25} align 1 step 0.01 value 0.1
+                }
+                Fl_Value_Input fluidCoarseGamma {
+                  xywh {225 345 70 25} align 1 step 0.0001 value 0.01
+                }
+                Fl_Value_Input fluidCoarseMaxPerturbation {
+                  xywh {303 345 57 25} align 1 step 0.05 value 0.5
+                }
+              }
+              Fl_Group fluidMediumParameterGroup {
+                xywh {5 371 425 42}
+              } {
+                Fl_Value_Input fluidMediumMaxIterations {
+                  xywh {373 378 47 25} align 1 minimum 1 maximum 500 step 1 value 25
+                }
+                Fl_Value_Input fluidMediumAlpha {
+                  xywh {94 378 56 25} align 1 step 0.01 value 0.01
+                }
+                Fl_Value_Input fluidMediumBeta {
+                  xywh {163 378 57 25} align 1 step 0.01 value 0.01
+                }
+                Fl_Value_Input fluidMediumGamma {
+                  xywh {225 378 70 25} align 1 step 0.0001 value 0.001
+                }
+                Fl_Value_Input fluidMediumMaxPerturbation {
+                  xywh {303 378 57 25} align 1 step 0.05 value 0.5
+                }
+              }
+              Fl_Group fluidFineParameterGroup {
+                xywh {5 404 430 41}
+              } {
+                Fl_Value_Input fluidFineMaxIterations {
+                  xywh {373 411 47 25} align 1 minimum 1 maximum 500 step 1 value 1
+                }
+                Fl_Value_Input fluidFineAlpha {
+                  xywh {94 411 56 25} align 1 step 0.01 value 0.01
+                }
+                Fl_Value_Input fluidFineBeta {
+                  xywh {163 411 57 25} align 1 step 0.01 value 0.01
+                }
+                Fl_Value_Input fluidFineGamma {
+                  xywh {225 411 70 26} align 1 step 0.0001 value 0.001
+                }
+                Fl_Value_Input fluidFineMaxPerturbation {
+                  xywh {303 411 57 25} align 1 step 0.05 value 0.5
+                }
+              }
+              Fl_Light_Button fluidCoarseButton {
+                label Coarse
+                callback {bool activateGroup = o->value() ? true : false;
+if (activateGroup)
+{
+  fluidCoarseParameterGroup->activate();
+}
+else
+{
+  fluidCoarseParameterGroup->deactivate();
+}}
+                xywh {6 346 80 25} box PLASTIC_UP_BOX value 1
+              }
+              Fl_Light_Button fluidMediumButton {
+                label Medium
+                callback {bool activateGroup = o->value() ? true : false;
+if (activateGroup)
+{
+  fluidMediumParameterGroup->activate();
+}
+else
+{
+  fluidMediumParameterGroup->deactivate();
+}}
+                xywh {6 378 80 25} box PLASTIC_UP_BOX value 1
+              }
+              Fl_Light_Button fluidFineButton {
+                label Fine
+                callback {bool activateGroup = o->value() ? true : false;
+if (activateGroup)
+{
+  fluidFineParameterGroup->activate();
+}
+else
+{
+  fluidFineParameterGroup->deactivate();
+}}
+                xywh {6 411 80 25} box PLASTIC_UP_BOX value 1
+              }
+              Fl_Group {} {
+                label {   alpha         beta         gamma     Max Pert      Iter} open
+                xywh {80 317 340 30} align 16
+              } {}
+              Fl_Group {} {
+                xywh {10 444 450 40}
+              } {
+                Fl_Box {} {
+                  label {Interpolation:}
+                  xywh {10 445 150 25} labelfont 1
+                }
+                Fl_Round_Button fluidNearestNeighborButton {
+                  label {Nearest Neighbor}
+                  xywh {254 446 135 20} down_box ROUND_DOWN_BOX
+                }
+                Fl_Round_Button fluidTrilinearButton {
+                  label Trilinear
+                  xywh {158 446 96 20} down_box ROUND_DOWN_BOX
+                }
+              }
+              Fl_Group {} {
+                label { For Gas Shrinking:} open
+                xywh {5 470 450 55} labelfont 1 align 20
+              } {
+                Fl_Value_Input numDilationsInput {
+                  label {Dilations: }
+                  xywh {255 485 25 25} minimum 1 maximum 20 step 1 value 2
+                }
+                Fl_Value_Input numErosionsInput {
+                  label {Erosions: }
+                  xywh {375 485 25 25} minimum 1 maximum 40 step 1 value 4
+                }
+              }
+            }
+            Fl_Choice fluidParamChoice {
+              label {Fluid Parameters :}
+              callback {fluidParametersCallback();} open
+              tooltip {preset the fluid parameters} xywh {125 290 100 25} box PLASTIC_UP_BOX down_box PLASTIC_UP_BOX when 6
+            } {}
+            Fl_Button saveFluidParametersButton {
+              label {Save Fluid Parameters}
+              callback {saveFluidParametersCallback();}
+              tooltip {add a new fluid parameters preset to the preset file.} xywh {260 290 160 25} box PLASTIC_UP_BOX
+            }
+          }
+        }
+        Fl_Group {} {
+          label Misc open
+          xywh {-10 33 485 502} hide
+        } {
+          Fl_Group {} {open
+            xywh {0 33 460 492} box PLASTIC_UP_BOX color 76
+          } {
+            Fl_Group colorGroup {open
+              xywh {0 40 460 425}
+            } {
+              Fl_Button {} {
+                label {3D Window Background Color}
+                callback {window3DBGColorCallback();}
+                tooltip {add a new fluid parameters preset to the preset file.} xywh {25 50 210 20} box PLASTIC_UP_BOX align 16
+              }
+              Fl_Button {} {
+                label {Print ROI, Intensity Range}
+                callback {printParametersCallback();}
+                tooltip {add a new fluid parameters preset to the preset file.} xywh {25 80 210 20} box PLASTIC_UP_BOX align 16
+              }
+            }
+            Fl_Group {} {open
+              xywh {0 465 460 60} box PLASTIC_UP_BOX color 196
+            } {
+              Fl_Light_Button viewCrosshairsButton {
+                label {View Crosshairs}
+                callback {viewCrosshairsCallback();}
+                tooltip {Toggle view image crosshairs.} xywh {35 495 140 20} box PLASTIC_UP_BOX value 1 color 196
+              }
+              Fl_Light_Button viewImageInfoButton {
+                label {View Image Info}
+                callback {viewImageInfoCallback();}
+                tooltip {Toggle view image text overlay.} xywh {35 471 140 19} box PLASTIC_UP_BOX value 1 color 196
+              }
+              Fl_Counter lineWidthCounter {
+                label {Line Width:}
+                callback {lineWidthCallback(o->value());}
+                xywh {250 480 153 20} value 2
+              }
+            }
+          }
+        }
+      }
+    }
+    Fl_Window BYUinfowindow {
+      label BYUinfo
+      callback {\#include <iostream>}
+      xywh {504 76 515 340} type Double box PLASTIC_UP_BOX color 76 hide resizable
+    } {
+      Fl_Group {} {open
+        xywh {0 0 515 340} box PLASTIC_UP_BOX color 76
+      } {
+        Fl_Group {} {open
+          xywh {5 20 500 260} box PLASTIC_UP_BOX color 83
+        } {
+          Fl_Output volumeTextBox1 {
+            label {Volume            }
+            xywh {110 60 365 25}
+          }
+          Fl_Output verticesTextBox1 {
+            label {\# of vertices    }
+            xywh {110 95 365 25}
+          }
+          Fl_Output facetsTextBox1 {
+            label {\# of facets       }
+            xywh {110 130 365 25}
+          }
+          Fl_Output centroidTextBox1 {
+            label {Centroid          }
+            xywh {110 170 365 25}
+          }
+          Fl_Output minimaTextBox1 {
+            label {Minima            }
+            xywh {110 205 365 25}
+          }
+          Fl_Output maximaTextBox1 {
+            label {Maxima           }
+            xywh {110 240 365 25}
+          }
+          Fl_Output surfacename_value {
+            label {Name              }
+            xywh {110 30 365 25}
+          }
+        }
+        Fl_Button BYUinfoOk {
+          label OK
+          callback {closeinfoBYUCallback();}
+          xywh {120 295 110 25} box PLASTIC_UP_BOX color 215
+        }
+        Fl_Button SaveBYUInfo {
+          label SaveBYUInfo
+          xywh {260 295 95 25} box PLASTIC_UP_BOX color 165
+        }
+      }
+    }
+    Fl_Window WarningWindow {
+      label ImMap
+      xywh {60 49 510 300} type Double box PLASTIC_UP_BOX color 229 hide
+    } {
+      Fl_Group {} {
+        label {Warning Window Background}
+        xywh {0 0 510 300} box PLASTIC_UP_BOX color 229
+      } {
+        Fl_Box {} {
+          label {S. Joshi, D. Prigent, B. Davis, P. Lorenzen, F. Kuhn, M. Foskey}
+          xywh {10 99 400 25}
+        }
+        Fl_Button {} {
+          label {Start Registration Wizard}
+          callback {WarningWindow->hide();
+
+mainWindow->show( );
+axial2DWindow->show();
+coronal2DWindow->show();
+sagittal2DWindow->show();
+
+initWizardCallback();
+wizardWindow->show();}
+          xywh {74 257 170 30} box PLASTIC_UP_BOX color 221 deactivate
+        }
+        Fl_Box oldWellImageBox {
+          image {./Old_Well.gif} xywh {425 25 70 90}
+        }
+        Fl_Box {} {
+          label {Version 1.4 (alpha)}
+          xywh {174 200 170 30}
+        }
+        Fl_Button {} {
+          label {Expert Mode}
+          callback {WarningWindow->hide();
+
+mainWindow->show( );
+controlPanelWindow->set_non_modal();
+controlPanelWindow->show();
+axial2DWindow->show();
+coronal2DWindow->show();
+sagittal2DWindow->show();}
+          tooltip {Start ImMap} xywh {324 257 110 30} box PLASTIC_UP_BOX color 221
+        }
+        Fl_Box {} {
+          label {FOR RESEARCH PURPOSES ONLY}
+          xywh {94 160 330 40} labelfont 1
+        }
+        Fl_Box {} {
+          label {University of North Carolina at Chapel Hill}
+          xywh {70 63 280 30} labelfont 1 labelsize 20
+        }
+        Fl_Box {} {
+          label {Department of Radiation Oncology}
+          xywh {45 23 330 40} labelfont 1 labelsize 20
+        }
+      }
+    }
+    Fl_Window dicomWindow {
+      label {DICOM images}
+      xywh {778 194 295 250} type Double box PLASTIC_UP_BOX color 84 hide
+      code0 {\#include "DicomWindowClass.h"}
+      class DicomWindowClass
+    } {
+      Fl_Choice choiceDICOM {
+        callback {DICOMCallback();}
+        xywh {40 30 220 30} down_box BORDER_BOX selection_color 49
+      } {}
+      Fl_Button CloseDicomWindow {
+        label ok
+        callback {dicomWindow->hide();}
+        xywh {48 200 80 30} box PLASTIC_UP_BOX color 75
+      }
+      Fl_Output dimensionDICOM {
+        label {Dimensions :}
+        xywh {101 80 189 30} box NO_BOX color 49 selection_color 49
+      }
+      Fl_Output resolutionDICOM {
+        label {Resolution   :}
+        xywh {100 120 190 30} box NO_BOX color 49 selection_color 49
+      }
+      Fl_Round_Button LoadContourButton {
+        label {Load Contour}
+        xywh {82 160 130 30} down_box ROUND_DOWN_BOX
+      }
+      Fl_Button advancedDicomWindow {
+        label advanced
+        callback {DicomLoaderCallback();}
+        xywh {167 200 80 30} box PLASTIC_UP_BOX color 75
+      }
+    }
+    Fl_Window wizardWindow {
+      label {Setup Correction Wizard}
+      xywh {22 233 605 400} type Double hide
+    } {
+      Fl_Group processGroup {
+        xywh {0 0 210 400} box PLASTIC_UP_BOX color 74
+      } {
+        Fl_Check_Button step2Button {
+          xywh {14 101 0 30} down_box DOWN_BOX labelfont 1 when 0
+        }
+        Fl_Check_Button step3Button {
+          xywh {14 149 0 30} down_box DOWN_BOX labelfont 1 when 0
+        }
+        Fl_Check_Button step4Button {
+          xywh {14 197 0 30} down_box DOWN_BOX labelfont 1 when 0
+        }
+        Fl_Check_Button step5Button {
+          xywh {14 235 21 30} down_box DOWN_BOX labelfont 1 when 0
+        }
+        Fl_Box {} {
+          label {Select Reference Image}
+          xywh {44 101 146 30} labelfont 1
+        }
+        Fl_Box {} {
+          label {Select Daily Image}
+          xywh {21 150 160 30} labelfont 1
+        }
+        Fl_Box {} {
+          label {Set ROI for translation}
+          xywh {27 197 178 28} labelfont 1
+        }
+        Fl_Box {} {
+          label {Estimate Translation}
+          xywh {35 235 155 30} labelfont 1
+        }
+        Fl_Box RefImageName {
+          label None
+          xywh {40 127 160 25} labelsize 12
+        }
+        Fl_Box DailyImageName {
+          label None
+          xywh {40 175 160 25} labelsize 12
+        }
+        Fl_Check_Button step6Button {
+          xywh {14 275 26 30} down_box DOWN_BOX labelfont 1 when 0
+        }
+        Fl_Check_Button step7Button {
+          xywh {15 310 25 35} down_box DOWN_BOX labelfont 1 when 0
+        }
+        Fl_Check_Button step8Button {
+          xywh {15 345 25 35} down_box DOWN_BOX labelfont 1 when 0
+        }
+        Fl_Box {} {
+          label {Load the anastructs}
+          xywh {35 275 155 30} labelfont 1
+        }
+        Fl_Box {} {
+          label {set ROI for registration}
+          xywh {40 315 165 30} labelfont 1
+        }
+        Fl_Box {} {
+          label registration
+          xywh {35 350 155 30} labelfont 1
+        }
+      }
+      Fl_Group stepsGroup {open
+        xywh {-15 -10 1625 1155}
+      } {
+        Fl_Group selectDailyGroup {
+          label {Select Daily Image}
+          xywh {210 0 395 400} box PLASTIC_UP_BOX labelfont 1 labelsize 20 align 17
+          code3 {o->hide();}
+        } {
+          Fl_Group {} {open
+            xywh {240 360 300 25}
+          } {
+            Fl_Button NextSelDaily {
+              label {Next @\#-1UpArrow}
+              callback {roiInitializeRegistrationCallback();}
+              xywh {480 360 60 25} box PLASTIC_UP_BOX
+              code3 {o->deactivate();}
+            }
+            Fl_Button {} {
+              label {Close Wizard}
+              callback {wizardWindow->hide();}
+              xywh {240 360 100 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {@-14UpArrow Back}
+              callback {step2Button->value(0);
+selectDailyGroup->hide();
+selectReferenceGroup->show();}
+              xywh {420 360 60 25} box PLASTIC_UP_BOX
+            }
+          }
+          Fl_Group LoadDaily {
+            xywh {220 45 380 65}
+          } {
+            Fl_Output dailyFile {
+              xywh {220 45 380 25} box PLASTIC_DOWN_BOX
+            }
+            Fl_Button LoadDailyButton {
+              label Load
+              callback {dailyFile->value(fl_file_chooser("Choose the reference ","",0));
+std::string fileDaily = dailyFile->value();
+loadImage((char *) fileDaily.c_str());
+dailyInfoCallback();
+NextSelDaily->activate();}
+              xywh {420 85 60 25} box PLASTIC_UP_BOX
+              code0 {\#include <FL/Fl_File_Chooser.H>}
+            }
+          }
+          Fl_Group InfoDaily {
+            xywh {230 120 360 240} box PLASTIC_UP_BOX
+          } {
+            Fl_Output DailyNameInfo {
+              label {Patient         :}
+              xywh {330 130 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output DailyDimensionsInfo {
+              label {Dimensions :}
+              xywh {330 160 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output DailyPixelSizeInfo {
+              label {Voxel Scale :}
+              xywh {330 190 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output DailyOrientationInfo {
+              label {Orientation  :}
+              xywh {330 220 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output DailyOriginInfo {
+              label {Origin           :}
+              xywh {330 250 172 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output DailyMinMaxInfo {
+              label {Min/Max       :}
+              xywh {330 280 212 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output DailyDataTypeInfo {
+              label {DataType     :}
+              xywh {330 310 212 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Box {} {
+              label {select the organ studied :  }
+              xywh {235 330 210 25} labelcolor 88
+            }
+            Fl_Choice nextStepChoice {
+              tooltip {select the organ} xywh {455 330 125 25} box PLASTIC_UP_BOX down_box PLASTIC_DOWN_BOX align 1 when 3
+            } {}
+          }
+        }
+        Fl_Group selectReferenceGroup {
+          label {Select Reference Image}
+          xywh {210 0 395 400} box PLASTIC_UP_BOX labelfont 1 labelsize 20 align 17
+        } {
+          Fl_Group {} {
+            xywh {240 360 300 25}
+          } {
+            Fl_Button NextSelRef {
+              label {Next @\#-1UpArrow}
+              callback {step2Button->value(1);
+selectReferenceGroup->hide();
+selectDailyGroup->show();}
+              xywh {480 360 60 25} box PLASTIC_UP_BOX
+              code0 {\#include<string>}
+              code3 {o->deactivate();}
+            }
+            Fl_Button {} {
+              label {Close Wizard}
+              callback {wizardWindow->hide();}
+              xywh {240 360 100 25} box PLASTIC_UP_BOX
+            }
+          }
+          Fl_Group LoadRef {open
+            xywh {220 45 380 90}
+          } {
+            Fl_Output ReferenceFile {
+              xywh {220 45 380 25} box PLASTIC_DOWN_BOX
+            }
+            Fl_Button LoadReference {
+              label Load
+              callback {ReferenceFile->value(fl_file_chooser("Choose the reference ","",0));
+std::string fileRef =ReferenceFile->value();
+dailyFile->value((char *)fileRef.c_str());
+loadImage((char *) fileRef.c_str());
+referenceInfoCallback();
+NextSelRef->activate();}
+              xywh {420 85 60 25} box PLASTIC_UP_BOX
+              code0 {\#include <FL/Fl_File_Chooser.H>}
+            }
+          }
+          Fl_Group InfoRef {
+            xywh {230 120 360 230} box PLASTIC_UP_BOX
+          } {
+            Fl_Output RefNameInfo {
+              label {Patient         :}
+              xywh {330 130 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output RefDimensionsInfo {
+              label {Dimensions :}
+              xywh {330 160 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output RefPixelSizeInfo {
+              label {Voxel Scale :}
+              xywh {330 190 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output RefOrientationInfo {
+              label {Orientation  :}
+              xywh {330 220 222 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output RefOriginInfo {
+              label {Origin           :}
+              xywh {330 250 172 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output RefMinMaxInfo {
+              label {Min/Max       :}
+              xywh {330 280 212 20} box NO_BOX color 85 labelfont 1
+            }
+            Fl_Output RefDataTypeInfo {
+              label {DataType     :}
+              xywh {330 310 212 20} box NO_BOX color 85 labelfont 1
+            }
+          }
+        }
+        Fl_Group setROIGroup {
+          label {Set ROI}
+          xywh {210 0 395 400} box PLASTIC_UP_BOX labelfont 1 labelsize 20 align 17
+          code3 {o->hide();}
+        } {
+          Fl_Group {} {open
+            xywh {240 360 300 25}
+          } {
+            Fl_Button {} {
+              label {Next @\#-1UpArrow}
+              callback {step4Button->value(1);
+setROIGroup->hide();
+estimateTranslationGroup->show();
+wizardTranslateRegisterCallback();}
+              xywh {480 360 60 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {Close Wizard}
+              callback {wizardWindow->hide();}
+              xywh {240 360 100 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {@-14UpArrow Back}
+              callback {step3Button->value(0);
+setROIGroup->hide();
+selectDailyGroup->show();}
+              xywh {420 360 60 25} box PLASTIC_UP_BOX
+            }
+          }
+          Fl_Box {} {
+            label {Adjust the region of interest :}
+            xywh {230 50 220 30}
+          }
+          Fl_Box {} {
+            label {@-2->   by dragging the ROI limits with th right button}
+            xywh {257 80 343 30}
+          }
+          Fl_Box {} {
+            label {@-2->   by setting manually its values}
+            xywh {260 130 250 30}
+          }
+          Fl_Group roiCoordinatesGroupW {
+            label Coordinates open
+            xywh {270 160 259 170} box PLASTIC_UP_BOX color 76 labelfont 1 labelsize 19 align 17
+          } {
+            Fl_Group ROIstartW {
+              label Start
+              xywh {287 222 102 100}
+            } {
+              Fl_Value_Input WroiStartX {
+                label {X: }
+                callback {roiStartX->value(o->value());
+WroiStartX2->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {317 232 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStartY {
+                label {Y: }
+                callback {roiStartY->value(o->value());
+WroiStartY2->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {317 261 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStartZ {
+                label {Z: }
+                callback {roiStartZ->value(o->value());
+WroiStartZ2->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {317 290 45 25} maximum 0 step 1
+              }
+            }
+            Fl_Group ROIstopW {
+              label Stop open
+              xywh {402 222 112 100}
+            } {
+              Fl_Value_Input WroiStopX {
+                label {X: }
+                callback {roiStopX->value(o->value());
+WroiStopX2->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {432 232 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStopY {
+                label {Y: }
+                callback {roiStopY->value(o->value());
+WroiStopY2->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {432 261 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStopZ {
+                label {Z: }
+                callback {roiStopZ->value(o->value());
+WroiStopZ2->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {432 290 45 25} maximum 0 step 1
+              }
+            }
+          }
+          Fl_Box {} {
+            label {with the right button of the mouse}
+            xywh {285 110 240 30}
+          }
+        }
+        Fl_Group estimateTranslationGroup {
+          label {Estimate Translation}
+          xywh {210 0 395 400} box PLASTIC_UP_BOX labelfont 1 labelsize 20 align 17
+          code3 {o->hide();}
+        } {
+          Fl_Button {} {
+            label {Close Wizard}
+            callback {wizardWindow->hide();}
+            xywh {240 360 100 25} box PLASTIC_UP_BOX
+          }
+          Fl_Button {} {
+            label {@-14UpArrow Back}
+            callback {step4Button->value(0);
+estimateTranslationGroup->hide();
+setROIGroup->show();}
+            xywh {420 360 60 25} box PLASTIC_UP_BOX
+          }
+          Fl_Group ResultVector {open
+            xywh {211 90 390 275}
+          } {
+            Fl_Box {} {
+              label {Resulting Vector :}
+              xywh {211 90 170 30} labelfont 1
+            }
+            Fl_Value_Output Xtranslation {
+              label {X :}
+              xywh {251 130 90 30} box PLASTIC_DOWN_BOX color 55
+            }
+            Fl_Value_Output Ytranslation {
+              label {Y :}
+              xywh {381 130 90 30} box PLASTIC_DOWN_BOX color 55
+            }
+            Fl_Value_Output Ztranslation {
+              label {Z :}
+              xywh {501 130 90 30} box PLASTIC_DOWN_BOX color 55
+            }
+            Fl_Box {} {
+              label {start the registration}
+              xywh {461 310 140 30}
+            }
+            Fl_Box {} {
+              label {end of the translation}
+              xywh {226 310 140 30}
+            }
+            Fl_Box {} {
+              label {click here}
+              xywh {221 335 140 30}
+            }
+            Fl_Box {} {
+              label {click here}
+              xywh {456 335 140 30}
+            }
+          }
+          Fl_Button {} {
+            label {Save Resulting Image}
+            callback {saveTranslationResCallback();}
+            xywh {335 250 150 30} box PLASTIC_UP_BOX
+          }
+          Fl_Button {} {
+            label {Save Translation}
+            callback {saveTranslationCallback();}
+            xywh {335 205 150 30} box PLASTIC_UP_BOX
+          }
+          Fl_Button NextTrans {
+            label {Next @\#-1UpArrow}
+            callback {step5Button->value(1);
+estimateTranslationGroup->hide();
+loadAnastructsGroup->show();
+wizardLoadAnastructsCallback();}
+            xywh {496 360 60 25} box PLASTIC_UP_BOX deactivate
+          }
+        }
+        Fl_Group loadAnastructsGroup {
+          label {Load the anastructs}
+          xywh {210 0 395 400} box PLASTIC_UP_BOX labelfont 1 labelsize 20 align 17
+          code3 {o->hide();}
+        } {
+          Fl_Group {} {
+            xywh {240 350 325 35}
+          } {
+            Fl_Button {} {
+              label {Next @\#-1UpArrow}
+              callback {step6Button->value(1);
+loadAnastructsGroup->hide();
+setROIRegistrationGroup->show();}
+              xywh {505 360 60 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {Close Wizard}
+              callback {wizardWindow->hide();}
+              xywh {240 360 100 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {@-14UpArrow Back}
+              callback {step5Button->value(0);
+loadAnastructsGroup->hide();
+estimateTranslationGroup->show();}
+              xywh {420 360 60 25} box PLASTIC_UP_BOX
+            }
+          }
+          Fl_Box {} {
+            label {change the anastruct's color :}
+            xywh {210 240 230 30}
+          }
+          Fl_Box {} {
+            label {@-2->  select an anastruct}
+            xywh {210 265 250 30}
+          }
+          Fl_Box {} {
+            label {@-2->   }
+            xywh {260 290 35 30}
+          }
+          Fl_Group loadAnaGroup {open
+            xywh {235 25 370 375}
+          } {
+            Fl_Button {} {
+              label {Load Anastruct}
+              callback {loadAnastructCallback();}
+              tooltip {Load a surface and attach to selected image.} xywh {345 50 120 25} box PLASTIC_UP_BOX
+            }
+          }
+        }
+        Fl_Group setROIRegistrationGroup {
+          label {Set ROI for registration}
+          xywh {210 0 395 400} box PLASTIC_UP_BOX labelfont 1 labelsize 20 align 17
+          code3 {o->hide();}
+        } {
+          Fl_Group {} {
+            xywh {240 360 300 25}
+          } {
+            Fl_Button {} {
+              label {Next @\#-1UpArrow}
+              callback {step7Button->value(1);
+setROIRegistrationGroup->hide();
+registrationGroup->show();}
+              xywh {480 360 60 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {Close Wizard}
+              callback {wizardWindow->hide();}
+              xywh {240 360 100 25} box PLASTIC_UP_BOX
+            }
+            Fl_Button {} {
+              label {@-14UpArrow Back}
+              callback {step6Button->value(0);
+setROIRegistrationGroup->hide();
+loadAnastructsGroup->show();}
+              xywh {420 360 60 25} box PLASTIC_UP_BOX
+            }
+          }
+          Fl_Box {} {
+            label {Adjust the region of interest :}
+            xywh {230 50 220 30}
+          }
+          Fl_Box {} {
+            label {@-2->   by dragging the ROI limits  }
+            xywh {255 75 210 30}
+          }
+          Fl_Box {} {
+            label {@-2->   by setting manually its values}
+            xywh {240 125 250 30}
+          }
+          Fl_Group roiCoordinatesGroupW2 {
+            label Coordinates
+            xywh {270 160 259 170} box PLASTIC_UP_BOX color 76 labelfont 1 labelsize 19 align 17
+          } {
+            Fl_Group ROIstartW2 {
+              label Start
+              xywh {287 222 102 100}
+            } {
+              Fl_Value_Input WroiStartX2 {
+                label {X: }
+                callback {roiStartX->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {317 232 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStartY2 {
+                label {Y: }
+                callback {roiStartY->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {317 261 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStartZ2 {
+                label {Z: }
+                callback {roiStartZ->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {317 290 45 25} maximum 0 step 1
+              }
+            }
+            Fl_Group ROIstopW2 {
+              label Stop
+              xywh {402 222 112 100}
+            } {
+              Fl_Value_Input WroiStopX2 {
+                label {X: }
+                callback {roiStopX->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {432 232 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStopY2 {
+                label {Y: }
+                callback {roiStopY->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {432 261 45 25} maximum 0 step 1
+              }
+              Fl_Value_Input WroiStopZ2 {
+                label {Z: }
+                callback {roiStopZ->value(o->value());
+roiPropertyChangedCallback();}
+                xywh {432 290 45 25} maximum 0 step 1
+              }
+            }
+          }
+          Fl_Box {} {
+            label {with the right button of the mouse}
+            xywh {275 100 240 30}
+          }
+        }
+        Fl_Group registrationGroup {
+          label Registration
+          xywh {210 0 395 400} box PLASTIC_UP_BOX labelfont 1 labelsize 20 align 17
+          code3 {o->hide();}
+        } {
+          Fl_Button {} {
+            label {Close Wizard}
+            callback {wizardWindow->hide();}
+            xywh {240 360 100 25} box PLASTIC_UP_BOX
+          }
+          Fl_Button {} {
+            label {@-14UpArrow Back}
+            callback {step7Button->value(0);
+registrationGroup->hide();
+setROIRegistrationGroup->show();}
+            xywh {420 360 60 25} box PLASTIC_UP_BOX
+          }
+          Fl_Button FinishWizard {
+            label finish
+            callback {wizardWindow->hide();}
+            xywh {496 360 60 25} box PLASTIC_UP_BOX deactivate
+          }
+          Fl_Group ApplyfluidGroup {
+            xywh {230 20 370 375}
+          } {
+            Fl_Button {} {
+              label {apply registration}
+              callback {wizardRegistrationCallback();}
+              tooltip {Compute fluid warp between image and overlay.} xywh {335 165 135 25} box PLASTIC_UP_BOX
+            }
+            Fl_Output registrationStatus {
+              label {status:}
+              xywh {325 210 180 25} box PLASTIC_DOWN_BOX
+            }
+          }
+        }
+      }
+    }
+    Fl_Window setOriginWindow {
+      label {Set Origin}
+      xywh {136 201 195 215} type Double box PLASTIC_UP_BOX color 117 hide
+    } {
+      Fl_Group {} {open
+        xywh {60 30 70 120}
+      } {
+        Fl_Value_Input XOrigin {
+          label {X }
+          xywh {60 30 70 30}
+        }
+        Fl_Value_Input YOrigin {
+          label {Y }
+          xywh {60 70 70 30}
+        }
+        Fl_Value_Input ZOrigin {
+          label {Z }
+          xywh {60 110 70 30}
+        }
+      }
+      Fl_Button {} {
+        label OK
+        callback {setOriginCallback();
+setOriginWindow->hide();}
+        xywh {120 170 60 30} box PLASTIC_UP_BOX color 115
+      }
+      Fl_Button {} {
+        label Cancel
+        callback {setOriginWindow->hide();}
+        xywh {20 170 60 30} box PLASTIC_UP_BOX color 115
+      }
+    }
+    Fl_Window setTranslationWindow {
+      label {Set Translation}
+      xywh {451 425 195 215} type Double box PLASTIC_UP_BOX color 117 hide
+    } {
+      Fl_Group {} {
+        xywh {60 30 70 120}
+      } {
+        Fl_Value_Input translateVectorX {
+          label {X }
+          xywh {60 30 70 30}
+        }
+        Fl_Value_Input translateVectorY {
+          label {Y }
+          xywh {60 70 70 30}
+        }
+        Fl_Value_Input translateVectorZ {
+          label {Z }
+          xywh {60 110 70 30}
+        }
+      }
+      Fl_Button {} {
+        label OK
+        callback {applyTranslationVectorCallback();
+setTranslationWindow->hide();}
+        xywh {120 170 60 30} box PLASTIC_UP_BOX color 115
+      }
+      Fl_Button {} {
+        label Cancel
+        callback {setTranslationWindow->hide();}
+        xywh {20 170 60 30} box PLASTIC_UP_BOX color 115
+      }
+    }
+    Fl_Window DicomLoaderWindow {
+      label {Dicom Loader}
+      xywh {242 444 655 450} type Double box PLASTIC_UP_BOX color 85 hide resizable
+      code0 {\#include "DicomLoaderWindowClass.h"}
+      class DicomLoaderWindowClass
+    } {
+      Fl_Box DicomFileSelector {
+        label {Dicom Files }
+        callback {SliceSelectedCallback();}
+        xywh {22 75 165 287} box PLASTIC_DOWN_BOX color 85 selection_color 85 align 5
+        code0 {\#include <FL/Fl_Multi_Browser.H>}
+        class Fl_Multi_Browser
+      }
+      Fl_Box DicomFileSelected {
+        label {Selected Files }
+        xywh {460 75 165 287} box PLASTIC_DOWN_BOX color 85 selection_color 85 align 5
+        code0 {\#include <FL/Fl_Multi_Browser.H>}
+        class Fl_Multi_Browser
+      }
+      Fl_Button {} {
+        label {@->}
+        callback {SelectFilesCallback();}
+        xywh {293 69 60 30} box PLASTIC_UP_BOX color 85
+      }
+      Fl_Button {} {
+        label {@<-}
+        callback {DeselectFilesCallback();}
+        xywh {296 353 60 30} box PLASTIC_UP_BOX color 85
+      }
+      Fl_Button {} {
+        label {Add all}
+        callback {AddAllCallback();}
+        xywh {123 373 60 25} box PLASTIC_UP_BOX color 85
+      }
+      Fl_Button {} {
+        label {Remove all}
+        callback {RemoveAllCallback();}
+        xywh {563 373 80 25} box PLASTIC_UP_BOX color 85
+      }
+      Fl_Group {} {
+        xywh {24 372 90 60} box PLASTIC_UP_BOX color 77
+      } {
+        Fl_Button {} {
+          label {@8>>}
+          callback {InvertSortCallback(1);}
+          xywh {74 397 30 25} box PLASTIC_UP_BOX color 85
+        }
+        Fl_Button {} {
+          label {@2>>}
+          callback {SortSelectionCallback(1);}
+          xywh {34 397 30 25} box PLASTIC_UP_BOX color 85
+        }
+        Fl_Box {} {
+          label Sort
+          xywh {24 372 90 20}
+        }
+      }
+      Fl_Group {} {
+        xywh {461 372 90 60} box PLASTIC_UP_BOX color 77
+      } {
+        Fl_Button {} {
+          label {@8>>}
+          callback {InvertSortCallback(2);}
+          xywh {511 397 30 25} box PLASTIC_UP_BOX color 85
+        }
+        Fl_Button {} {
+          label {@8<<}
+          callback {SortSelectionCallback(2);}
+          xywh {471 397 30 25} box PLASTIC_UP_BOX color 85
+        }
+        Fl_Box {} {
+          label Sort
+          xywh {461 372 90 20}
+        }
+      }
+      Fl_Button {} {
+        label {Create Image}
+        callback {CreateImageCallback();}
+        xywh {207 395 100 30} box PLASTIC_UP_BOX color 85
+      }
+      Fl_Box PreviewWindow {
+        label Preview
+        xywh {204 107 240 240} resizable
+        code0 {\#include "DicomPreview.h"}
+        class DicomPreview
+      }
+      Fl_Output Directory_Name {
+        label {Directory :}
+        xywh {90 20 537 25} box PLASTIC_DOWN_BOX color 85
+      }
+      Fl_Button {} {
+        label Cancel
+        callback {DicomLoaderWindow->hide();
+RemoveAllCallback();}
+        xywh {335 395 100 30} box PLASTIC_UP_BOX color 85
+      }
+    }
+    Fl_Window NewSpacingWindow {
+      label {New spacing}
+      xywh {1015 136 380 170} type Double box PLASTIC_UP_BOX color 124 hide
+    } {
+      Fl_Value_Input newSpacing {
+        label {select a new spacing : }
+        tooltip {choose the new spacing} xywh {160 50 60 25} box PLASTIC_DOWN_BOX
+      }
+      Fl_Output sameSignOutput {
+        xywh {20 90 355 20} box NO_BOX
+      }
+      Fl_Button okButtonNewSpacing {
+        label OK
+        callback {NewSpacingWindow->hide();}
+        xywh {255 50 85 25} box PLASTIC_UP_BOX
+      }
+      Fl_Box {} {
+        label {the spacing of this image is not uniform }
+        xywh {5 10 275 25}
+      }
+      Fl_Value_Output previousSpacingOutput {
+        label {previous spacing :}
+        xywh {140 125 70 25} box FLAT_BOX color 51
+      }
+    }
+    Fl_Window fluidParametersNameWindow {
+      label {Fluid Parameters name }
+      xywh {1040 737 280 130} type Double box PLASTIC_UP_BOX color 86 hide
+    } {
+      Fl_Input fluidParametersNameInput {
+        label {enter the fluid parameters name:}
+        xywh {40 40 210 25} align 5
+      }
+      Fl_Button {} {
+        label OK
+        callback {fluidParametersNameWindow->hide();}
+        xywh {100 95 80 25} box PLASTIC_UP_BOX
+      }
+      Fl_Output noNameOutput {
+        xywh {90 70 110 25} box NO_BOX color 86
+      }
+    }
+    Fl_Window defineheader_windows {
+      label {DEFINE HEADER}
+      xywh {559 153 340 840} type Double box PLASTIC_UP_BOX color 84 hide resizable
+      code0 {\#include <iostream>}
+    } {
+      Fl_Value_Input NDims_value {
+        label {  NDims}
+        xywh {30 85 90 25} align 8
+      }
+      Fl_Check_Button BinaryData_value {
+        label {                     BinaryData}
+        xywh {30 115 85 25} down_box DOWN_BOX
+      }
+      Fl_Check_Button BinaryDataByteOrderMSB_value {
+        label {                     BinaryDataByteOrderMSB}
+        xywh {30 145 25 25} down_box DOWN_BOX
+      }
+      Fl_Group {} {
+        label Offset open
+        xywh {20 195 305 110} box PLASTIC_UP_BOX color 67 labeltype ENGRAVED_LABEL align 5
+      } {
+        Fl_Value_Input Offset_X_value {
+          label {      Offset X}
+          xywh {30 210 70 25} align 8 minimum -1000 maximum 1000 step 0.01
+        }
+        Fl_Value_Input Offset_Y_value {
+          label {      Offset Y}
+          xywh {30 240 70 25} align 8 minimum -1000 maximum 1000 step 0.01
+        }
+        Fl_Value_Input Offset_Z_value {
+          label {      Offset Z}
+          xywh {30 270 70 25} align 8 minimum -1000 maximum 1000 step 0.01 resizable
+        }
+      }
+      Fl_Group {} {
+        label Offset open
+        xywh {15 340 305 110} box PLASTIC_UP_BOX color 147 labeltype ENGRAVED_LABEL align 5
+      } {
+        Fl_Value_Input ElementSpacing_X_value {
+          label {       ElementSpacingX}
+          xywh {25 355 70 25} align 8 minimum -1000 maximum 1000 step 0.0001
+        }
+        Fl_Value_Input ElementSpacing_Y_value {
+          label {       ElementSpacingY}
+          xywh {25 385 70 25} align 8 minimum -1000 maximum 1000 step 0.0001
+        }
+        Fl_Value_Input ElementSpacing_Z_value {
+          label {       ElementSpacingZ}
+          xywh {25 415 70 25} align 8 minimum -1000 maximum 1000 step 0.0001 resizable
+        }
+      }
+      Fl_Input ElementDataFile_value {
+        label {  ElementDataFile}
+        xywh {20 680 115 25} align 8
+      }
+      Fl_Input ObjectType_value {
+        label {  ObjectType}
+        xywh {30 50 90 25} align 8
+      }
+      Fl_Choice ElementType_value {
+        label { ElementType} open
+        xywh {20 645 115 25} down_box BORDER_BOX align 8
+      } {}
+      Fl_Button saveheader_button {
+        label {Save Header}
+        callback {saveheaderCallback();}
+        xywh {65 735 200 35} box PLASTIC_UP_BOX color 65
+      }
+      Fl_Group {} {
+        label DimSize open
+        xywh {15 490 305 115} box PLASTIC_UP_BOX color 163 labeltype ENGRAVED_LABEL align 5
+      } {
+        Fl_Value_Input DimSize_X_value {
+          label {       DimSizeX}
+          xywh {25 505 80 25} align 8 minimum -1000 maximum 1000
+        }
+        Fl_Value_Input DimSize_Y_value {
+          label {       DimSizeY}
+          xywh {25 535 80 25} align 8 minimum -1000 maximum 1000
+        }
+        Fl_Value_Input DimSize_Z_value {
+          label {       DimSizeZ}
+          xywh {25 565 80 25} align 8 minimum -1000 maximum 1000 resizable
+        }
+      }
+    }
+  }
+  Function {show( int argc, char* argv[] )} {open
+  } {
+    code {WarningWindow->show();} {
+      callback {char *fileName = fl_file_chooser("Choose a file...", "", 0);
+if( fileName != (char*)0 )
+{
+  char buffer[1024];
+
+  sprintf( buffer, "Loading %s", fileName );
+  statusText->value( buffer ); Fl::flush(); 
+  ImageType::Pointer imagePtr = _imageViewer.loadImage( fileName );
+
+  if( imagePtr == (ImageType::Pointer)0 ) {
+     sprintf( buffer, "Error: Could not load %s", fileName ); 
+     statusText->value( buffer ); Fl::flush();
+  }
+  else {
+     sprintf( buffer, "Loading ... done" );
+     statusText->value( buffer ); Fl::flush();
+
+     ////////////////////
+     // Update display //
+     ////////////////////
+     axial2DWindow->SetInputImage( imagePtr );
+     axial2DWindow->orientation( 0 );
+     axial2DWindow->winCenter();
+     axial2DWindow->update();
+     axial2DWindow->redraw();
+
+     coronal2DWindow->SetInputImage( imagePtr );
+     coronal2DWindow->orientation( 1 );  
+     coronal2DWindow->winCenter();
+     coronal2DWindow->update();
+     coronal2DWindow->redraw();
+
+     sagittal2DWindow->SetInputImage( imagePtr );
+     sagittal2DWindow->orientation( 2 );
+     sagittal2DWindow->winCenter();
+     sagittal2DWindow->update();
+     sagittal2DWindow->redraw();
+  }
+}}
+    }
+  }
+  Function {loadImage()} {open return_type {virtual void}
+  } {}
+  Function {loadImage(char * fileName)} {return_type {virtual void}
+  } {}
+  Function {saveImageCallback()} {return_type {virtual void}
+  } {}
+  Function {unloadImageCallback()} {return_type {virtual void}
+  } {}
+  Function {imageChoiceCallback()} {return_type {virtual void}
+  } {}
+  Function {overlayChoiceCallback()} {return_type {virtual void}
+  } {}
+  Function {scrollbarCallback()} {return_type {virtual void}
+  } {}
+  Function {imagePropertyChangedCallback()} {return_type {virtual void}
+  } {}
+  Function {imageIWChangedCallback()} {return_type {virtual void}
+  } {}
+  Function {overlayPropertyChangedCallback()} {return_type {virtual void}
+  } {}
+  Function {overlayIWChangedCallback()} {return_type {virtual void}
+  } {}
+  Function {roiPropertyChangedCallback()} {return_type {virtual void}
+  } {}
+  Function {roiLockCallback()} {return_type {virtual void}
+  } {}
+  Function {roiImageAddAsImageCallback()} {return_type {virtual void}
+  } {}
+  Function {roiOverlayAddAsImageCallback()} {return_type {virtual void}
+  } {}
+  Function {roiInitializeCallback()} {return_type {virtual void}
+  } {}
+  Function {translateRegisterCallback()} {return_type {virtual void}
+  } {}
+  Function {wizardTranslateRegisterCallback()} {return_type {virtual void}
+  } {}
+  Function {rigidRegisterCallback()} {return_type {virtual void}
+  } {}
+  Function {affineRegisterCallback()} {return_type {virtual void}
+  } {}
+  Function {fluidRegisterCallback()} {return_type {virtual void}
+  } {}
+  Function {fluidShrinkCallback()} {return_type {virtual void}
+  } {}
+  Function {applyTranslationVectorCallback()} {return_type {virtual void}
+  } {}
+  Function {alignCentroidsCallback()} {return_type {virtual void}
+  } {}
+  Function {applyHFieldCallback()} {return_type {virtual void}
+  } {}
+  Function {resampleCallback()} {return_type {virtual void}
+  } {}
+  Function {anastructUnloadCallback()} {return_type {virtual void}
+  } {}
+  Function {anastructSaveCallback()} {return_type {virtual void}
+  } {}
+  Function {anastructChoiceCallback()} {return_type {virtual void}
+  } {}
+  Function {anastructPropertyChangedCallback()} {return_type {virtual void}
+  } {}
+  Function {histogramImageCallback()} {return_type {virtual void}
+  } {}
+  Function {transmitHistoImageCallback()} {return_type {virtual void}
+  } {}
+  Function {histogramOverlayCallback()} {open return_type {virtual void}
+  } {}
+  Function {transmitHistoOverlayCallback()} {return_type {virtual void}
+  } {}
+  Function {infoImageCallback()} {open return_type {virtual void}
+  } {}
+  Function {DICOMCallback()} {open return_type {virtual void}
+  } {}
+  Function {histogramSliderCallback()} {open return_type {virtual void}
+  } {}
+  Function {updateHistogramSliderCallback()} {open return_type {virtual void}
+  } {}
+  Function {imageValMinMaxCallback()} {open return_type {virtual void}
+  } {}
+  Function {overlayValMinMaxCallback()} {open return_type {virtual void}
+  } {}
+  Function {histogramButtonCallback()} {open return_type {virtual void}
+  } {}
+  Function {histogramLinkCallback()} {open return_type {virtual void}
+  } {}
+  Function {zoomButtonCallback(float val)} {open return_type {virtual void}
+  } {}
+  Function {referenceInfoCallback()} {open return_type {virtual void}
+  } {}
+  Function {dailyInfoCallback()} {open return_type {virtual void}
+  } {}
+  Function {saveTranslationResCallback()} {open return_type {virtual void}
+  } {}
+  Function {saveTranslationCallback()} {open return_type {virtual void}
+  } {}
+  Function {setOriginCallback()} {open return_type {virtual void}
+  } {}
+  Function {initWizardCallback()} {open return_type {virtual void}
+  } {}
+  Function {displayBYUListCallback()} {open return_type {virtual void}
+  } {}
+  Function {loadAnastructCallback()} {open return_type {virtual void}
+  } {}
+  Function {loadBYUCallback()} {open return_type {virtual void}
+  } {}
+  Function {unloadBYUCallback()} {open return_type {virtual void}
+  } {}
+  Function {saveBYUCallback()} {open return_type {virtual void}
+  } {}
+  Function {createOToIImageButtonCallback()} {open return_type {virtual void}
+  } {}
+  Function {SelectFilesCallback()} {open return_type {virtual void}
+  } {}
+  Function {DeselectFilesCallback()} {open return_type {virtual void}
+  } {}
+  Function {SortSelectionCallback(int val)} {open return_type {virtual void}
+  } {}
+  Function {InvertSortCallback(int val)} {open return_type {virtual void}
+  } {}
+  Function {AddAllCallback()} {open return_type {virtual void}
+  } {}
+  Function {RemoveAllCallback()} {open return_type {virtual void}
+  } {}
+  Function {CreateImageCallback()} {open return_type {virtual void}
+  } {}
+  Function {SliceSelectedCallback()} {open return_type {virtual void}
+  } {}
+  Function {DicomLoaderCallback()} {open return_type {virtual void}
+  } {}
+  Function {downSampleCallback()} {open return_type {virtual void}
+  } {}
+  Function {downSizeCallback()} {open return_type {virtual void}
+  } {}
+  Function {saveAnastructCallback()} {open return_type {virtual void}
+  } {}
+  Function {presetIntensityCallback(int)} {open return_type {virtual void}
+  } {}
+  Function {wizardLoadAnastructsCallback()} {open return_type {virtual void}
+  } {}
+  Function {roiInitializeRegistrationCallback()} {return_type {virtual void}
+  } {}
+  Function {wizardRegistrationCallback()} {open return_type {virtual void}
+  } {}
+  Function {lockedIntensityCallback()} {open return_type {virtual void}
+  } {}
+  Function {applyMatrixCallback()} {open return_type {virtual void}
+  } {}
+  Function {fluidParametersCallback()} {open return_type {virtual void}
+  } {}
+  Function {saveMatrixCallback()} {open return_type {virtual void}
+  } {}
+  Function {saveFluidParametersCallback()} {open return_type {virtual void}
+  } {}
+  Function {zoomCallback()} {open return_type {virtual void}
+  } {}
+  Function {BYUTableCallback(int val)} {open return_type {virtual void}
+  } {}
+  Function {viewCrosshairsCallback()} {open return_type {virtual void}
+  } {}
+  Function {viewImageInfoCallback()} {open return_type {virtual void}
+  } {}
+  Function {createMaskCallback()} {open return_type {virtual void}
+  } {}
+  Function {maskViewCallback()} {open return_type {virtual void}
+  } {}
+  Function {screenCaptureAxialCallback()} {open return_type {virtual void}
+  } {}
+  Function {screenCaptureCoronalCallback()} {open return_type {virtual void}
+  } {}
+  Function {screenCaptureSagittalCallback()} {open return_type {virtual void}
+  } {}
+  Function {screenCapture3DCallback()} {open return_type {virtual void}
+  } {}
+  Function {screenCaptureAllCallback()} {open return_type {virtual void}
+  } {}
+  Function {scriptCallback()} {open return_type {virtual void}
+  } {}
+  Function {lineWidthCallback(const double& width)} {open return_type {virtual void}
+  } {}
+  Function {fillRegionCallback()} {open return_type {virtual void}
+  } {}
+  Function {saveheaderCallback()} {open return_type {virtual void}
+  } {}
+  Function {infoBYUCallback()} {open return_type {virtual void}
+  } {}
+  Function {closeinfoBYUCallback()} {open return_type {virtual void}
+  } {}
+  Function {refineBYUCallback()} {open return_type {virtual void}
+  } {}
+  Function {fillROICallback()} {open return_type {virtual void}
+  } {}
+  Function {window3DBGColorCallback()} {open return_type {virtual void}
+  } {}
+  Function {printParametersCallback()} {open selected return_type {virtual void}
+  } {}
+} 

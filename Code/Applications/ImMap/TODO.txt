@@ -1,0 +1,29 @@
+####  TODO  ####
+
+>>> GUI <<<
+lock sides of image windowing together
+flip option (ie for dicom)
+save windows as png
+image unload, save, *info*
+show difference image between two loaded images
+peep hole box window into overlay
+label axial, sagittal, coronal
+label image file name
+label position and value at click
+add dicom load panel
+fill roi with value
+toggle view crosshairs
+mip display
+display warped grid
+
+>>> CODE CLEANUP <<<
+pointer to window in roichagned callback
+
+>>> MAJOR <<<
+fill in anastruct panel
+notion of transformations
+
+>>> BUGS <<<
+what happens with negative image window values???
+if dicom image fails to load it is still added to pulldown menu
+max/min is calculated in ImageViewer and IView

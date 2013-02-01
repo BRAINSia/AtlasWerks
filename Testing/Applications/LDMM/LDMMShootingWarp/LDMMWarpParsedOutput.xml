@@ -1,0 +1,156 @@
+<!--top-level node-->
+<LDMMWarpParameterFile>
+    <!--General settings for multiscale manager-->
+    <MultiscaleSettings>
+        <!--Use sinc upsampling for images? (trilinear interpolation is the default)-->
+        <UseSincImageUpsample val="false" />
+    </MultiscaleSettings>
+    <!--Multiple of the following can occur...-->
+    <!--Settings for single-scale LDMM registration-->
+    <LDMMScaleLevel>
+        <!--setting for a single scale level-->
+        <ScaleLevel>
+            <!--factor by which to downsample images-->
+            <DownsampleFactor val="2" />
+        </ScaleLevel>
+        <!--Settings for LDMM iteration-->
+        <LDMMIterator>
+            <!--Differential operator parameters-->
+            <DiffOper>
+                <!--Controls the 'viscosity' of the fluid-->
+                <Alpha val="0.01" />
+                <!--Controls the 'viscosity' of the fluid (penalizes expansion/compression)-->
+                <Beta val="0.01" />
+                <!--ensures inverability of the operator-->
+                <Gamma val="0.001" />
+                <!--'power' of L to use-->
+                <LPow val="1" />
+                <!--Use lookup table of eigenvalues, trades memory for speed-->
+                <UseEigenLUT val="false" />
+                <!--Compute a divergence-free deformation-->
+                <DivergenceFree val="false" />
+                <!--Number of threads for FFTW library to use-->
+                <FFTWNumberOfThreads val="1" />
+                <!--Do performance measuring during plan construction-->
+                <FFTWMeasure val="true" />
+            </DiffOper>
+            <!--Controls tradeoff between image matching and velocity field smoothness-->
+            <Sigma val="5" />
+            <!--Gradient descent step size, or maximum step size when using adaptive step size-->
+            <StepSize val="0.1" />
+            <!--Use an adaptive step size, where each step is scaled to be maxPert*minSpacing-->
+            <UseAdaptiveStepSize val="false" />
+            <!--when using adaptive step size, step will be scaled to maxPert*minSpacing-->
+            <MaxPert val="0.1" />
+        </LDMMIterator>
+        <!--Number of iterations-->
+        <NIterations val="50" />
+        <!--If nonzero, write output every N iterations?-->
+        <OutputEveryNIterations val="0" />
+    </LDMMScaleLevel>
+    <!--Settings for single-scale LDMM registration-->
+    <LDMMScaleLevel>
+        <!--setting for a single scale level-->
+        <ScaleLevel>
+            <!--factor by which to downsample images-->
+            <DownsampleFactor val="1" />
+        </ScaleLevel>
+        <!--Settings for LDMM iteration-->
+        <LDMMIterator>
+            <!--Differential operator parameters-->
+            <DiffOper>
+                <!--Controls the 'viscosity' of the fluid-->
+                <Alpha val="0.01" />
+                <!--Controls the 'viscosity' of the fluid (penalizes expansion/compression)-->
+                <Beta val="0.01" />
+                <!--ensures inverability of the operator-->
+                <Gamma val="0.001" />
+                <!--'power' of L to use-->
+                <LPow val="1" />
+                <!--Use lookup table of eigenvalues, trades memory for speed-->
+                <UseEigenLUT val="false" />
+                <!--Compute a divergence-free deformation-->
+                <DivergenceFree val="false" />
+                <!--Number of threads for FFTW library to use-->
+                <FFTWNumberOfThreads val="1" />
+                <!--Do performance measuring during plan construction-->
+                <FFTWMeasure val="true" />
+            </DiffOper>
+            <!--Controls tradeoff between image matching and velocity field smoothness-->
+            <Sigma val="5" />
+            <!--Gradient descent step size, or maximum step size when using adaptive step size-->
+            <StepSize val="0.01" />
+            <!--Use an adaptive step size, where each step is scaled to be maxPert*minSpacing-->
+            <UseAdaptiveStepSize val="false" />
+            <!--when using adaptive step size, step will be scaled to maxPert*minSpacing-->
+            <MaxPert val="0.1" />
+        </LDMMIterator>
+        <!--Number of iterations-->
+        <NIterations val="150" />
+        <!--If nonzero, write output every N iterations?-->
+        <OutputEveryNIterations val="0" />
+    </LDMMScaleLevel>
+    <!--Number of timesteps (and therefore intermediate vector fields) to use-->
+    <NTimeSteps val="5" />
+    <!--filename prefix to use-->
+    <OutputPrefix val="LDMMWarp" />
+    <!--filename extension to use (determines format)-->
+    <OutputSuffix val="nhdr" />
+    <!--Write out deformed image?-->
+    <WriteDefImage val="true" />
+    <!--Write out deformation field?-->
+    <WriteDefField val="true" />
+    <!--Write out inverse deformation field?-->
+    <WriteInvDefField val="true" />
+    <!--Write out all (nTimesteps) velocity fields?-->
+    <WriteVelocityFields val="false" />
+    <!--Write out all (nTimesteps) intermediate deformed images?-->
+    <WriteIntermediateImages val="true" />
+    <!--Write out all (nTimesteps) Alpha images?-->
+    <WriteAlphas val="false" />
+    <!--Write out Alpha0 image?-->
+    <WriteAlpha0 val="false" />
+    <!--initial image filename-->
+    <InitialImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur00.nhdr" />
+    <!--final image filename-->
+    <FinalImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur01.nhdr" />
+    <!--A weighted input image file-->
+    <ImagePreprocessor>
+        <!--Intensity window used for rescaling (image min/max used if no intensity window specified)-->
+        <IntensityWindow>
+            <!--Perform intensity rescaling?-->
+            <RescaleIntensities val="true" />
+            <!--Use this intensity window instead of image min/max intensity-->
+            <UseInputIntensityWindow val="false" />
+            <!--input window min-->
+            <InputWindowMin val="0" />
+            <!--input window max-->
+            <InputWindowMax val="1" />
+            <!--output window min-->
+            <OutputWindowMin val="0" />
+            <!--output window max-->
+            <OutputWindowMax val="1" />
+        </IntensityWindow>
+        <!--Settings for Tukey Window (border supression)-->
+        <TukeyWindow>
+            <!--Apply the Tukey window?-->
+            <DoWindowing val="false" />
+            <!--Width of the border region of the filter, in pixels-->
+            <Width val="5" />
+        </TukeyWindow>
+        <!--Set the spacing of input images to (1,1,1) (no resampling)-->
+        <SetUnitSpacing val="false" />
+        <!--Set the origin of input images to (0,0,0)-->
+        <SetZeroOrigin val="false" />
+    </ImagePreprocessor>
+    <!--Run preprocessing on initial image-->
+    <PreprocessInitialImage val="true" />
+    <!--Run preprocessing on final image-->
+    <PreprocessFinalImage val="true" />
+    <!--Use shooting optimization instead of relaxation?-->
+    <ShootingOptimization val="false" />
+    <!--Compute warp on the GPU.  Only a subset of normal settings are applicable-->
+    <UseGPU val="true" />
+    <!--If UseGPU is true, this determines which device to use-->
+    <GPUId val="0" />
+</LDMMWarpParameterFile>

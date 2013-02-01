@@ -1,0 +1,73 @@
+<!--top-level node-->
+<ParameterFile>
+  <!--Specify a set of input images, possibly weighted-->
+  <WeightedImageSet>
+    <!--printf-style format string-->
+    <InputImageFormatString>
+      <!--filename format, expects single integer format (%d or %0d)-->
+      <FormatString val="../../../../Data/Input/Bullseyes/BullseyeTestBlur%02d.nhdr" />
+      <!--Minimum image index-->
+      <Base val="0" />
+      <!--Number of files to read in (filnames from Base to NumImages-1)-->
+      <NumFiles val="4" />
+      <!--Weight given to each of the input images-->
+      <Weight val="1.0" />
+    </InputImageFormatString>
+    <!--If true, scale the image weights to 1.0-->
+    <ScaleImageWeights val="true" />
+  </WeightedImageSet>
+  <!--Number of timesteps (and therefore intermediate vector fields) to use-->
+  <NTimeSteps val="10" />
+  <!--Multiple of the following can occur...-->
+  <!--Settings for single-scale LDMM registration-->
+  <LDMMScaleLevel>
+    <!--Settings for LDMM iteration-->
+    <LDMMIterator>
+      <DiffOper>
+        <UseEigenLUT val="false" />
+      </DiffOper>
+      <!--Controls tradeoff between image matching and velocity field smoothness-->
+      <Sigma val="3" />
+      <!--Gradient descent step size, or maximum step size when using adaptive step size-->
+      <!--Use an adaptive step size, where each step is scaled to be maxPert*minSpacing-->
+      <UseAdaptiveStepSize val="true" />
+      <MaxPert val="0.01" />
+    </LDMMIterator>
+    <!--setting for a single scale level-->
+    <ScaleLevel>
+      <!--factor by which to downsample images-->
+      <DownsampleFactor val="1" />
+    </ScaleLevel>
+    <!--Number of iterations-->
+    <NIterations val="100" />
+  </LDMMScaleLevel>
+  <LDMMScaleLevel>
+    <LDMMIterator>
+      <Sigma val="3" />
+      <MaxPert val="0.1" />
+    </LDMMIterator>
+    <ScaleLevel>
+      <DownsampleFactor val="2" />
+    </ScaleLevel>
+    <NIterations val="100" />
+  </LDMMScaleLevel>
+  <!--number of threads to use, 0=one per image-->
+  <nThreads val="1" />
+  <!--Write out the mean image?-->
+  <WriteMeanImage val="true" />
+  <!--Write out all (nImages) deformed images?-->
+  <WriteDefImages val="true" />
+  <!--Write out all (nImages) deformation fields?-->
+  <WriteDefFields val="false" />
+  <!--Write out all (nImages*nTimesteps) velocity fields?-->
+  <WriteVelocityFields val="false" />
+  <WriteIntermediateImages val="true" />
+
+  <WriteInitialScaleLevelMean val="true"/>
+  <WriteFinalScaleLevelMean val="true"/>
+
+  <!--filename prefix to use-->
+  <OutputPrefix val="LDMMAtlas" />
+  <!--filename extension to use (determines format)-->
+  <OutputSuffix val="mha" />
+</ParameterFile>

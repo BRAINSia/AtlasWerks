@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="911"
+   height="246.09375"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="atlas_computation.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/sam/Projects/CompOnc/html/atlas_computation.png"
+   inkscape:export-xdpi="182.85715"
+   inkscape:export-ydpi="182.85715">
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       inkscape:stockid="InfiniteLineEnd"
+       id="InfiniteLineEnd"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         id="g3584">
+        <circle
+           id="circle3586"
+           r="0.80000001"
+           cy="0"
+           cx="3"
+           sodipodi:cx="3"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
+        <circle
+           id="circle3588"
+           r="0.80000001"
+           cy="0"
+           cx="6.5"
+           sodipodi:cx="6.5"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
+        <circle
+           id="circle3590"
+           r="0.80000001"
+           cy="0"
+           cx="10"
+           sodipodi:cx="10"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3354"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path3357"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="320.34023"
+     inkscape:cy="162.7356"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1161"
+     inkscape:window-height="709"
+     inkscape:window-x="10"
+     inkscape:window-y="35"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="219.28571,450"
+       id="guide2385" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="232.85714,350"
+       id="guide2387" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-59.5,-496.76843)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2399"
+       width="110"
+       height="20"
+       x="130"
+       y="632.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2393"
+       width="180"
+       height="120"
+       x="90"
+       y="592.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       x="100"
+       y="608.79077"
+       id="text2389"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3185"
+         x="100"
+         y="608.79077">Thread /</tspan><tspan
+         sodipodi:role="line"
+         x="100"
+         y="628.79077"
+         id="tspan3187">GPU</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="135.71429"
+       y="645.93359"
+       id="text2395"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2397"
+         x="135.71429"
+         y="645.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Deformation</tspan></text>
+    <rect
+       y="662.36218"
+       x="130"
+       height="20"
+       width="110"
+       id="rect3171"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3173"
+       y="675.93359"
+       x="135.71429"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         y="675.93359"
+         x="135.71429"
+         id="tspan3175"
+         sodipodi:role="line">Deformation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif Bold"
+       x="180"
+       y="692.36218"
+       id="text3177"
+       sodipodi:linespacing="50%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3179"
+         x="180"
+         y="692.36218"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="180"
+         y="699.36218"
+         id="tspan3181"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="180"
+         y="706.36218"
+         id="tspan3183"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3189"
+       width="90"
+       height="20"
+       x="170"
+       y="602.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="175.71429"
+       y="615.93359"
+       id="text3191"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3193"
+         x="175.71429"
+         y="615.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Thread Mean</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3229"
+       width="445"
+       height="190"
+       x="60"
+       y="552.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3231"
+       y="572.36218"
+       x="100"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan3235"
+         y="572.36218"
+         x="100"
+         sodipodi:role="line">Host</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3241"
+       width="90"
+       height="20"
+       x="154.28571"
+       y="558.79077"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="160"
+       y="572.36218"
+       id="text3243"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="160"
+         y="572.36218"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         id="tspan3247">Node Mean</tspan></text>
+    <rect
+       y="558.79077"
+       x="274.28571"
+       height="20"
+       width="90"
+       id="rect3251"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3253"
+       y="572.36218"
+       x="280"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan3255"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         y="572.36218"
+         x="280"
+         sodipodi:role="line">Global Mean</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.51644373;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 320.00822,555.50697 L 320.00822,512.3704 L 780,512.36218 L 780.35714,555.85589"
+       id="path3343"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5167"
+       y="507.36218"
+       x="477.85715"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="507.36218"
+         x="477.85715"
+         sodipodi:role="line"
+         id="tspan5171">MPI</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#InfiniteLineEnd);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 780,512.36218 L 925,512.36218"
+       id="path5175"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="470"
+       y="642.36218"
+       id="text5738"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5740"
+         x="470"
+         y="642.36218"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">. . .</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 255,622.36218 L 255,642.36218 L 240,642.36218"
+       id="path5834"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 255,642.36218 L 255,672.36218 L 240,672.36218"
+       id="path6908"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 245,567.36218 L 275,567.36218"
+       id="path7446"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 205,602.36218 L 205,577.36218"
+       id="path8520"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect9594"
+       width="110"
+       height="20"
+       x="325"
+       y="632.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect9596"
+       width="180"
+       height="120"
+       x="285"
+       y="592.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       x="295"
+       y="608.79077"
+       id="text9598"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9600"
+         x="295"
+         y="608.79077">Thread /</tspan><tspan
+         sodipodi:role="line"
+         x="295"
+         y="628.79077"
+         id="tspan9602">GPU</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="330.71429"
+       y="645.93359"
+       id="text9604"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9606"
+         x="330.71429"
+         y="645.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Deformation</tspan></text>
+    <rect
+       y="662.36218"
+       x="325"
+       height="20"
+       width="110"
+       id="rect9608"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text9610"
+       y="675.93359"
+       x="330.71429"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         y="675.93359"
+         x="330.71429"
+         id="tspan9612"
+         sodipodi:role="line">Deformation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif Bold"
+       x="375"
+       y="692.36218"
+       id="text9614"
+       sodipodi:linespacing="50%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9616"
+         x="375"
+         y="692.36218"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="375"
+         y="699.36218"
+         id="tspan9618"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="375"
+         y="706.36218"
+         id="tspan9620"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect9622"
+       width="90"
+       height="20"
+       x="365"
+       y="602.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="370.71429"
+       y="615.93359"
+       id="text9624"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9626"
+         x="370.71429"
+         y="615.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Thread Mean</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 450,622.36218 L 450,642.36218 L 435,642.36218"
+       id="path9628"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 450,642.36218 L 450,672.36218 L 435,672.36218"
+       id="path9630"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);stroke-opacity:1"
+       d="M 400,602.36218 L 400,587.36218 L 205,587.36218"
+       id="path9632"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#InfiniteLineEnd);stroke-opacity:1"
+       d="M 400,587.36218 L 470,587.36218"
+       id="path10170"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10708"
+       width="110"
+       height="20"
+       x="595"
+       y="632.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10710"
+       width="180"
+       height="120"
+       x="555"
+       y="592.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       x="565"
+       y="608.79077"
+       id="text10712"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10714"
+         x="565"
+         y="608.79077">Thread /</tspan><tspan
+         sodipodi:role="line"
+         x="565"
+         y="628.79077"
+         id="tspan10716">GPU</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="600.71429"
+       y="645.93359"
+       id="text10718"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10720"
+         x="600.71429"
+         y="645.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Deformation</tspan></text>
+    <rect
+       y="662.36218"
+       x="595"
+       height="20"
+       width="110"
+       id="rect10722"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text10724"
+       y="675.93359"
+       x="600.71429"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         y="675.93359"
+         x="600.71429"
+         id="tspan10726"
+         sodipodi:role="line">Deformation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif Bold"
+       x="645"
+       y="692.36218"
+       id="text10728"
+       sodipodi:linespacing="50%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10730"
+         x="645"
+         y="692.36218"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="645"
+         y="699.36218"
+         id="tspan10732"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="645"
+         y="706.36218"
+         id="tspan10734"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10736"
+       width="90"
+       height="20"
+       x="635"
+       y="602.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="640.71429"
+       y="615.93359"
+       id="text10738"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10740"
+         x="640.71429"
+         y="615.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Thread Mean</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10742"
+       width="445"
+       height="190"
+       x="525"
+       y="552.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text10744"
+       y="572.36218"
+       x="565"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan10746"
+         y="572.36218"
+         x="565"
+         sodipodi:role="line">Host</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10748"
+       width="90"
+       height="20"
+       x="619.28571"
+       y="558.79077"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="625"
+       y="572.36218"
+       id="text10750"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="625"
+         y="572.36218"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         id="tspan10752">Node Mean</tspan></text>
+    <rect
+       y="558.79077"
+       x="739.28571"
+       height="20"
+       width="90"
+       id="rect10754"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text10756"
+       y="572.36218"
+       x="745"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan10758"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         y="572.36218"
+         x="745"
+         sodipodi:role="line">Global Mean</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="935"
+       y="642.36218"
+       id="text10760"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10762"
+         x="935"
+         y="642.36218"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">. . .</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 720,622.36218 L 720,642.36218 L 705,642.36218"
+       id="path10764"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 720,642.36218 L 720,672.36218 L 705,672.36218"
+       id="path10766"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 710,567.36218 L 740,567.36218"
+       id="path10768"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 670,602.36218 L 670,577.36218"
+       id="path10770"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10772"
+       width="110"
+       height="20"
+       x="790"
+       y="632.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10774"
+       width="180"
+       height="120"
+       x="750"
+       y="592.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       x="760"
+       y="608.79077"
+       id="text10776"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10778"
+         x="760"
+         y="608.79077">Thread /</tspan><tspan
+         sodipodi:role="line"
+         x="760"
+         y="628.79077"
+         id="tspan10780">GPU</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="795.71429"
+       y="645.93359"
+       id="text10782"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10784"
+         x="795.71429"
+         y="645.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Deformation</tspan></text>
+    <rect
+       y="662.36218"
+       x="790"
+       height="20"
+       width="110"
+       id="rect10786"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text10788"
+       y="675.93359"
+       x="795.71429"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif"
+         y="675.93359"
+         x="795.71429"
+         id="tspan10790"
+         sodipodi:role="line">Deformation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif Bold"
+       x="840"
+       y="692.36218"
+       id="text10792"
+       sodipodi:linespacing="50%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10794"
+         x="840"
+         y="692.36218"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="840"
+         y="699.36218"
+         id="tspan10796"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan><tspan
+         sodipodi:role="line"
+         x="840"
+         y="706.36218"
+         id="tspan10798"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:50%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">.</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10800"
+       width="90"
+       height="20"
+       x="830"
+       y="602.36218"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="835.71429"
+       y="615.93359"
+       id="text10802"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10804"
+         x="835.71429"
+         y="615.93359"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Thread Mean</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 915,622.36218 L 915,642.36218 L 900,642.36218"
+       id="path10806"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 915,642.36218 L 915,672.36218 L 900,672.36218"
+       id="path10808"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);stroke-opacity:1"
+       d="M 865,602.36218 L 865,587.36218 L 670,587.36218"
+       id="path10810"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#InfiniteLineEnd);stroke-opacity:1"
+       d="M 865,587.36218 L 935,587.36218"
+       id="path10812"
+       inkscape:export-filename="/home/jsam/code/Projects/Utah/AtlasWerks/html/figs/atlas_computation.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

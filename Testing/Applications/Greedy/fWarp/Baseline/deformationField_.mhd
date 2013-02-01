@@ -1,0 +1,15 @@
+ObjectType = Image
+ObjectSubType = HField
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = -277.8 -198.6 54.2
+CenterOfRotation = 0 0 0
+ElementSpacing = 2 2.06452 1.77778
+DimSize = 32 31 36
+AnatomicalOrientation = ???
+ElementNumberOfChannels = 3
+ElementType = MET_FLOAT
+ElementDataFile = deformationField_.raw

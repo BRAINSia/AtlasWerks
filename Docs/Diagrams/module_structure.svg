@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="401.3992"
+   height="191.15866"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="module_structure.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="249.54428"
+     inkscape:cy="828.15855"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1100"
+     inkscape:window-height="926"
+     inkscape:window-x="0"
+     inkscape:window-y="253">
+    <sodipodi:guide
+       orientation="0,1"
+       position="142.85714,750"
+       id="guide2403" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="100,729.28572"
+       id="guide2405" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="202.14286,700"
+       id="guide2407" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="90.913729,760.13979"
+       id="guide3302" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="491.69175,801.55605"
+       id="guide3310" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="89.903577,844.48753"
+       id="guide3312" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="90.913729,690.94434"
+       id="guide3314" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="363.65492,729.33014"
+       id="guide3316" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="332.84526,755.34157"
+       id="guide3318" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="495.47982,812.79399"
+       id="guide3320" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="338.4011,820.24387"
+       id="guide3322" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="153.79573,680.0852"
+       id="guide4810" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="185.48926,815.06684"
+       id="guide4814" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="95.080608,841.83588"
+       id="guide4816" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-94.580608,-181.61832)">
+    <path
+       style="opacity:1;fill:#e0e0e0;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 95.080608,237.29534 L 95.080608,372.27698 L 363.65492,372.27698 L 363.65492,297.02061 L 495.47982,297.02061 L 495.47982,237.29534 L 95.080608,237.29534 z"
+       id="path3326"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect2409"
+       width="123.23351"
+       height="50"
+       x="100"
+       y="302.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3181"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><flowRegion
+         id="flowRegion3183"><rect
+           id="rect3185"
+           width="158.59395"
+           height="168.69548"
+           x="142.4315"
+           y="214.94572"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif" /></flowRegion><flowPara
+         id="flowPara3187"></flowPara></flowRoot>    <flowRoot
+       transform="translate(-2.5253816,-4.257256e-7)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot3237"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><flowRegion
+         id="flowRegion3239"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect3241" /></flowRegion><flowPara
+         id="flowPara3245">DataTypes /</flowPara><flowPara
+         id="flowPara3247">UtilitiesDataTypes</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect3254"
+       width="123.23351"
+       height="50"
+       x="234.35794"
+       y="302.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2" />
+    <flowRoot
+       transform="translate(165.67267,9.0913863)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot3256"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><flowRegion
+         id="flowRegion3258"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect3260" /></flowRegion><flowPara
+         id="flowPara3268">Base</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect3272"
+       width="123.23351"
+       height="50"
+       x="368.70825"
+       y="302.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2" />
+    <flowRoot
+       transform="translate(275.7793,9.5964498)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot3274"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><flowRegion
+         id="flowRegion3276"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect3278" /></flowRegion><flowPara
+         id="flowPara3286">CUDACommon</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect3290"
+       width="391.69174"
+       height="49.999996"
+       x="100"
+       y="242.2224"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2" />
+    <flowRoot
+       transform="translate(147.73482,-51.553499)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot3292"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><flowRegion
+         id="flowRegion3294"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect3296" /></flowRegion><flowPara
+         id="flowPara3306">Algorithms</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4798"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><flowRegion
+         id="flowRegion4800"><rect
+           id="rect4802"
+           width="21.465742"
+           height="98.742409"
+           x="13.131983"
+           y="249.03838"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif" /></flowRegion><flowPara
+         id="flowPara4804">Pyton Py</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="100"
+       y="367.22623"
+       id="text4806"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><tspan
+         sodipodi:role="line"
+         id="tspan4808"
+         x="100"
+         y="367.22623"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">Python Wrapping</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect4812"
+       width="391.69174"
+       height="49.999996"
+       x="99.999992"
+       y="182.11832"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4818"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(150.76528,-112.16265)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/module_structure.png"
+       inkscape:export-xdpi="235.2"
+       inkscape:export-ydpi="235.2"><flowRegion
+         id="flowRegion4820"><rect
+           id="rect4822"
+           width="116.67262"
+           height="36.870567"
+           x="109.09647"
+           y="308.38483"
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara4824">Applications</flowPara></flowRoot>  </g>
+</svg>

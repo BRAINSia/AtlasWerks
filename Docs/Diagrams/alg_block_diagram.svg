@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="425.26407"
+   height="286.71429"
+   id="svg4826"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="alg_block_diagram.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+   inkscape:export-xdpi="182.86"
+   inkscape:export-ydpi="182.86">
+  <defs
+     id="defs4828">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path5512"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path5506"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4834" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="223.8617"
+     inkscape:cy="187.15558"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1021"
+     inkscape:window-height="709"
+     inkscape:window-x="198"
+     inkscape:window-y="371">
+    <sodipodi:guide
+       orientation="1,0"
+       position="450,575"
+       id="guide4935" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="433.57143,500"
+       id="guide4937" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="524.28571,520"
+       id="guide4939" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="510.71429,570"
+       id="guide4941" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="523.57143,590"
+       id="guide4943" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="537.85714,640"
+       id="guide4945" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="430,526.42857"
+       id="guide4947" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="575,570.71429"
+       id="guide4949" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="595,601.42857"
+       id="guide4951" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="440.42651,726.29968"
+       id="guide10477" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="495.9849,510.12704"
+       id="guide10479" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="487.85714,424.28571"
+       id="guide10481" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="584.87832,729.33014"
+       id="guide10483" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="490.93414,650.53824"
+       id="guide10485" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="300.01531,546.49253"
+       id="guide10487" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="724.27938,537.40115"
+       id="guide10489" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4831">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-299.51531,-341.86218)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3181"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       transform="translate(67.322784,245.97354)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3183"><rect
+           id="rect3185"
+           width="158.59395"
+           height="168.69548"
+           x="142.4315"
+           y="214.94572"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif" /></flowRegion><flowPara
+         id="flowPara3187" /></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect3254"
+       width="123.23351"
+       height="50"
+       x="306.76648"
+       y="552.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       transform="translate(233.03044,259.09141)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot3256"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3258"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect3260" /></flowRegion><flowPara
+         id="flowPara4877">Iterator</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4798"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       transform="translate(67.322784,245.97354)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4800"><rect
+           id="rect4802"
+           width="21.465742"
+           height="98.742409"
+           x="13.131983"
+           y="249.03838"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif" /></flowRegion><flowPara
+         id="flowPara4804">Pyton Py</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect4881"
+       width="123.23351"
+       height="50"
+       x="450"
+       y="552.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       transform="translate(348.48477,259.09142)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot4883"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4885"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect4887" /></flowRegion><flowPara
+         id="flowPara4891">Deformation Data</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect4895"
+       width="123.23351"
+       height="50"
+       x="595"
+       y="552.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       transform="translate(514.69797,248.98987)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot4897"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4899"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="37.375652"
+           width="112.63202"
+           id="rect4901" /></flowRegion><flowPara
+         id="flowPara4903">Multiscale Manager</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect4905"
+       width="123.23351"
+       height="50"
+       x="306.76648"
+       y="412.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       transform="translate(233.03044,119.0914)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot4907"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4909"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect4911" /></flowRegion><flowPara
+         id="flowPara4913">Warper</flowPara></flowRoot>    <rect
+       ry="10"
+       rx="10"
+       y="412.36218"
+       x="450"
+       height="50"
+       width="123.23351"
+       id="rect4915"
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4917"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(361.97826,119.09141)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4919"><rect
+           id="rect4921"
+           width="116.67262"
+           height="36.870567"
+           x="109.09647"
+           y="308.38483"
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara4923">Atlas Thread</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect4925"
+       width="123.23351"
+       height="50"
+       x="450"
+       y="342.36218"
+       rx="10"
+       ry="10"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       transform="translate(361.26396,47.66284)"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="flowRoot4927"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4929"><rect
+           style="font-size:14px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start"
+           y="308.38483"
+           x="109.09647"
+           height="36.870567"
+           width="116.67262"
+           id="rect4931" /></flowRegion><flowPara
+         id="flowPara4933">Atlas Builder</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 368.38324,462.86218 L 368.38324,551.86218"
+       id="path4967"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#rect4905"
+       inkscape:connection-end="#rect3254"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 394.4722,462.86218 L 485.52779,551.86218"
+       id="path4969"
+       inkscape:connector-type="polyline"
+       inkscape:connection-end="#rect4881"
+       inkscape:connection-start="#rect4905"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 420.88291,462.86218 L 604.11708,551.86218"
+       id="path4971"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#rect4905"
+       inkscape:connection-end="#rect4895"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 485.52779,462.86218 L 394.4722,551.86218"
+       id="path7290"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#rect4915"
+       inkscape:connection-end="#rect3254"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 511.61676,462.86218 L 511.61676,551.86218"
+       id="path8324"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#rect4915"
+       inkscape:connection-end="#rect4881"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 538.02747,462.86218 L 630.20604,551.86218"
+       id="path8841"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#rect4915"
+       inkscape:connection-end="#rect4895"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 511.61676,392.86218 L 511.61676,411.86218"
+       id="path9358"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#rect4925"
+       inkscape:connection-end="#rect4915"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 430.49999,577.36218 L 449.5,577.36218"
+       id="path9952"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#rect3254"
+       inkscape:connection-end="#rect4881"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 440.42651,401.82394 L 584.87832,401.82394 L 584.87832,542.23514 L 724.27938,542.23514 L 724.27938,628.07647 L 300.01531,628.07647 L 300.01531,542.23514 L 440.42651,542.23514 L 440.42651,401.82394 z"
+       id="path10491"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Serif;-inkscape-font-specification:Serif"
+       x="412.14285"
+       y="620.21936"
+       id="text10493"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan10495"
+         x="412.14285"
+         y="620.21936"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Separate CPU/GPU Implementations</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:connector-type="polyline"
+       id="path2448"
+       d="M 507.07107,392.86218 L 507.07107,411.86218"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 516.16244,392.86218 L 516.16244,411.86218"
+       id="path2450"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:connector-type="polyline"
+       id="path2452"
+       d="M 516.16245,462.86218 L 516.16245,551.86218"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1"
+       d="M 506.566,462.86218 L 506.566,551.86218"
+       id="path2454"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/alg_block_diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

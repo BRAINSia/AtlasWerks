@@ -1,0 +1,9 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+Offset = -277.8 -198.6 54.2
+ElementSpacing = 2 2.06452 1.77778
+DimSize = 32 31 36
+ElementType = MET_FLOAT
+ElementDataFile = deformedImage_1.raw

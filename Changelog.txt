@@ -1,0 +1,271 @@
+================ Release 0.1.4 ================
+
+Major notes: 
+________________________________________________________________
+
+Patch from Kent Williams, fixes pthreads issue on OSX as well as ITK
+library issue for ITK 4.0.  Thanks Kent!
+
+Changed gradient computation for relaxation back to use original
+jacobian determinant calculation instead of new adjoint formulation.
+New formulation was causing pinching of ventricles during brain atlas
+generation, more testing is needed.
+
+Added momemtum optimization for LDMM deformation estimation based on
+Vialard et. al.'s "Diffeomorphic 3D Image Registration via Geodesic
+Shooting Using an Efficient Adjoint Calculation".  Atlas computation
+not added yet.
+
+Added support for CUDA 4.0
+
+Added additional options for saving results, including per-deformation
+energy files during atlas building.
+
+Added *some* support for vtk files to txApply.
+
+Added AutoStepReduce parameter, reduces step size automatically for
+non-converging deformations.
+
+Fixed voxel-wise median computation for distributed atlas building.
+
+Details:
+________________________________________________________________
+
+2011-09-09 r1458 Finished reverting LDMM relaxation code back to old (jacobian determinant based) algorithm.  This fixed problem with pinched ventricles during atlas building. New adjoint-based algorithm still included in LDMMIterator[CPU/GPU].cxx, but code must be edited and recompiled to select it.
+
+2011-07-27 r1362 Modification to use original gradient calculation (instead of _shared version), causes problems on some GPUs.  Cause is still unclear.
+
+2011-06-15 r1296 Added option to turn off scaling by jacobian determinant during atlas construction
+
+2011-06-14 r1295 Quick addition to run adjoint shooting optimization using LDMMMultiWarp
+
+2011-06-10 r1293 Fixed faster version (at the expense of memory) of GPU LDMMAdShootingWarp.  New implementation is now the default, can be changed via preprocessor definition in LDMMAdShootingIteratorGPU.h
+
+2011-06-10 r1291 Modifications to fix non-CUDA builds
+
+2011-06-09 r1289 GPU version of adjoint shooting matches CPU version, GPU test added to ctest and passes.
+
+2011-06-07 r1286 Added debugging info to catch NaNs in individual deformations
+
+2011-06-05 r1282 Merged adjoint shooting optimization code from Nikhil's branch into trunk and added testing.  All tests pass.
+
+2011-06-01 r1279 Additions necessary for CUDA 4.0
+
+2011-05-24 r1275 Added option to reparameterize deformations to have constant speed, but this doesn't seem to have much effect on the result.
+
+2011-05-17 r1272 Added options for whether to save / write vector fields, deformed images, etc.
+
+2011-04-29 r1270 fixed writing out of individual energy files
+
+2011-04-25 r1269 Modification to txApply to properly handle vtk surfaces
+
+2011-03-23 r1252 Fixed voxelwise median and PCA bug for multi-gpu systems
+
+2011-03-21 r1251 Added AutoStepReduce param, which reduces the step size for a deformation whenever an increase in energy is detected.  Along with TrimmedMeanSize, allows atlases with outliers to be stably calculated.
+
+2011-03-21 r1250 Integrated new energy history classes, added option to save energy in XML file for LDMM/Greedy warp/atlas applications
+
+2011-03-17 r1248 distributed voxelwise median calculation works for CPU, but getting deformed images in main thread from mutliple GPUs is still broken
+
+================ Release 0.1.3 ================
+
+Major notes: 
+________________________________________________________________
+
+Added option to save energy in XML format
+
+Added MultiGaussian Kernel as option instead of DiffOper
+
+Added Trimmed Mean option for atlas building
+
+Added option to use voxel-wise mean instead of median when computing atlas
+
+Bug for inverting affine transforms in txWerks fixed
+
+Details:
+________________________________________________________________
+
+2011-03-17 r1247 Change to copyright holders list
+
+2011-03-14 r1246 Added TrimmedMeanSize option to LDMM Atlas Building.  When TrimmedMeanSize > 0, only the TrimmedMeanSize images 'closest' to the mean will be used in mean calculation.
+
+2011-03-08 r1245 added option to do voxel-wise median computation instead of mean
+
+2011-03-04 r1241 merged updates to PCA computation from LowSparse branch to trunk
+
+2011-02-28 r1236 small fix to make LDMMIteratorGPU work correctly when USE_LV is false
+
+2011-02-22 r1235 added the option to save energy history as a file to LDMMWarp applications -- especially important for LDMMMultiWarp application, since output from multiple nodes gets jumbled together.
+
+2011-02-18 r1233 Modifications to power method to run correctly for mpi jobs
+
+2011-02-17 r1231 building distributed greedy atlas application was accidentally omitted, this has been added
+
+2011-02-16 r1230 Changed PCA to use XX^T trick, not much faster but uses a lot less memory
+
+2011-02-16 r1229 added option to do PCA step during greedy atlas building
+
+2011-02-11 r1228 Modified LDMM applications to optionally use MultiGaussianKernel instead of DiffOper
+
+2011-02-04 r1220 added fix for complex with swig
+
+2011-02-03 r1218 Changed Complex type defined in CUDACommon to cplComplex to avoid name collision
+
+2011-02-03 r1216 Change to fix finding cudpp lib for cuda
+
+2011-01-26 r1206 fixed bug for inverting affine transform txWerks
+
+================ Release 0.1.2 ================
+
+Major notes: 
+________________________________________________________________
+
+Major bugfix to differential operator for non-unit-spacing images,
+this affects all test results.
+
+Naming changes to warp output files: names now contains both the
+static and moving image name.  This causes long names, but avoids
+ambiguity or accidental overwriting of output.
+
+Naming changes to parameters: Atlas output parameters now use
+directions DefToMean or DefMean instead of the jumble of 0To1 or other
+naming conventions, hopefully making the parameters more
+comprehensible.  Output filename suffixes also changed to match.
+
+Cuda 3.2 is now supported (along with 3.1)
+
+Error message has been added when running GPU applications on hardware
+that doesn not support the necessary compute capability level
+
+Details:
+________________________________________________________________
+
+2011-01-10 r1203 Fixed a few problems with BuildAtlasWerks.sh script
+
+2010-12-30 r1199 added check for required CUDA compute capability for
+LDMM applications
+
+2010-12-30 r1198 Fixes to LDMMVelShootingIterator to use correct
+spacing (thanks Linh!), as well as fixing some settings for upsampling
+vector fields.  Updated testing.
+
+2010-12-15 r1197 Fixed a bug in LDMMVelShootingIterator.cxx
+
+2010-12-14 r1196 Fix for txApply affine deformation, wasn't using
+correct origin for nonzero image origins
+
+2010-12-14 r1195 Fix for CUDA 3.1/3.2 incompatibilities
+
+2010-12-13 r1194 Bugfix to differential operator.  Caused problems for
+non-unit spacing, especially non-integer non-unit spacing.  This
+breaks some testing, will fix that soon.
+
+2010-12-13 r1192 Initial check-in of code and testing for LDMM
+velocity shooting optimization.  There may still be bugs, and the
+testing is not added to the automated testing yet (it doesn't pass)
+
+2010-12-09 r1191 Make change to compute with CUDA 3.2
+
+2010-12-08 r1188 Name changes for testing code -- reflects change to
+warp output including names of static and moving image in output image
+by default
+
+2010-12-08 r1187 Changes to DiffOper -- a double-precision
+differential operator can now be created as DiffOperT<double>,
+DiffOper is now a typedef for DiffOperT<float>
+
+2010-12-02 r1184 A few additions to python wrapping (added a 'clone'
+function to datatypes), and a bugfix allowing CPU atlas building to
+write out Alpha images.
+
+2010-12-01 r1182 Added better jacobian computation to velocity
+shooting.  Doesn't match momentum shooting exactly, but quite close.
+
+2010-11-30 r1180 Fixed bug in alpha computation for CPU version of
+LDMM relaxation, added initial version of LDMM velocity shooting (CPU
+only at this point, and still need to have better calculation of
+jacobian)
+
+2010-11-23 r1178 Added 'levels' to parameters, so that debug
+parameters can be added without needing to be displayed.  Levels are
+PARAM_REQUIRED, PARAM_COMMON, PARAM_RARE, and PARAM_DEBUG.  Also fixed
+bug causing Alpha0s not to be computed when only WriteAlpha0s
+specified (not WriteAlphas) for LDMMWarp / LDMMMultiWarp, and modified
+warp outputs to contain the moving and static image names in the
+output name.
+
+2010-11-17 r1176 Modified the parameter files to have (hopefully) more
+comprehensible names.  Backwards compatibility for parameter files is
+preserved (the old parameter names are still accepted), but HFields
+generated by atlas building programs now have new filenames.  Also
+increased the default 'thresholdDistance' in
+HField3DUtils::inverseOfPoint(...) -- not sure why this threshold is
+there, but it causes problems for large deformaitons.
+
+2010-11-10 r1173 Added working MaxPert param to LDMMWarp / LDMMAtlas
+(for relaxation only, shooting optimization not implemented yet).  To
+use it, set UseAdaptiveStepSize to 'true' and set MaxPert
+appropriately (between 0 and 1, probably closer to zero)
+
+2010-11-08 r1172 fixed a bug in AtlasWerks testing and added a trilerp
+function wrapper for python access
+
+2010-11-05 r1171 Added velocity geodesic shooting and fixed a bug in
+MultiscaleManager
+
+2010-11-05 r1170 Added loading of velocity fields for relaxation
+optimization initialization, and fixed writing of alpha0 images and
+velocity fields
+
+2010-11-03 r1169 Modifications to add checkpoint restart to
+LDMMShootingGPU Atlas Building -- still need to implement that for
+other apps
+
+2010-10-26 r1166 Added Code/Python 
+
+2010-10-19 r1161 Update FFTSolver3D functions with streaming form
+
+2010-10-18 r1160 Fixed bug in the composeHV*_tex function 
+
+2010-10-18 r1159 Add resample function using texture that is faster
+
+================ Release 0.1.1 ================
+
+Major Notes:
+________________________________________________________________
+
+Global name change from CompOnc to AtlasWerks
+
+Added build script
+
+Details
+________________________________________________________________
+
+2010-10-14 r1155 fixing problems with python wrapping
+
+2010-10-14 r1154 adding build script for release tarballs
+
+2010-10-12 r1152 added GPU version of shooting.  Not all that much
+faster than CPU version, mostly just for testing
+
+2010-10-08 r1151 Modification to GeodesicShooting to use adjoint
+equations for evolution and a bugfix to shooting atlas building
+
+2010-10-08 r1150 Global namechange from CompOnc to AtlasWerks
+
+2010-10-06 r1148 Modified test images to have non-unit non-uniform
+spacing, non-uniform size, and nonzero origin to catch more problems
+during regression.  This uncovered a few problems (specifically
+AtlasWerks handling of spacing on CPU vs. GPU and issues with non-unit
+spacing in shooting optimization), but testing parameters were
+adjusted to allow these to pass for now (since they were passing
+before).  These will have to be addressed later (or perhaps not in
+AtlasWerks since it's being superceded by GreedyAtlas anyway).
+
+2010-10-05 r1147 fixing compilation errors for non-GPU code
+
+2010-10-05 r1145 Fixed bug writing out forward hfield when inverse
+hfield was requested
+
+================ Release 0.1.0 ================
+

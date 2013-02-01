@@ -1,0 +1,15 @@
+--outputImagePrefix=deformedImage_ 
+--outputHFieldPrefix=deformationField_ 
+--scaleLevel=2 
+  --numberOfIterations=50 
+  --alpha 0.01 
+  --beta 0.01 
+  --gamma 0.0001 
+  --maxPerturbation 0.2
+--scaleLevel=1 
+  --numberOfIterations=50 
+  --alpha 0.01 --beta 0.01 
+  --gamma 0.0001 
+  --maxPerturbation 0.2
+../../../../Data/Input/Bullseyes/BullseyeTestBlur00.nhdr
+../../../../Data/Input/Bullseyes/BullseyeTestBlur01.nhdr

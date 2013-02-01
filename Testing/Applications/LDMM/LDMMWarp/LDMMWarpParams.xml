@@ -1,0 +1,56 @@
+<!--top-level node-->
+<ParameterFile>
+  <!--initial image filename-->
+  <InitialImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur00.nhdr" />
+  <!--final image filename-->
+  <FinalImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur01.nhdr" />
+  <!--filename prefix to use-->
+  <outputPrefix val="LDMMWarp" />
+  <!--filename extension to use (determines format)-->
+  <outputSuffix val="mha" />
+  <!--Number of timesteps (and therefore intermediate vector fields) to use-->
+  <NTimeSteps val="5" />
+  <!--Multiple of the following can occur...-->
+  <!--Settings for single-scale LDMM registration-->
+  <LDMMScaleLevel>
+    <!--Settings for LDMM iteration-->
+    <LDMMIterator>
+      <DiffOper>
+	<UseEigenLUT val="false" />
+      </DiffOper>
+      <!--Controls tradeoff between image matching and velocity field smoothness-->
+      <Sigma val="3" />
+      <!--Use an adaptive step size, where each step is scaled to be maxPert*minSpacing-->
+      <UseAdaptiveStepSize val="true" />
+      <MaxPert val="0.1" />
+    </LDMMIterator>
+    <!--setting for a single scale level-->
+    <ScaleLevel>
+      <!--factor by which to downsample images-->
+      <DownsampleFactor val="1" />
+    </ScaleLevel>
+    <!--Number of iterations-->
+    <NIterations val="150" />
+  </LDMMScaleLevel>
+  <!--Settings for single-scale LDMM registration-->
+  <LDMMScaleLevel>
+    <!--Settings for LDMM iteration-->
+    <LDMMIterator>
+      <UseAdaptiveStepSize val="true" />
+      <MaxPert val="0.2" />
+    </LDMMIterator>
+    <!--setting for a single scale level-->
+    <ScaleLevel>
+      <!--factor by which to downsample images-->
+      <DownsampleFactor val="2" />
+    </ScaleLevel>
+    <!--Number of iterations-->
+    <NIterations val="100" />
+  </LDMMScaleLevel>
+  <WriteDefImage val="true" />
+  <WriteInvDefImage val="false" />
+  <WriteDefField val="false" />
+  <WriteInvDefField val="false" />
+  <WriteIntermediateImages val="true"/>
+  <WriteVelocityFields val="false"/>
+</ParameterFile>

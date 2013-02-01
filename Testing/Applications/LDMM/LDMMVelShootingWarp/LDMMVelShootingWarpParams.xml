@@ -1,0 +1,54 @@
+<!--top-level node-->
+<ParameterFile>
+  <!--initial image filename-->
+  <InitialImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur00.nhdr" />
+  <!--final image filename-->
+  <FinalImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur01.nhdr" />
+
+  <!-- Still have issues with non-unit spacing with shooting optimization -->
+  <ImagePreprocessor>
+    <SetUnitSpacing val="true" />
+  </ImagePreprocessor>
+
+  <!--filename prefix to use-->
+  <outputPrefix val="LDMMWarp" />
+  <!--filename extension to use (determines format)-->
+  <outputSuffix val="nhdr" />
+  <!--Number of timesteps (and therefore intermediate vector fields) to use-->
+  <NTimeSteps val="5" />
+  <!--Multiple of the following can occur...-->
+  <!--Settings for single-scale LDMM registration-->
+  <LDMMScaleLevel>
+    <!--Settings for LDMM iteration-->
+    <LDMMIterator>
+      <DiffOper>
+	<UseEigenLUT val="false" />
+      </DiffOper>
+      <!--Controls tradeoff between image matching and velocity field smoothness-->
+      <Sigma val="3" />
+
+      <UseAdaptiveStepSize val="false" />
+      <!--<MaxPert val="0.1" />-->
+      <StepSize val="0.001"/>
+    </LDMMIterator>
+    <!--setting for a single scale level-->
+    <ScaleLevel>
+      <!--factor by which to downsample images-->
+      <DownsampleFactor val="1" />
+    </ScaleLevel>
+    <!--Number of iterations-->
+    <NIterations val="150" />
+  </LDMMScaleLevel>
+  <!--Settings for single-scale LDMM registration-->
+  <LDMMScaleLevel>
+    <LDMMIterator>
+      <!--<MaxPert val="0.1" />-->
+      <StepSize val="0.01"/>
+    </LDMMIterator>
+    <ScaleLevel>
+      <DownsampleFactor val="2" />
+    </ScaleLevel>
+    <NIterations val="100" />
+  </LDMMScaleLevel>
+  <WriteVelocityFields val="false"/>
+</ParameterFile>

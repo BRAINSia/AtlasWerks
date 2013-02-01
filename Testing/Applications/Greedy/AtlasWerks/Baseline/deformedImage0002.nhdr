@@ -1,0 +1,13 @@
+NRRD0004
+# Complete NRRD file format specification at:
+# http://teem.sourceforge.net/nrrd/format.html
+type: float
+dimension: 3
+space: left-posterior-superior
+sizes: 32 31 36
+space directions: (1,0,0) (0,1,0) (0,0,1)
+kinds: domain domain domain
+endian: little
+encoding: raw
+space origin: (-277.8,-198.6,54.2)
+data file: deformedImage0002.raw

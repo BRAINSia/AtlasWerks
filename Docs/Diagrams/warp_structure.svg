@@ -1,0 +1,3065 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="warp_structure.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994948"
+     inkscape:cx="-1992.2551"
+     inkscape:cy="1185.7435"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showborder="false"
+     inkscape:showpageshadow="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1051"
+     inkscape:window-height="1533"
+     inkscape:window-x="141"
+     inkscape:window-y="37">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="246.47722,259.6092"
+       id="guide3309" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="880.85303,-3101.1684"
+       id="guide4508" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4640"
+       transform="translate(578.57144,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(0,1,-1,0,926.85564,3928.5307)"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         sodipodi:ry="60"
+         sodipodi:rx="40"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4642"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3704.9988)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4644"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3704.9988)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4646"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="cc"
+         id="path4648"
+         d="M 414.49346,4128.5307 C 424.49346,4138.5307 444.49346,4138.5307 454.49346,4128.5307"
+         style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4630"
+       transform="translate(578.57144,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4632"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(254.49346,3256.1684)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4634"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4636"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+         id="path4638"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g4610"
+       transform="translate(578.57144,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4612"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(-100.39539,3253.6686)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4614"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(0,1.5277778,-0.9777778,0,455.38657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4616"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(0,1.5277778,-0.9777778,0,480.88657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 59.60461,3773.5306 C 69.60461,3763.5306 89.60461,3763.5306 99.60461,3773.5306"
+         id="path4618"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g4620"
+       transform="translate(578.57144,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4622"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="55"
+         sodipodi:ry="55"
+         d="M 235,492.36218 A 55,55 0 1 1 125,492.36218 A 55,55 0 1 1 235,492.36218 z"
+         transform="translate(-100.39538,3606.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4624"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="translate(-5.39538,3686.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4626"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="translate(14.60462,3686.1684)" />
+      <path
+         style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 54.60462,4113.5306 C 64.60462,4123.5306 68.99802,4102.924 79.60462,4113.5306 C 89.60462,4123.5306 99.60462,4103.5306 104.60462,4113.5306"
+         id="path4628"
+         sodipodi:nodetypes="csc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3269"
+       width="200"
+       height="200"
+       x="-3.6083984e-06"
+       y="692.36218" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       y="692.36218"
+       x="1170"
+       height="200"
+       width="200"
+       id="rect3277"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       id="g6393"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <g
+         id="g6390">
+        <path
+           inkscape:export-ydpi="182.86"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           sodipodi:type="arc"
+           style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path3271"
+           sodipodi:cx="180"
+           sodipodi:cy="492.36218"
+           sodipodi:rx="40"
+           sodipodi:ry="40"
+           d="M 220,492.36218 A 40,40 0 1 1 140,492.36218 A 40,40 0 1 1 220,492.36218 z"
+           transform="translate(-80,299.99999)" />
+      </g>
+      <path
+         transform="translate(15,379.99999)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path3273"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+         inkscape:export-xdpi="182.86"
+         inkscape:export-ydpi="182.86" />
+      <path
+         transform="translate(35,379.99999)"
+         sodipodi:type="arc"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path3275"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+         inkscape:export-xdpi="182.86"
+         inkscape:export-ydpi="182.86" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 80,802.36217 L 120,802.36217"
+         id="path3287"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+         inkscape:export-xdpi="182.86"
+         inkscape:export-ydpi="182.86" />
+    </g>
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       id="path3289"
+       d="M 220,777.36218 L 220,807.36218 L 265,807.75298 L 265,827.75298 L 300,792.75298 L 265,757.75298 L 265,777.75298 L 220,777.36218 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3293"
+       width="200"
+       height="200"
+       x="320"
+       y="692.36218" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3295"
+       y="792.36218"
+       x="640"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;stroke-miterlimit:4;stroke-dasharray:none"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none"
+         y="792.36218"
+         x="640"
+         id="tspan3297"
+         sodipodi:role="line">. . .</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 540,777.36218 L 540,807.36218 L 585,807.75298 L 585,827.75298 L 620,792.75298 L 585,757.75298 L 585,777.75298 L 540,777.36218 z"
+       id="path3311"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 750,777.36218 L 750,807.36218 L 795,807.75298 L 795,827.75298 L 830,792.75298 L 795,757.75298 L 795,777.75298 L 750,777.36218 z"
+       id="path3315"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <rect
+       y="692.36218"
+       x="850"
+       height="200"
+       width="200"
+       id="rect3317"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       id="path3319"
+       d="M 1070,777.36218 L 1070,807.36218 L 1115,807.75298 L 1115,827.75298 L 1150,792.75298 L 1115,757.75298 L 1115,777.75298 L 1070,777.36218 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="-94.954338"
+       y="-679.03931"
+       id="text3321"><tspan
+         sodipodi:role="line"
+         id="tspan3323"
+         x="-94.954338"
+         y="-679.03931" /></text>
+    <rect
+       y="2073.489"
+       x="320.29846"
+       height="200"
+       width="200"
+       id="rect3345"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 516.3353,2052.3872 L 537.5485,2073.6004 L 569.64465,2042.057 L 583.78678,2056.1991 L 583.78678,2006.7016 L 534.28931,2006.7016 L 548.43144,2020.8438 L 516.3353,2052.3872 z"
+       id="path3365"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       y="1793.6003"
+       x="597.54846"
+       height="200"
+       width="200"
+       id="rect3367"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1091.4009"
+       y="1247.4305"
+       id="text3369"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.7071068,0.7071068,-0.7071068,0.7071068,0,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         sodipodi:role="line"
+         id="tspan3371"
+         x="1091.4009"
+         y="1247.4305"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">. . .</tspan></text>
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3373"
+       d="M 297.5485,2073.6004 L 318.76171,2052.3872 L 287.21824,2020.2911 L 301.36037,2006.1489 L 251.8629,2006.1489 L 251.8629,2055.6464 L 266.00503,2041.5043 L 297.5485,2073.6004 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3375"
+       d="M 318.7617,2294.8136 L 297.5485,2273.6004 L 265.4524,2305.1438 L 251.3102,2291.0017 L 251.3102,2340.4992 L 300.8077,2340.4992 L 286.6656,2326.357 L 318.7617,2294.8136 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 537.5485,2273.6004 L 516.3353,2294.8136 L 547.8787,2326.9097 L 533.7366,2341.0519 L 583.2341,2341.0519 L 583.2341,2291.5544 L 569.0919,2305.6965 L 537.5485,2273.6004 z"
+       id="path3379"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3381"
+       width="200"
+       height="200"
+       x="37.5485"
+       y="1793.6003" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 16.33529,1794.8136 L 37.5485,1773.6004 L 6.00503,1741.5043 L 20.14716,1727.3621 L -29.35031,1727.3621 L -29.35031,1776.8596 L -15.20818,1762.7175 L 16.33529,1794.8136 z"
+       id="path3383"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3385"
+       d="M 797.5485,1773.6004 L 818.7617,1794.8136 L 850.85785,1763.2702 L 864.99998,1777.4123 L 864.99998,1727.9148 L 815.50251,1727.9148 L 829.64464,1742.057 L 797.5485,1773.6004 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3387"
+       width="200"
+       height="200"
+       x="597.54846"
+       y="2353.6003" />
+    <rect
+       y="2353.6003"
+       x="37.5485"
+       height="200"
+       width="200"
+       id="rect3389"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 37.5485,2573.6004 L 16.3353,2552.3872 L -15.7608,2583.9306 L -29.903,2569.7885 L -29.903,2619.286 L 19.5945,2619.286 L 5.4524,2605.1438 L 37.5485,2573.6004 z"
+       id="path3391"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3393"
+       d="M 817.5485,2553.6004 L 796.3353,2574.8136 L 827.8787,2606.9097 L 813.7366,2621.0519 L 863.2341,2621.0519 L 863.2341,2571.5544 L 849.0919,2585.6965 L 817.5485,2553.6004 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       transform="matrix(-0.7071068,0.7071068,-0.7071068,-0.7071068,0,0)"
+       sodipodi:linespacing="125%"
+       id="text3395"
+       y="-1829.3619"
+       x="498.04086"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold"
+         y="-1829.3619"
+         x="498.04086"
+         id="tspan3397"
+         sodipodi:role="line">. . .</tspan></text>
+    <text
+       transform="matrix(0.7071068,0.7071068,-0.7071068,0.7071068,0,0)"
+       sodipodi:linespacing="125%"
+       id="text3399"
+       y="1241.7162"
+       x="2482.7573"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold"
+         y="1241.7162"
+         x="2482.7573"
+         id="tspan3401"
+         sodipodi:role="line">. . .</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1892.2546"
+       y="-1832.219"
+       id="text3403"
+       sodipodi:linespacing="125%"
+       transform="matrix(-0.7071068,0.7071068,-0.7071068,-0.7071068,0,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         sodipodi:role="line"
+         id="tspan3405"
+         x="1892.2546"
+         y="-1832.219"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">. . .</tspan></text>
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3413"
+       d="M 956.3353,1612.3873 L 977.5485,1633.6005 L 1009.6446,1602.0571 L 1023.7868,1616.1992 L 1023.7868,1566.7017 L 974.28931,1566.7017 L 988.43144,1580.8439 L 956.3353,1612.3873 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3415"
+       width="200"
+       height="200"
+       x="1037.5486"
+       y="1353.6005" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1237.5485,1333.6005 L 1258.7617,1354.8137 L 1290.8578,1323.2703 L 1305,1337.4124 L 1305,1287.9149 L 1255.5025,1287.9149 L 1269.6446,1302.0571 L 1237.5485,1333.6005 z"
+       id="path3417"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3419"
+       d="M 977.5485,2713.6005 L 956.3353,2734.8137 L 987.8787,2766.9098 L 973.7366,2781.052 L 1023.2341,2781.052 L 1023.2341,2731.5545 L 1009.0919,2745.6966 L 977.5485,2713.6005 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       y="2793.6006"
+       x="1037.5486"
+       height="200"
+       width="200"
+       id="rect3421"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1257.5485,2993.6005 L 1236.3353,3014.8137 L 1267.8787,3046.9098 L 1253.7366,3061.052 L 1303.2341,3061.052 L 1303.2341,3011.5545 L 1289.0919,3025.6966 L 1257.5485,2993.6005 z"
+       id="path3423"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M -121.2383,2734.8137 L -142.4515,2713.6005 L -174.5476,2745.1439 L -188.6898,2731.0018 L -188.6898,2780.4993 L -139.1923,2780.4993 L -153.3344,2766.3571 L -121.2383,2734.8137 z"
+       id="path3425"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3427"
+       width="200"
+       height="200"
+       x="-402.45151"
+       y="2793.6006" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3429"
+       d="M -402.4515,3013.6005 L -423.6647,2992.3873 L -455.7608,3023.9307 L -469.903,3009.7886 L -469.903,3059.2861 L -420.4055,3059.2861 L -434.5476,3045.1439 L -402.4515,3013.6005 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M -142.4515,1633.6005 L -121.23829,1612.3873 L -152.78176,1580.2912 L -138.63963,1566.149 L -188.1371,1566.149 L -188.1371,1615.6465 L -173.99497,1601.5044 L -142.4515,1633.6005 z"
+       id="path3431"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       y="1353.6005"
+       x="-402.45151"
+       height="200"
+       width="200"
+       id="rect3433"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path3435"
+       d="M -423.66471,1354.8137 L -402.4515,1333.6005 L -433.99497,1301.5044 L -419.85284,1287.3622 L -469.35031,1287.3622 L -469.35031,1336.8597 L -455.20818,1322.7176 L -423.66471,1354.8137 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3437"
+       width="200"
+       height="200"
+       x="1320"
+       y="1072.3622"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       y="1072.3622"
+       x="-680"
+       height="200"
+       width="200"
+       id="rect3447"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3457"
+       width="200"
+       height="200"
+       x="-680"
+       y="3072.3623"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       y="3072.3623"
+       x="1320"
+       height="200"
+       width="200"
+       id="rect3467"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       id="g4548"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path3340"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="45.298458"
+         sodipodi:ry="51.127102"
+         d="M 225.29846,492.36218 A 45.298458,51.127102 0 1 1 134.70154,492.36218 A 45.298458,51.127102 0 1 1 225.29846,492.36218 z"
+         transform="translate(80.10051,3428.1336)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path3342"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="7.29846"
+         sodipodi:ry="5"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         transform="translate(175.10051,3508.1336)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="7.29846"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path3344"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="translate(195.10051,3508.1336)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="cssc"
+         id="path3346"
+         d="M 239.80205,3933.3687 C 244.80205,3936.3687 249.14518,3935.1261 254.80205,3939.3687 C 258.80205,3942.3687 259.80205,3939.3687 264.80205,3939.3687 C 267.80205,3939.3687 271.80205,3934.3687 279.80205,3934.3687"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 966.48728,3817.9276 L 945.27408,3796.7144 L 913.17798,3828.2578 L 899.03578,3814.1157 L 899.03578,3863.6132 L 948.53328,3863.6132 L 934.39118,3849.471 L 966.48728,3817.9276 z"
+       id="path4318"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       id="path4320"
+       d="M 732.13188,3796.1617 L 710.91868,3817.3749 L 742.46208,3849.471 L 728.31998,3863.6132 L 777.81748,3863.6132 L 777.81748,3814.1157 L 763.67528,3828.2578 L 732.13188,3796.1617 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 710.36598,4022.4359 L 731.57918,4043.649 L 763.67528,4012.1056 L 777.81748,4026.2477 L 777.81748,3976.7502 L 728.31998,3976.7502 L 742.46208,3990.8925 L 710.36598,4022.4359 z"
+       id="path4322"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       id="path4324"
+       d="M 944.72138,4044.2017 L 965.93458,4022.9885 L 934.39118,3990.8925 L 948.53328,3976.7502 L 899.03578,3976.7502 L 899.03578,4026.2477 L 913.17798,4012.1057 L 944.72138,4044.2017 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <g
+       id="g4530"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="translate(-100.39539,3253.6686)"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         sodipodi:ry="60"
+         sodipodi:rx="40"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4422"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(0,1.5277778,-0.9777778,0,455.38657,3616.4475)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4424"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818174999999993;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(0,1.5277778,-0.9777778,0,480.88657,3616.4475)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818174999999993;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4426"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="cc"
+         id="path4428"
+         d="M 59.60461,3773.5306 C 69.60461,3763.5306 89.60461,3763.5306 99.60461,3773.5306"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4536"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         transform="translate(-100.39538,3606.1684)"
+         d="M 235,492.36218 A 55,55 0 1 1 125,492.36218 A 55,55 0 1 1 235,492.36218 z"
+         sodipodi:ry="55"
+         sodipodi:rx="55"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4432"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(-5.39538,3686.1684)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4434"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(14.60462,3686.1684)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4436"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="csc"
+         id="path4438"
+         d="M 54.60462,4113.5306 C 64.60462,4123.5306 68.99802,4102.924 79.60462,4113.5306 C 89.60462,4123.5306 99.60462,4103.5306 104.60462,4113.5306"
+         style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4554"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="translate(254.49346,3256.1684)"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         sodipodi:ry="60"
+         sodipodi:rx="40"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4442"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4444"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818174999999993;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818174999999993;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4446"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="cc"
+         id="path4448"
+         d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4542"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4452"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="matrix(0,1,-1,0,926.85564,3928.5307)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818174999999993;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4454"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3704.9988)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4456"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818174999999993;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3704.9988)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:3.75000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         d="M 414.49346,4128.5307 C 424.49346,4138.5307 444.49346,4138.5307 454.49346,4128.5307"
+         id="path4458"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       id="path4500"
+       d="M 387.66986,3817.9276 L 366.45666,3796.7144 L 334.36056,3828.2578 L 320.21836,3814.1157 L 320.21836,3863.6132 L 369.71586,3863.6132 L 355.57376,3849.471 L 387.66986,3817.9276 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 153.31446,3796.1617 L 132.10126,3817.3749 L 163.64466,3849.471 L 149.50256,3863.6132 L 199.00006,3863.6132 L 199.00006,3814.1157 L 184.85786,3828.2578 L 153.31446,3796.1617 z"
+       id="path4502"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       id="path4504"
+       d="M 131.54856,4022.4359 L 152.76176,4043.649 L 184.85786,4012.1056 L 199.00006,4026.2477 L 199.00006,3976.7502 L 149.50256,3976.7502 L 163.64466,3990.8925 L 131.54856,4022.4359 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 365.90396,4044.2017 L 387.11716,4022.9885 L 355.57376,3990.8925 L 369.71586,3976.7502 L 320.21836,3976.7502 L 320.21836,4026.2477 L 334.36056,4012.1057 L 365.90396,4044.2017 z"
+       id="path4506"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_warp.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       id="g4560"
+       transform="translate(403.57143,169.28572)"
+       style="opacity:0.5"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4562"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(254.49346,3256.1684)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4564"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4566"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+         id="path4568"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       transform="translate(403.57143,169.28572)"
+       id="g4570"
+       style="opacity:0.5"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="translate(254.49346,3256.1684)"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         sodipodi:ry="60"
+         sodipodi:rx="40"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4572"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4574"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4576"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="cc"
+         id="path4578"
+         d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4580"
+       transform="translate(758.57144,171.78572)"
+       style="opacity:0.5"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4582"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(-100.39539,3253.6686)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4584"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(0,1.5277778,-0.9777778,0,455.38657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4586"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(0,1.5277778,-0.9777778,0,480.88657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 59.60461,3773.5306 C 69.60461,3763.5306 89.60461,3763.5306 99.60461,3773.5306"
+         id="path4588"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g4590"
+       transform="translate(403.57144,-190.35714)"
+       style="opacity:0.5"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(0,1,-1,0,926.85564,3928.5307)"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         sodipodi:ry="60"
+         sodipodi:rx="40"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4592"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3704.9988)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4594"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3704.9988)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4596"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="cc"
+         id="path4598"
+         d="M 414.49346,4128.5307 C 424.49346,4138.5307 444.49346,4138.5307 454.49346,4128.5307"
+         style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4600"
+       transform="translate(758.57144,-180.35715)"
+       style="opacity:0.5"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_intensity_average.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4602"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="55"
+         sodipodi:ry="55"
+         d="M 235,492.36218 A 55,55 0 1 1 125,492.36218 A 55,55 0 1 1 235,492.36218 z"
+         transform="translate(-100.39538,3606.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4604"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="translate(-5.39538,3686.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4606"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="translate(14.60462,3686.1684)" />
+      <path
+         style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 54.60462,4113.5306 C 64.60462,4123.5306 68.99802,4102.924 79.60462,4113.5306 C 89.60462,4123.5306 99.60462,4103.5306 104.60462,4113.5306"
+         id="path4608"
+         sodipodi:nodetypes="csc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g4650"
+       transform="translate(-662.66008,-2571.8484)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4652"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(-100.39539,3253.6686)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4654"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(0,1.5277778,-0.9777778,0,455.38657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4656"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(0,1.5277778,-0.9777778,0,480.88657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 59.60461,3773.5306 C 69.60461,3763.5306 89.60461,3763.5306 99.60461,3773.5306"
+         id="path4658"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g4660"
+       transform="translate(983.88859,-2577.9094)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4662"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(254.49346,3256.1684)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4664"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4666"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+         id="path4668"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       transform="translate(982.63246,-931.36066)"
+       id="g4670"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4672"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="matrix(0,1,-1,0,926.85564,3928.5307)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4674"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3704.9988)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4676"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3704.9988)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 414.49346,4128.5307 C 424.49346,4138.5307 444.49346,4138.5307 454.49346,4128.5307"
+         id="path4678"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g4680"
+       transform="translate(-658.61947,-923.27944)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4682"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="55"
+         sodipodi:ry="55"
+         d="M 235,492.36218 A 55,55 0 1 1 125,492.36218 A 55,55 0 1 1 235,492.36218 z"
+         transform="translate(-100.39538,3606.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4684"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="translate(-5.39538,3686.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4686"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="translate(14.60462,3686.1684)" />
+      <path
+         style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 54.60462,4113.5306 C 64.60462,4123.5306 68.99802,4102.924 79.60462,4113.5306 C 89.60462,4123.5306 99.60462,4103.5306 104.60462,4113.5306"
+         id="path4688"
+         sodipodi:nodetypes="csc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g4690"
+       transform="translate(157.5838,-1747.5639)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         transform="translate(80.10051,3428.1336)"
+         d="M 225.29846,492.36218 A 45.298458,51.127102 0 1 1 134.70154,492.36218 A 45.298458,51.127102 0 1 1 225.29846,492.36218 z"
+         sodipodi:ry="51.127102"
+         sodipodi:rx="45.298458"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4692"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(175.10051,3508.1336)"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="7.29846"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4694"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(195.10051,3508.1336)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4696"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="7.29846"
+         sodipodi:ry="5"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 239.80205,3933.3687 C 244.80205,3936.3687 249.14518,3935.1261 254.80205,3939.3687 C 258.80205,3942.3687 259.80205,3939.3687 264.80205,3939.3687 C 267.80205,3939.3687 271.80205,3934.3687 279.80205,3934.3687"
+         id="path4698"
+         sodipodi:nodetypes="cssc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       transform="translate(834.38601,-2955.7776)"
+       id="g4700"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="translate(254.49346,3256.1684)"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         sodipodi:ry="60"
+         sodipodi:rx="40"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path4702"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path4704"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4706"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:nodetypes="cc"
+         id="path4708"
+         d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3423"
+       transform="translate(5.7142858,188.57143)">
+      <rect
+         transform="matrix(1,0,-0.6933736,0.7205783,0,0)"
+         y="-787.75323"
+         x="-553.00293"
+         height="666.13165"
+         width="800"
+         id="rect2586"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.71215343;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <g
+         transform="matrix(4,0,-2.3093904,2.4,1592.1389,-2229.3071)"
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+         id="g2588">
+        <g
+           id="g2590">
+          <path
+             transform="translate(-80,299.99999)"
+             d="M 220,492.36218 A 40,40 0 1 1 140,492.36218 A 40,40 0 1 1 220,492.36218 z"
+             sodipodi:ry="40"
+             sodipodi:rx="40"
+             sodipodi:cy="492.36218"
+             sodipodi:cx="180"
+             id="path2592"
+             style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             sodipodi:type="arc"
+             inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+             inkscape:export-xdpi="182.86"
+             inkscape:export-ydpi="182.86" />
+        </g>
+        <path
+           inkscape:export-ydpi="182.86"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           sodipodi:type="arc"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2594"
+           sodipodi:cx="75"
+           sodipodi:cy="397.36218"
+           sodipodi:rx="5"
+           sodipodi:ry="5"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           transform="translate(15,379.99999)" />
+        <path
+           inkscape:export-ydpi="182.86"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           sodipodi:ry="5"
+           sodipodi:rx="5"
+           sodipodi:cy="397.36218"
+           sodipodi:cx="75"
+           id="path2596"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc"
+           transform="translate(35,379.99999)" />
+        <path
+           inkscape:export-ydpi="182.86"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           sodipodi:nodetypes="cc"
+           id="path2598"
+           d="M 80,802.36217 L 120,802.36217"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="180"
+       inkscape:export-xdpi="180"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       id="path3434"
+       d="M 241.10509,-287.24703 L 211.10509,-287.24703 L 210.71429,-242.24703 L 190.71429,-242.24703 L 225.71429,-207.24703 L 260.71429,-242.24703 L 240.71429,-242.24703 L 241.10509,-287.24703 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <g
+       id="g3414"
+       transform="translate(17.142862,317.14283)">
+      <rect
+         transform="matrix(1,0,-0.6933736,0.7205783,0,0)"
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.71215343;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2545"
+         width="400"
+         height="333.06583"
+         x="-659.4115"
+         y="-1170.7788" />
+      <g
+         transform="matrix(2,0,-1.1546952,1.2,951.84289,-1674.4724)"
+         id="g2547"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180">
+        <g
+           id="g2549">
+          <path
+             inkscape:export-ydpi="182.86"
+             inkscape:export-xdpi="182.86"
+             inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+             sodipodi:type="arc"
+             style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="path2551"
+             sodipodi:cx="180"
+             sodipodi:cy="492.36218"
+             sodipodi:rx="40"
+             sodipodi:ry="40"
+             d="M 220,492.36218 A 40,40 0 1 1 140,492.36218 A 40,40 0 1 1 220,492.36218 z"
+             transform="translate(-80,299.99999)" />
+        </g>
+        <path
+           transform="translate(15,379.99999)"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           sodipodi:ry="5"
+           sodipodi:rx="5"
+           sodipodi:cy="397.36218"
+           sodipodi:cx="75"
+           id="path2553"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-ydpi="182.86" />
+        <path
+           transform="translate(35,379.99999)"
+           sodipodi:type="arc"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2555"
+           sodipodi:cx="75"
+           sodipodi:cy="397.36218"
+           sodipodi:rx="5"
+           sodipodi:ry="5"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-ydpi="182.86" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 80,802.36217 L 120,802.36217"
+           id="path2557"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-ydpi="182.86" />
+      </g>
+    </g>
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 298.24795,-521.53274 L 268.24795,-521.53274 L 267.85715,-476.53274 L 247.85715,-476.53274 L 282.85715,-441.53274 L 317.85715,-476.53274 L 297.85715,-476.53274 L 298.24795,-521.53274 z"
+       id="path3432"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180" />
+    <g
+       id="g3405"
+       transform="translate(49.940795,385.99998)">
+      <rect
+         transform="matrix(1,0,-0.6933736,0.7205783,0,0)"
+         y="-1398.3738"
+         x="-731.86066"
+         height="166.53291"
+         width="200"
+         id="rect2570"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.71215343;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180" />
+      <g
+         style="stroke-width:2.49936533;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(1,0,-0.5773476,0.6,637.4684,-1423.0551)"
+         inkscape:export-ydpi="180"
+         inkscape:export-xdpi="180"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+         id="g2572">
+        <g
+           style="stroke-width:2.49936533;stroke-miterlimit:4;stroke-dasharray:none"
+           id="g2574">
+          <path
+             transform="translate(-80,299.99999)"
+             d="M 220,492.36218 A 40,40 0 1 1 140,492.36218 A 40,40 0 1 1 220,492.36218 z"
+             sodipodi:ry="40"
+             sodipodi:rx="40"
+             sodipodi:cy="492.36218"
+             sodipodi:cx="180"
+             id="path2576"
+             style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2.49936533;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             sodipodi:type="arc"
+             inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+             inkscape:export-xdpi="182.86"
+             inkscape:export-ydpi="182.86" />
+        </g>
+        <path
+           inkscape:export-ydpi="182.86"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           sodipodi:type="arc"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.49936533;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2578"
+           sodipodi:cx="75"
+           sodipodi:cy="397.36218"
+           sodipodi:rx="5"
+           sodipodi:ry="5"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           transform="translate(15,379.99999)" />
+        <path
+           inkscape:export-ydpi="182.86"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           sodipodi:ry="5"
+           sodipodi:rx="5"
+           sodipodi:cy="397.36218"
+           sodipodi:cx="75"
+           id="path2580"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.49936533;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc"
+           transform="translate(35,379.99999)" />
+        <path
+           inkscape:export-ydpi="182.86"
+           inkscape:export-xdpi="182.86"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/warp_structure.png"
+           sodipodi:nodetypes="cc"
+           id="path2582"
+           d="M 80,802.36217 L 120,802.36217"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.49936533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <rect
+       y="-89.154678"
+       x="1341.5369"
+       height="200"
+       width="200"
+       id="rect2571"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1617.4514,-143.51568 L 1596.2382,-164.72888 L 1564.1421,-133.18548 L 1550,-147.32758 L 1550,-97.830099 L 1599.4974,-97.830099 L 1585.3553,-111.97228 L 1617.4514,-143.51568 z"
+       id="path2573"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       id="path2581"
+       d="M 1284.3144,-165.78408 L 1263.1012,-144.5709 L 1294.6447,-112.4748 L 1280.5025,-98.332619 L 1330,-98.332619 L 1330,-147.8301 L 1315.8579,-133.688 L 1284.3144,-165.78408 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       id="path2583"
+       d="M 1262.5485,168.358 L 1283.7617,189.5712 L 1315.8578,158.0278 L 1330,172.1699 L 1330,122.6724 L 1280.5025,122.6724 L 1294.6446,136.8146 L 1262.5485,168.358 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1596.1881,189.6214 L 1617.4013,168.4082 L 1585.8579,136.3121 L 1600,122.1699 L 1550.5025,122.1699 L 1550.5025,171.6674 L 1564.6447,157.5253 L 1596.1881,189.6214 z"
+       id="path2585"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <g
+       id="g2703"
+       transform="translate(-40,1568.3793)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2639"
+         width="200"
+         height="200"
+         x="1100"
+         y="-1936.2094"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <g
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="translate(1117.3399,-5580.4199)"
+         id="g2645">
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="translate(-100.39539,3253.6686)"
+           d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+           sodipodi:ry="60"
+           sodipodi:rx="40"
+           sodipodi:cy="492.36218"
+           sodipodi:cx="180"
+           id="path2647"
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="matrix(0,1.5277778,-0.9777778,0,455.38657,3616.4475)"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           sodipodi:ry="5"
+           sodipodi:rx="5"
+           sodipodi:cy="397.36218"
+           sodipodi:cx="75"
+           id="path2649"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="matrix(0,1.5277778,-0.9777778,0,480.88657,3616.4475)"
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2651"
+           sodipodi:cx="75"
+           sodipodi:cy="397.36218"
+           sodipodi:rx="5"
+           sodipodi:ry="5"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           sodipodi:nodetypes="cc"
+           id="path2653"
+           d="M 59.60461,3773.5306 C 69.60461,3763.5306 89.60461,3763.5306 99.60461,3773.5306"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g2695"
+       transform="translate(-1481.132,1570.0091)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <rect
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         y="-1936.2094"
+         x="3100"
+         height="200"
+         width="200"
+         id="rect2637"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="translate(2763.8885,-5586.4809)"
+         id="g2655">
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="translate(254.49346,3256.1684)"
+           d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+           sodipodi:ry="60"
+           sodipodi:rx="40"
+           sodipodi:cy="492.36218"
+           sodipodi:cx="180"
+           id="path2657"
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           sodipodi:ry="5"
+           sodipodi:rx="5"
+           sodipodi:cy="397.36218"
+           sodipodi:cx="75"
+           id="path2659"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2661"
+           sodipodi:cx="75"
+           sodipodi:cy="397.36218"
+           sodipodi:rx="5"
+           sodipodi:ry="5"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           sodipodi:nodetypes="cc"
+           id="path2663"
+           d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g2719"
+       transform="translate(-1482.237,128.57138)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2643"
+         width="200"
+         height="200"
+         x="3100"
+         y="63.790791"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <g
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         id="g2665"
+         transform="translate(2762.6324,-3939.9322)">
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="matrix(0,1,-1,0,926.85564,3928.5307)"
+           d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+           sodipodi:ry="60"
+           sodipodi:rx="40"
+           sodipodi:cy="492.36218"
+           sodipodi:cx="180"
+           id="path2667"
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="matrix(1.5277778,0,0,0.9777778,307.16016,3704.9988)"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           sodipodi:ry="5"
+           sodipodi:rx="5"
+           sodipodi:cy="397.36218"
+           sodipodi:cx="75"
+           id="path2669"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           transform="matrix(1.5277778,0,0,0.9777778,332.66016,3704.9988)"
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2671"
+           sodipodi:cx="75"
+           sodipodi:cy="397.36218"
+           sodipodi:rx="5"
+           sodipodi:ry="5"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           sodipodi:nodetypes="cc"
+           id="path2673"
+           d="M 414.49346,4128.5307 C 424.49346,4138.5307 444.49346,4138.5307 454.49346,4128.5307"
+           style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g2711"
+       transform="translate(-40,128.3791)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <rect
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         y="63.790791"
+         x="1100"
+         height="200"
+         width="200"
+         id="rect2641"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         transform="translate(1121.3805,-3931.851)"
+         id="g2675">
+        <path
+           transform="translate(-100.39538,3606.1684)"
+           d="M 235,492.36218 A 55,55 0 1 1 125,492.36218 A 55,55 0 1 1 235,492.36218 z"
+           sodipodi:ry="55"
+           sodipodi:rx="55"
+           sodipodi:cy="492.36218"
+           sodipodi:cx="180"
+           id="path2677"
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-ydpi="75.860001" />
+        <path
+           transform="translate(-5.39538,3686.1684)"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           sodipodi:ry="5"
+           sodipodi:rx="5"
+           sodipodi:cy="397.36218"
+           sodipodi:cx="75"
+           id="path2679"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="arc"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-ydpi="75.860001" />
+        <path
+           transform="translate(14.60462,3686.1684)"
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2681"
+           sodipodi:cx="75"
+           sodipodi:cy="397.36218"
+           sodipodi:rx="5"
+           sodipodi:ry="5"
+           d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-ydpi="75.860001" />
+        <path
+           inkscape:export-ydpi="75.860001"
+           inkscape:export-xdpi="75.860001"
+           inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+           sodipodi:nodetypes="csc"
+           id="path2683"
+           d="M 54.60462,4113.5306 C 64.60462,4123.5306 68.99802,4102.924 79.60462,4113.5306 C 89.60462,4123.5306 99.60462,4103.5306 104.60462,4113.5306"
+           style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g2685"
+       transform="translate(1178.8221,-3910.2076)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         transform="translate(80.10051,3428.1336)"
+         d="M 225.29846,492.36218 A 45.298458,51.127102 0 1 1 134.70154,492.36218 A 45.298458,51.127102 0 1 1 225.29846,492.36218 z"
+         sodipodi:ry="51.127102"
+         sodipodi:rx="45.298458"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path2687"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(175.10051,3508.1336)"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="7.29846"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path2689"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(195.10051,3508.1336)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2691"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="7.29846"
+         sodipodi:ry="5"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 239.80205,3933.3687 C 244.80205,3936.3687 249.14518,3935.1261 254.80205,3939.3687 C 258.80205,3942.3687 259.80205,3939.3687 264.80205,3939.3687 C 267.80205,3939.3687 271.80205,3934.3687 279.80205,3934.3687"
+         id="path2693"
+         sodipodi:nodetypes="cssc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1140"
+       y="-387.63782"
+       id="text2727"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         sodipodi:role="line"
+         id="tspan2729"
+         x="1140"
+         y="-387.63782"
+         style="font-size:32px;font-weight:bold">t=0</tspan></text>
+    <text
+       id="text2731"
+       y="-387.63782"
+       x="1700"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="-387.63782"
+         x="1700"
+         id="tspan2733"
+         sodipodi:role="line">t=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1700"
+       y="-387.63782"
+       id="text2735"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         sodipodi:role="line"
+         id="tspan2737"
+         x="1700"
+         y="-387.63782"
+         style="font-size:32px;font-weight:bold">t=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1140"
+       y="172.36218"
+       id="text2739"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         sodipodi:role="line"
+         id="tspan2741"
+         x="1140"
+         y="172.36218"
+         style="font-size:32px;font-weight:bold">t=0</tspan></text>
+    <text
+       id="text2743"
+       y="-107.63782"
+       x="1420"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/greedy_atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="-107.63782"
+         x="1420"
+         id="tspan2745"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2747"
+       y="1052.3622"
+       x="1400"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="1052.3622"
+         x="1400"
+         id="tspan2749"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2751"
+       y="3052.3623"
+       x="1400"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="3052.3623"
+         x="1400"
+         id="tspan2753"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2755"
+       y="3052.3623"
+       x="-600"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="3052.3623"
+         x="-600"
+         id="tspan2757"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2759"
+       y="1052.3622"
+       x="-600"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="1052.3622"
+         x="-600"
+         id="tspan2761"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2763"
+       y="2052.3623"
+       x="400"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="2052.3623"
+         x="400"
+         id="tspan2765"
+         sodipodi:role="line">t=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="80"
+       y="672.36218"
+       id="text2767"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan2769"
+         x="80"
+         y="672.36218"
+         style="font-size:32px;font-weight:bold">t=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1240"
+       y="672.36218"
+       id="text2771"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/warp_structure.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180"><tspan
+         sodipodi:role="line"
+         id="tspan2773"
+         x="1240"
+         y="672.36218"
+         style="font-size:32px;font-weight:bold">t=1</tspan></text>
+    <rect
+       y="-226.51114"
+       x="-1879.7015"
+       height="200"
+       width="200"
+       id="rect2778"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -1677.4515,-251.44972 L -1656.2383,-230.23652 L -1624.1422,-261.77992 L -1610,-247.63782 L -1610,-297.13532 L -1659.4975,-297.13532 L -1645.3554,-282.99312 L -1677.4515,-251.44972 z"
+       id="path2780"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="-1792.7369"
+       y="1174.111"
+       id="text2784"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.7071068,0.7071068,-0.7071068,0.7071068,0,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         sodipodi:role="line"
+         id="tspan2786"
+         x="-1792.7369"
+         y="1174.111"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">. . .</tspan></text>
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2788"
+       d="M -1902.4515,-226.39976 L -1881.2383,-247.61296 L -1912.7818,-279.70906 L -1898.6397,-293.85126 L -1948.1371,-293.85126 L -1948.1371,-244.35376 L -1933.995,-258.49586 L -1902.4515,-226.39976 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2790"
+       d="M -1881.2383,-5.1865579 L -1902.4515,-26.399758 L -1934.5476,5.1436421 L -1948.6898,-8.9984579 L -1948.6898,40.499042 L -1899.1923,40.499042 L -1913.3344,26.356842 L -1881.2383,-5.1865579 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -1655.6856,-25.089317 L -1676.8988,-3.8761173 L -1645.3554,28.219983 L -1659.4975,42.362183 L -1610,42.362183 L -1610,-7.1353173 L -1624.1422,7.0067827 L -1655.6856,-25.089317 z"
+       id="path2792"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -1971.2132,-296.42462 L -1950,-317.63782 L -1981.5435,-349.73392 L -1967.4014,-363.87612 L -2016.8988,-363.87612 L -2016.8988,-314.37862 L -2002.7567,-328.52072 L -1971.2132,-296.42462 z"
+       id="path2796"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2798"
+       d="M -1611.2132,-318.85102 L -1590,-297.63782 L -1557.9039,-329.18122 L -1543.7617,-315.03912 L -1543.7617,-364.53662 L -1593.2592,-364.53662 L -1579.1171,-350.39442 L -1611.2132,-318.85102 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -1948.7868,63.575383 L -1970,42.362183 L -2002.0961,73.905583 L -2016.2383,59.763483 L -2016.2383,109.26098 L -1966.7408,109.26098 L -1980.8829,95.11878 L -1948.7868,63.575383 z"
+       id="path2804"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2806"
+       d="M -1586.1881,44.910686 L -1607.4013,66.123886 L -1575.8579,98.219983 L -1590,112.36218 L -1540.5025,112.36218 L -1540.5025,62.864686 L -1554.6447,77.006786 L -1586.1881,44.910686 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       transform="matrix(-0.7071068,0.7071068,-0.7071068,-0.7071068,0,0)"
+       sodipodi:linespacing="125%"
+       id="text2808"
+       y="1350.0452"
+       x="721.70612"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold"
+         y="1350.0452"
+         x="721.70612"
+         id="tspan2810"
+         sodipodi:role="line">. . .</tspan></text>
+    <text
+       transform="matrix(0.7071068,0.7071068,-0.7071068,0.7071068,0,0)"
+       sodipodi:linespacing="125%"
+       id="text2812"
+       y="1167.5033"
+       x="-990.85272"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold"
+         y="1167.5033"
+         x="-990.85272"
+         id="tspan2814"
+         sodipodi:role="line">. . .</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1521.9504"
+       y="1347.1879"
+       id="text2816"
+       sodipodi:linespacing="125%"
+       transform="matrix(-0.7071068,0.7071068,-0.7071068,-0.7071068,0,0)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         sodipodi:role="line"
+         id="tspan2818"
+         x="1521.9504"
+         y="1347.1879"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif Bold">. . .</tspan></text>
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2820"
+       d="M -1450,-477.63782 L -1428.7868,-456.42462 L -1396.6907,-487.96802 L -1382.5485,-473.82592 L -1382.5485,-523.32342 L -1432.046,-523.32342 L -1417.9039,-509.18122 L -1450,-477.63782 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -1375.9447,-549.65846 L -1354.7315,-528.44526 L -1322.6354,-559.98866 L -1308.4932,-545.84656 L -1308.4932,-595.3441 L -1357.9907,-595.3441 L -1343.8486,-581.20186 L -1375.9447,-549.65846 z"
+       id="path2824"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2826"
+       d="M -1426.1881,204.91078 L -1447.4013,226.12398 L -1415.8579,258.22008 L -1430,272.36228 L -1380.5025,272.36228 L -1380.5025,222.86478 L -1394.6447,237.00688 L -1426.1881,204.91078 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -1355.6856,274.40818 L -1376.8988,295.62138 L -1345.3554,327.71748 L -1359.4975,341.85968 L -1310,341.85968 L -1310,292.36218 L -1324.1422,306.50428 L -1355.6856,274.40818 z"
+       id="path2830"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -2107.5736,224.78868 L -2128.7868,203.57548 L -2160.8829,235.11888 L -2175.0251,220.97678 L -2175.0251,270.47428 L -2125.5276,270.47428 L -2139.6697,256.33208 L -2107.5736,224.78868 z"
+       id="path2832"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2836"
+       d="M -2178.4366,295.71148 L -2199.6498,274.49828 L -2231.7459,306.04168 L -2245.8881,291.89958 L -2245.8881,341.39708 L -2196.3906,341.39708 L -2210.5327,327.25488 L -2178.4366,295.71148 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -2130,-457.63772 L -2108.7868,-478.85092 L -2140.3303,-510.94702 L -2126.1882,-525.08922 L -2175.6856,-525.08922 L -2175.6856,-475.59172 L -2161.5435,-489.73382 L -2130,-457.63772 z"
+       id="path2838"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <path
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       id="path2842"
+       d="M -2200.6092,-527.00642 L -2179.396,-548.21962 L -2210.9395,-580.31572 L -2196.7974,-594.45796 L -2246.2948,-594.45796 L -2246.2948,-544.96042 L -2232.1527,-559.10252 L -2200.6092,-527.00642 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2844"
+       width="200"
+       height="200"
+       x="-1300"
+       y="-807.63782"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       y="-809.45795"
+       x="-2456.9446"
+       height="200"
+       width="200"
+       id="rect2846"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2848"
+       width="200"
+       height="200"
+       x="-2455.9851"
+       y="354.47336"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001" />
+    <rect
+       inkscape:export-ydpi="75.860001"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       y="352.55441"
+       x="-1297.5148"
+       height="200"
+       width="200"
+       id="rect2850"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       id="g2852"
+       transform="translate(-2439.6046,-4453.6686)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2854"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(-100.39539,3253.6686)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2856"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(0,1.5277778,-0.9777778,0,455.38657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path2858"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(0,1.5277778,-0.9777778,0,480.88657,3616.4475)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 59.60461,3773.5306 C 69.60461,3763.5306 89.60461,3763.5306 99.60461,3773.5306"
+         id="path2860"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g2862"
+       transform="translate(-1636.1114,-4457.9095)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2864"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="translate(254.49346,3256.1684)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2866"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path2868"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3344.9987)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 414.49346,3768.5306 C 424.49346,3778.5306 444.49346,3778.5306 454.49346,3768.5306"
+         id="path2870"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       transform="translate(-1634.8824,-3651.1685)"
+       id="g2872"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2874"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="40"
+         sodipodi:ry="60"
+         d="M 220,492.36218 A 40,60 0 1 1 140,492.36218 A 40,60 0 1 1 220,492.36218 z"
+         transform="matrix(0,1,-1,0,926.85564,3928.5307)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2876"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="matrix(1.5277778,0,0,0.9777778,307.16016,3704.9988)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path2878"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.06818175;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(1.5277778,0,0,0.9777778,332.66016,3704.9988)"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 414.49346,4128.5307 C 424.49346,4138.5307 444.49346,4138.5307 454.49346,4128.5307"
+         id="path2880"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g2882"
+       transform="translate(-2434.6046,-3641.1684)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2884"
+         sodipodi:cx="180"
+         sodipodi:cy="492.36218"
+         sodipodi:rx="55"
+         sodipodi:ry="55"
+         d="M 235,492.36218 A 55,55 0 1 1 125,492.36218 A 55,55 0 1 1 235,492.36218 z"
+         transform="translate(-100.39538,3606.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2886"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="5"
+         sodipodi:ry="5"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         transform="translate(-5.39538,3686.1684)" />
+      <path
+         inkscape:export-ydpi="75.860001"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         d="M 80,397.36218 A 5,5 0 1 1 70,397.36218 A 5,5 0 1 1 80,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path2888"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="translate(14.60462,3686.1684)" />
+      <path
+         style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 54.60462,4113.5306 C 64.60462,4123.5306 68.99802,4102.924 79.60462,4113.5306 C 89.60462,4123.5306 99.60462,4103.5306 104.60462,4113.5306"
+         id="path2890"
+         sodipodi:nodetypes="csc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <g
+       id="g2892"
+       transform="translate(-2042.4162,-4047.5641)"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001">
+      <path
+         transform="translate(80.10051,3428.1336)"
+         d="M 225.29846,492.36218 A 45.298458,51.127102 0 1 1 134.70154,492.36218 A 45.298458,51.127102 0 1 1 225.29846,492.36218 z"
+         sodipodi:ry="51.127102"
+         sodipodi:rx="45.298458"
+         sodipodi:cy="492.36218"
+         sodipodi:cx="180"
+         id="path2894"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(175.10051,3508.1336)"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         sodipodi:ry="5"
+         sodipodi:rx="7.29846"
+         sodipodi:cy="397.36218"
+         sodipodi:cx="75"
+         id="path2896"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         transform="translate(195.10051,3508.1336)"
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2898"
+         sodipodi:cx="75"
+         sodipodi:cy="397.36218"
+         sodipodi:rx="7.29846"
+         sodipodi:ry="5"
+         d="M 82.29846,397.36218 A 7.29846,5 0 1 1 67.70154,397.36218 A 7.29846,5 0 1 1 82.29846,397.36218 z"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 239.80205,3933.3687 C 244.80205,3936.3687 249.14518,3935.1261 254.80205,3939.3687 C 258.80205,3942.3687 259.80205,3939.3687 264.80205,3939.3687 C 267.80205,3939.3687 271.80205,3934.3687 279.80205,3934.3687"
+         id="path2900"
+         sodipodi:nodetypes="cssc"
+         inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+         inkscape:export-xdpi="75.860001"
+         inkscape:export-ydpi="75.860001" />
+    </g>
+    <text
+       id="text2902"
+       y="-827.63782"
+       x="-1220"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="-827.63782"
+         x="-1220"
+         id="tspan2904"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2906"
+       y="332.55441"
+       x="-1217.5148"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="332.55441"
+         x="-1217.5148"
+         id="tspan2908"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2910"
+       y="334.47336"
+       x="-2375.9851"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="334.47336"
+         x="-2375.9851"
+         id="tspan2912"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2914"
+       y="-829.45795"
+       x="-2376.9446"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="-829.45795"
+         x="-2376.9446"
+         id="tspan2916"
+         sodipodi:role="line">t=1</tspan></text>
+    <text
+       id="text2918"
+       y="-247.63785"
+       x="-1800"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sam/Projects/CompOnc/html/figs/atlas_structure.png"
+       inkscape:export-xdpi="75.860001"
+       inkscape:export-ydpi="75.860001"><tspan
+         style="font-size:32px;font-weight:bold"
+         y="-247.63785"
+         x="-1800"
+         id="tspan2920"
+         sodipodi:role="line">t=0</tspan></text>
+  </g>
+</svg>

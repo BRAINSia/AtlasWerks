@@ -1,0 +1,13 @@
+NRRD0004
+# Complete NRRD file format specification at:
+# http://teem.sourceforge.net/nrrd/format.html
+type: float
+dimension: 3
+space: left-posterior-superior
+sizes: 32 31 36
+space directions: (2,0,0) (0,2.06452,0) (0,0,1.77778)
+kinds: domain domain domain
+endian: little
+encoding: raw
+space origin: (-277.8,-198.6,54.2)
+data file: BullseyeTestBlur02.raw

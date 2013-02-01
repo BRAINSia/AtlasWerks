@@ -1,0 +1,116 @@
+<!--top-level node-->
+<GreedyWarpParameterFile>
+  <!--initial image filename-->
+  <InitialImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur00.nhdr" />
+  <!--final image filename-->
+  <FinalImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur01.nhdr" />
+  <!--A weighted input image file-->
+  <ImagePreprocessor>
+    <!--Intensity window used for rescaling (image min/max used if no intensity window specified)-->
+    <IntensityWindow>
+      <!--Perform intensity rescaling?-->
+      <RescaleIntensities val="true" />
+      <!--Use this intensity window instead of image min/max intensity-->
+      <UseInputIntensityWindow val="false" />
+      <!--input window min-->
+      <InputWindowMin val="0" />
+      <!--input window max-->
+      <InputWindowMax val="1" />
+      <!--output window min-->
+      <OutputWindowMin val="0" />
+      <!--output window max-->
+      <OutputWindowMax val="1" />
+    </IntensityWindow>
+    <!--Settings for Tukey Window (border supression)-->
+    <TukeyWindow>
+      <!--Apply the Tukey window?-->
+      <DoWindowing val="false" />
+      <!--Width of the border region of the filter, in pixels-->
+      <Width val="5" />
+    </TukeyWindow>
+    <!--Set the spacing of input images to (1,1,1) (no resampling)-->
+    <SetUnitSpacing val="false" />
+    <!--Set the origin of input images to (0,0,0)-->
+    <SetZeroOrigin val="false" />
+  </ImagePreprocessor>
+  <!--General settings for multiscale manager-->
+  <MultiscaleSettings>
+    <!--Use sinc upsampling for images? (trilinear interpolation is the default)-->
+    <UseSincImageUpsample val="false" />
+  </MultiscaleSettings>
+  <!--Multiple of the following can occur...-->
+  <!--Settings for single-scale Greedy registration-->
+  <GreedyScaleLevel>
+    <!--setting for a single scale level-->
+    <ScaleLevel>
+      <!--factor by which to downsample images-->
+      <DownsampleFactor val="1" />
+    </ScaleLevel>
+    <!--Settings for greedy iterator-->
+    <GreedyIterator>
+      <!--Differential operator parameters-->
+      <DiffOper>
+        <!--Controls the 'viscosity' of the fluid-->
+        <Alpha val="0.01" />
+        <!--Controls the 'viscosity' of the fluid (penalizes expansion/compression)-->
+        <Beta val="0.01" />
+        <!--ensures inverability of the operator-->
+        <Gamma val="0.001" />
+        <!--Use lookup table of eigenvalues, trades memory for speed-->
+        <UseEigenLUT val="false" />
+        <!--Compute a divergence-free deformation-->
+        <DivergenceFree val="false" />
+        <!--Number of threads for FFTW library to use-->
+        <FFTWNumberOfThreads val="1" />
+        <!--Do performance measuring during plan construction-->
+        <FFTWMeasure val="true" />
+      </DiffOper>
+      <!--Scale factor on the maximum velocity in a given deformation for computing delta-->
+      <MaxPert val="0.3" />
+    </GreedyIterator>
+    <!--Number of iterations-->
+    <NIterations val="50" />
+  </GreedyScaleLevel>
+  <GreedyScaleLevel>
+    <!--setting for a single scale level-->
+    <ScaleLevel>
+      <!--factor by which to downsample images-->
+      <DownsampleFactor val="2" />
+    </ScaleLevel>
+    <!--Settings for greedy iterator-->
+    <GreedyIterator>
+      <!--Scale factor on the maximum velocity in a given deformation for computing delta-->
+      <MaxPert val="0.3" />
+    </GreedyIterator>
+    <!--Number of iterations-->
+    <NIterations val="50" />
+  </GreedyScaleLevel>
+  <!--filename prefix to use-->
+  <OutputPrefix val="Greedy" />
+  <!--filename extension to use (determines format)-->
+  <OutputSuffix val="mha" />
+  <!--Write out deformed image?-->
+  <WriteDefImage val="true" />
+  <!--Write out deformation field?-->
+  <WriteDefField val="true" />
+  <!--Write out inverse deformation field?-->
+  <WriteInvDefField val="true" />
+  <!--Write out I0 and IT at each scale level?-->
+  <WriteScaleLevelImages val="false" />
+  <!--Write out initial scale level deformed image?-->
+  <WriteInitialScaleLevelDefImage val="false" />
+  <!--Write out initial scale level deformed image?-->
+  <WriteInitialScaleLevelDefField val="false" />
+  <!--Write out initial scale level deformed image?-->
+  <WriteInitialScaleLevelInvDefField val="false" />
+  <!--Write out initial scale level deformed image?-->
+  <WriteFinalScaleLevelDefImage val="false" />
+  <!--Write out initial scale level deformed image?-->
+  <WriteFinalScaleLevelDefField val="false" />
+  <!--Write out initial scale level deformed image?-->
+  <WriteFinalScaleLevelInvDefField val="false" />
+  <!--Run preprocessing on initial image-->
+  <PreprocessInitialImage val="true" />
+  <!--Run preprocessing on final image-->
+  <PreprocessFinalImage val="true" />
+</GreedyWarpParameterFile>

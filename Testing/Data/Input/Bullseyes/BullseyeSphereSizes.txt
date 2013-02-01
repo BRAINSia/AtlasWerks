@@ -1,0 +1,4 @@
+image 0 sphere sizes: 0.814359, 0.514729, 0.239271
+image 1 sphere sizes: 0.883431, 0.754234, 0.499744
+image 2 sphere sizes: 0.721578, 0.518795, 0.351198
+image 3 sphere sizes: 0.880863, 0.706029, 0.449054

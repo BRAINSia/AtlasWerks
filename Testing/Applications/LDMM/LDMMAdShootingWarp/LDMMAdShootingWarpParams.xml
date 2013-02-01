@@ -1,0 +1,70 @@
+<LDMMWarpParameterFile>
+
+    <MovingImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur00.nhdr" />
+    <StaticImage val="../../../../Data/Input/Bullseyes/BullseyeTestBlur01.nhdr" />
+
+    <ImagePreprocessor>
+        <IntensityWindow>
+            <RescaleIntensities val="true" />
+            <UseInputIntensityWindow val="false" />
+            <InputWindowMin val="0" />
+            <InputWindowMax val="1" />
+            <OutputWindowMin val="0" />
+            <OutputWindowMax val="1" />
+        </IntensityWindow>
+        <SetUnitSpacing val="false" />
+        <SetZeroOrigin val="false" />
+    </ImagePreprocessor>
+    <PreprocessMovingImage val="true" />
+    <PreprocessStaticImage val="true" />
+
+    <LDMMScaleLevel>
+        <ScaleLevel>
+            <DownsampleFactor val="1" />
+        </ScaleLevel>
+        <Iterator>
+            <DiffOper>
+                <Alpha val="0.01" />
+                <Beta val="0.01" />
+                <Gamma val="0.001" />
+            </DiffOper>
+            <Sigma val="1" />
+            <StepSize val="0.0002" />
+            <UseAdaptiveStepSize val="false" />
+            <MaxPert val="0.1" />
+        </Iterator>
+        <!--Number of iterations-->
+        <NIterations val="100" />
+    </LDMMScaleLevel>
+
+    <LDMMScaleLevel>
+        <ScaleLevel>
+            <DownsampleFactor val="2" />
+        </ScaleLevel>
+        <Iterator>
+            <StepSize val="0.0005" />
+        </Iterator>
+        <NIterations val="100" />
+    </LDMMScaleLevel>
+
+    <NTimeSteps val="5" />
+    <AutoStepReduce val="false" />
+    <ShootingOptimization val="true" />
+    <UseVelocityShootingOptimization val="false" />
+    <UseAdjointShootingOptimization val="true" />
+    <UseGPU val="false" />
+    <GPUId val="0" />
+
+    <OutputPrefix val="LDMMAdShootingWarp" />
+    <OutputSuffix val="mha" />
+    <WriteDefImage val="true" />
+    <WriteInvDefImage val="true" />
+    <WriteDefField val="true" />
+    <WriteInvDefField val="true" />
+    <WriteVelocityFields val="false" />
+    <WriteIntermediateImages val="false" />
+    <WriteAlphas val="false" />
+    <WriteAlpha0 val="true" />
+    <WriteEnergy val="true" />
+
+</LDMMWarpParameterFile>
