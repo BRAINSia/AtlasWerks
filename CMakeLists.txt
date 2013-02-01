@@ -322,7 +322,7 @@ SET(LAPACK_LIBS
 
 MARK_AS_ADVANCED(LAPACK_LIBS_SEARCH_DIRS)
 SET(LAPACK_LIBS_SEARCH_DIRS
-  "/Users/johnsonhj/src/DTIAtlasBuilder-build/CLAPACK-build/SRC;/Users/johnsonhj/src/DTIAtlasBuilder-build/CLAPACK-build/BLAS/SRC;/Users/johnsonhj/src/DTIAtlasBuilder-build/CLAPACK-build/F2CLIBS/libf2c"
+  "${LAPACK_DIR}/SRC;${LAPACK_DIR}/BLAS/SRC;${LAPACK_DIR}/F2CLIBS/libf2c"
   CACHE STRING
   "Locations to search for LAPACK libs"
   )
