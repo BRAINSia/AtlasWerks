@@ -40,7 +40,7 @@ class Log
 {
   typedef std::map<pthread_t, std::string> ThreadNameMap;
 public:
-  Log(const char *file, int line);
+  Log(const char *file="unknown file", int line=0);
   virtual ~Log();
   std::ostringstream& Get(TLogLevel level = logINFO, bool printNode = false, bool printThread = false);
 public:
@@ -165,7 +165,7 @@ IsSingleNode(){
 }
 
 template <typename T>
-Log<T>::Log(const char *file="unknown file", int line=0)
+Log<T>::Log(const char *file, int line)
   :  mFile(file),
      mLine(line)
 {

@@ -11326,11 +11326,11 @@ REAL insphere(REAL *pa,REAL *pb,REAL *pc,REAL *pd,REAL *pe)
 
 //#include "hull.h"   TJH: this file is now above
 
-double erand48 (unsigned short X[3]) throw();
+double local_erand48 (unsigned short X[3]) throw();
 
 unsigned short X[3];
 
-double double_rand(void) {return erand48(X);}
+double double_rand(void) {return local_erand48(X);}
 
 void init_rand(long seed) {
 //  X[1]=(seed==0) ? time(0) : seed;	//EPRO - commented 
@@ -11401,17 +11401,17 @@ nrand48(unsigned short xseed[3])
 
 //#include "rand48.h"   TJH: this file is now above
 
-/* declare erand48 - DE */
-extern double erand48(unsigned short xseed[3]) throw();
+/* declare local_erand48 - DE */
+extern double local_erand48(unsigned short xseed[3]) throw();
 
 extern unsigned short _rand48_seed[3];
 
 double
 drand48(void)
 {
-  return erand48(_rand48_seed);
+  return local_erand48(_rand48_seed);
 }
-//========erand48.c=============================================================
+//========local_erand48.c=============================================================
 /*
  * Copyright (c) 1993 Martin Birgmeier
  * All rights reserved.
@@ -11428,7 +11428,7 @@ drand48(void)
 // #include "rand48.h"  TJH: this file is now above
 
 double
-erand48(unsigned short xseed[3]) throw()
+local_erand48(unsigned short xseed[3]) throw()
 {
   _dorand48(xseed);
   return ldexp((double) xseed[0], -48) +
@@ -11783,7 +11783,7 @@ to the file tim_defs.h. This seems to work. If only I knew what I was doing.
 
 Next link error:
 
-rand.obj : error LNK2019: unresolved external symbol _erand48 referenced in function _double_rand
+rand.obj : error LNK2019: unresolved external symbol _local_erand48 referenced in function _double_rand
 
 Another function in the Unix libraries it seems, stdlib.h this time. Hmmm...
 
@@ -11797,7 +11797,7 @@ So I borrowed the files:
 
 _rand48.c
 drand48.c
-erand48.c
+local_erand48.c
 nrand48.c
 rand48.3
 rand48.h
