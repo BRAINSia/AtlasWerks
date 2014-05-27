@@ -18,6 +18,7 @@
 #include "WeightedImageSet.h"
 #include "ImagePreprocessor.h"
 #include "CmdLineParser.h"
+#include <unistd.h>
 
 #ifdef CUDA_ENABLED
 #include "GreedyAtlasThreadGPU.h"
