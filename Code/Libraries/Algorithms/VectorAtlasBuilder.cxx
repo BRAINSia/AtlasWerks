@@ -24,7 +24,7 @@
 
 #include "itkImage.h"
 #include "itkVector.h"
-#include "itkIterativeInverseDeformationFieldImageFilter.h"
+#include "itkIterativeInverseDisplacementFieldImageFilter.h"
 
 // Vector version of trilerp
 static VectorAtlasBuilder::VoxelType
@@ -143,35 +143,35 @@ VectorAtlasBuilder
 ::GetInverseMap(VectorFieldType* hField)
 {
   typedef itk::Vector<float, 3> DisplacementType;
-  typedef itk::Image<DisplacementType, 3> DeformationFieldType;
+  typedef itk::Image<DisplacementType, 3> DisplacementFieldType;
 
   Vector3D<unsigned int> size = hField->getSize();
   Vector3D<double> spacing = this->_AverageImagePointer->getSpacing();
   Vector3D<double> origin = this->_AverageImagePointer->getOrigin();
 
-  DeformationFieldType::SizeType itksize;
+  DisplacementFieldType::SizeType itksize;
   itksize[0] = size.x;
   itksize[1] = size.y;
   itksize[2] = size.z;
 
-  DeformationFieldType::SpacingType itkspacing;
+  DisplacementFieldType::SpacingType itkspacing;
   itkspacing[0] = spacing.x;
   itkspacing[1] = spacing.y;
   itkspacing[2] = spacing.z;
 
-  DeformationFieldType::PointType itkorigin;
+  DisplacementFieldType::PointType itkorigin;
   itkorigin[0] = origin.x;
   itkorigin[1] = origin.y;
   itkorigin[2] = origin.z;
 
-  DeformationFieldType::RegionType region;
+  DisplacementFieldType::RegionType region;
   region.SetSize(itksize);
 
-  DeformationFieldType::Pointer defImg = DeformationFieldType::New();
-  defImg->SetRegions(region);
-  defImg->Allocate();
-  defImg->SetSpacing(itkspacing);
-  defImg->SetOrigin(itkorigin);
+  DisplacementFieldType::Pointer dispImg = DisplacementFieldType::New();
+  dispImg->SetRegions(region);
+  dispImg->Allocate();
+  dispImg->SetSpacing(itkspacing);
+  dispImg->SetOrigin(itkorigin);
 
   for (unsigned int i = 0; i < size.x; i++)
     for (unsigned int j = 0; j < size.y; j++)
@@ -188,24 +188,24 @@ VectorAtlasBuilder
         d[1] = h.y - y;
         d[2] = h.z - z;
 
-        DeformationFieldType::IndexType ind;
+        DisplacementFieldType::IndexType ind;
         ind[0] = i;
         ind[1] = j;
         ind[2] = k;
 
-        defImg->SetPixel(ind, d);
+        dispImg->SetPixel(ind, d);
       }
   
-  typedef itk::IterativeInverseDeformationFieldImageFilter<
-    DeformationFieldType, DeformationFieldType>
+  typedef itk::IterativeInverseDisplacementFieldImageFilter<
+    DisplacementFieldType, DisplacementFieldType>
     InverterType;
   InverterType::Pointer invf = InverterType::New();
   invf->SetNumberOfIterations(10);
   invf->SetStopValue(1e-2);
-  invf->SetInput(defImg);
+  invf->SetInput(dispImg);
   invf->Update();
 
-  defImg = invf->GetOutput();
+  dispImg = invf->GetOutput();
 
   VectorFieldType* hFieldInv = new VectorFieldType(*hField);
 
@@ -217,12 +217,12 @@ VectorAtlasBuilder
         double y = j*spacing.y + origin.y;
         double z = k*spacing.z + origin.z;
 
-        DeformationFieldType::IndexType ind;
+        DisplacementFieldType::IndexType ind;
         ind[0] = i;
         ind[1] = j;
         ind[2] = k;
 
-        DisplacementType d = defImg->GetPixel(ind);
+        DisplacementType d = dispImg->GetPixel(ind);
 
         Vector3D<float> h;
         h.x = x + d[0];
