@@ -171,7 +171,11 @@ void
 AffineTransform3D<T>
 ::readITKStyle(const char* filename)
 {
+  #if (ITK_VERSION_MAJOR == 4 && ITK_VERSION_MINOR >= 5) || ITK_VERSION_MAJOR> 4
+  itk::TransformFileReaderTemplate< float >::Pointer transformreader = itk::TransformFileReaderTemplate< float >::New();
+  #else
   itk::TransformFileReader::Pointer transformreader = itk::TransformFileReader::New();
+  #endif
   // read ITK-style transform
   transformreader->SetFileName(filename);
   try{
