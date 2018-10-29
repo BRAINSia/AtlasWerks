@@ -20,7 +20,7 @@
 
 #include <vector>
 
-#include <Image.h>
+#include "DataTypes/Image.h"
 #include <ROI.h>
 #include <Array2D.h>
 

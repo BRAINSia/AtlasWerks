@@ -421,6 +421,7 @@ OPTION(AtlasWerks_COMPILE_TESTING "Compile AtlasWerks testing."       ON)
 
 #-----------------------------------------------------------------------------
 # add common include directories
+
 INCLUDE_DIRECTORIES(
   ${AtlasWerks_SOURCE_DIR}/Utilities/DownsampleFilter
   ${AtlasWerks_SOURCE_DIR}/Utilities/ImMapAttic
@@ -441,6 +442,7 @@ INCLUDE_DIRECTORIES(
   ${AtlasWerks_SOURCE_DIR}/Code/Libraries/Algorithms/Greedy
   ${AtlasWerks_SOURCE_DIR}/Code/Libraries/Algorithms/LDMM
   ${AtlasWerks_SOURCE_DIR}/Code/Libraries/Base
+  ${AtlasWerks_SOURCE_DIR}/Code/Libraries/
   ${AtlasWerks_SOURCE_DIR}/Code/Libraries/DataTypes
   ${AtlasWerks_SOURCE_DIR}/Code/Libraries/Numerics
   ${AtlasWerks_SOURCE_DIR}/Code/Libraries/UtilitiesDataTypes
@@ -476,30 +478,28 @@ ENDIF(CUDA_ENABLED)
 
 #-----------------------------------------------------------------------------
 # Build utilities
-SUBDIRS(
-  ${AtlasWerks_SOURCE_DIR}/Utilities/DownsampleFilter
-  ${AtlasWerks_SOURCE_DIR}/Utilities/Matrix  
-  ${AtlasWerks_SOURCE_DIR}/Utilities/planio
-  ${AtlasWerks_SOURCE_DIR}/Utilities/PowerCrust
+add_subdirectory(${AtlasWerks_SOURCE_DIR}/Utilities/DownsampleFilter)
+add_subdirectory(${AtlasWerks_SOURCE_DIR}/Utilities/Matrix) 
+add_subdirectory(${AtlasWerks_SOURCE_DIR}/Utilities/planio)
+add_subdirectory(${AtlasWerks_SOURCE_DIR}/Utilities/PowerCrust)
 #  ${AtlasWerks_SOURCE_DIR}/Utilities/tinyxml
-)
 
 IF(atlasWerks_COMPILE_APP_IMMAP)
-  SUBDIRS(${AtlasWerks_SOURCE_DIR}/Utilities/ImMapAttic)
+  add_subdirectory(${AtlasWerks_SOURCE_DIR}/Utilities/ImMapAttic)
 ENDIF(atlasWerks_COMPILE_APP_IMMAP)
 
 #-----------------------------------------------------------------------------
 # go to subdirectories
 IF(AtlasWerks_COMPILE_LIBS)
-  SUBDIRS(${AtlasWerks_SOURCE_DIR}/Code/Libraries)
+  add_subdirectory(${AtlasWerks_SOURCE_DIR}/Code/Libraries)
 ENDIF(AtlasWerks_COMPILE_LIBS)
 
 IF(AtlasWerks_COMPILE_APPS)
-  SUBDIRS(${AtlasWerks_SOURCE_DIR}/Code/Applications)
+  add_subdirectory(${AtlasWerks_SOURCE_DIR}/Code/Applications)
 ENDIF(AtlasWerks_COMPILE_APPS)
 
 IF(AtlasWerks_COMPILE_TESTING)
-  SUBDIRS(${AtlasWerks_SOURCE_DIR}/Testing)
+  add_subdirectory(${AtlasWerks_SOURCE_DIR}/Testing)
 ENDIF(AtlasWerks_COMPILE_TESTING)
 
 

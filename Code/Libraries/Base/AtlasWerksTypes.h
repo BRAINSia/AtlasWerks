@@ -17,7 +17,7 @@
 #include "Vector3D.h"
 #include "Array3D.h"
 //#include "AffineTransform3D.h"
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "AtlasWerksException.h"
 
 #ifndef SWIG

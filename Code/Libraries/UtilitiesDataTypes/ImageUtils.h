@@ -24,7 +24,7 @@
 #include "Array3DUtils.h"
 #include "Array3DIO.h"
 #include "AffineTransform3D.h"
-#include "Image.h"
+#include "DataTypes/Image.h"
 
 #endif // SWIG
 

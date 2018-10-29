@@ -30,7 +30,7 @@
 #include "vnl/vnl_vector.h"
 
 #include <Array3D.h>
-#include <Image.h>
+#include <DataTypes/Image.h>
 
 #include <FluidWarpParameters.h>
 #include <Timer.h>
