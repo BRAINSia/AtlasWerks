@@ -19,6 +19,11 @@ TARGET_LINK_LIBRARIES(GreedyWarp
   ${GreedyWarp_LIBS}
   )
 
+install(TARGETS GreedyWarp
+  EXPORT AtlasWerksTargets
+  RUNTIME DESTINATION bin
+  )
+
 #
 # GreedyAtlas
 #
@@ -37,6 +42,11 @@ SET(GreedyAtlas_LIBS
 
 TARGET_LINK_LIBRARIES(GreedyAtlas
   ${GreedyAtlas_LIBS}
+  )
+
+install(TARGETS GreedyAtlas
+  EXPORT AtlasWerksTargets
+  RUNTIME DESTINATION bin
   )
 
 IF(MPI_FOUND)
