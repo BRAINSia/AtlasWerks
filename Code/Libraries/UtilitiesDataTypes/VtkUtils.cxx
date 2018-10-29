@@ -29,15 +29,15 @@ arrayToVtkImageData(const Array3D<Real>& array,
   const Real* dataPtr = array.getDataPointer();
   // copy in the data
   for(unsigned int k=0;k<nVox;k++){
-    scalars->SetTupleValue(k, &dataPtr[k]);
+    scalars->SetTypedTuple(k, &dataPtr[k]);
   }
     
   vtkImageData *vtkData = vtkImageData::New();
-  vtkData->GetPointData()->SetScalars(scalars);
   vtkData->SetDimensions(size.x, size.y, size.z);
-  vtkData->SetScalarType(VTK_FLOAT);
   vtkData->SetOrigin(origin.x, origin.y, origin.z);
   vtkData->SetSpacing(spacing.x, spacing.y, spacing.z);
+  vtkData->AllocateScalars(VTK_FLOAT, 0);
+  vtkData->GetPointData()->SetScalars(scalars);
 
   return vtkData;
 }
@@ -66,15 +66,15 @@ VectorFieldToVtkImageData(const VectorField& array,
   // copy in the data
   const Vector3D<Real> *dataPtr = array.getDataPointer();
   for(unsigned int k=0;k<nVox;k++){
-    vectors->SetTupleValue(k, &(dataPtr[k].x));
+    vectors->SetTypedTuple(k, &(dataPtr[k].x));
   }
     
   vtkImageData *vtkData = vtkImageData::New();
-  vtkData->GetPointData()->SetScalars(vectors);
   vtkData->SetDimensions(size.x, size.y, size.z);
-  vtkData->SetScalarType(VTK_FLOAT);
   vtkData->SetOrigin(origin.x, origin.y, origin.z);
   vtkData->SetSpacing(spacing.x, spacing.y, spacing.z);
+  vtkData->AllocateScalars(VTK_FLOAT, 0);
+  vtkData->GetPointData()->SetScalars(vectors);
 
   return vtkData;
 }

@@ -111,14 +111,14 @@ FixSurfaceOrientation(Surface& surface)
 
     // Merge vertices so that orientation can be handled
     vtkCleanPolyData* cleanPolyData = vtkCleanPolyData::New();
-    cleanPolyData->SetInput(polyData);
+    cleanPolyData->SetInputData(polyData);
     cleanPolyData->SetTolerance(0.0);
 
     cleanPolyData->Update();
 
     // Fix normals
     vtkPolyDataNormals* polyDataNormals = vtkPolyDataNormals::New();
-    polyDataNormals->SetInput( cleanPolyData->GetOutput() );
+    polyDataNormals->SetInputData( cleanPolyData->GetOutput() );
     polyDataNormals->SplittingOff();
     polyDataNormals->ComputePointNormalsOff();
     polyDataNormals->ComputeCellNormalsOn();
@@ -150,14 +150,14 @@ FixSurfaceOrientationByu(const char* in, const char* out)
 
     // Merge vertices so that orientation can be handled
     vtkCleanPolyData* cleanPolyData = vtkCleanPolyData::New();
-    cleanPolyData->SetInput( reader->GetOutput() );
+    cleanPolyData->SetInputData( reader->GetOutput() );
     cleanPolyData->SetTolerance(0.0);
 
     cleanPolyData->Update();
 
     // Fix normals
     vtkPolyDataNormals* polyDataNormals = vtkPolyDataNormals::New();
-    polyDataNormals->SetInput( cleanPolyData->GetOutput() );
+    polyDataNormals->SetInputData( cleanPolyData->GetOutput() );
     polyDataNormals->SplittingOff();
     polyDataNormals->ComputePointNormalsOff();
     polyDataNormals->ComputeCellNormalsOn();
@@ -167,7 +167,7 @@ FixSurfaceOrientationByu(const char* in, const char* out)
 
     //Write file
     vtkBYUWriter* writer = vtkBYUWriter::New();
-    writer->SetInput( polyDataNormals->GetOutput() );
+    writer->SetInputData( polyDataNormals->GetOutput() );
     writer->SetGeometryFileName(out);
 
     writer->Update();

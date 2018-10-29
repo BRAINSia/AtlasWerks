@@ -93,20 +93,20 @@ AnastructUtils
   // run power crust
   vtkPowerCrustSurfaceReconstruction* surfaceGenerator = 
     vtkPowerCrustSurfaceReconstruction::New();
-  surfaceGenerator->SetInput(polyData);
+  surfaceGenerator->SetInputData(polyData);
   surfaceGenerator->Update();
 
 
   // have only triangles
   vtkTriangleFilter *surfaceTriangular =
     vtkTriangleFilter::New(); 
-  surfaceTriangular-> SetInput(surfaceGenerator->GetOutput());
+  surfaceTriangular-> SetInputData(surfaceGenerator->GetOutput());
   surfaceTriangular-> PassVertsOn();
 
   // Make sure all triangles have consistent orientation (implying
   // outward-pointing normals via right hand rule)
   vtkPolyDataNormals* polyDataNormals = vtkPolyDataNormals::New();
-  polyDataNormals->SetInput( surfaceTriangular->GetOutput() );
+  polyDataNormals->SetInputData( surfaceTriangular->GetOutput() );
   polyDataNormals->SplittingOff();
   polyDataNormals->ComputePointNormalsOff();
   polyDataNormals->ComputeCellNormalsOn();
@@ -201,18 +201,18 @@ AnastructUtils
   // run power crust
   vtkPowerCrustSurfaceReconstruction* surfaceGenerator = 
     vtkPowerCrustSurfaceReconstruction::New();
-  surfaceGenerator->SetInput(polyData);
+  surfaceGenerator->SetInputData(polyData);
   surfaceGenerator->Update();
 
   // have only triangles
   vtkTriangleFilter *surfaceTriangular =
     vtkTriangleFilter::New(); 
-  surfaceTriangular-> SetInput(surfaceGenerator->GetOutput());
+  surfaceTriangular-> SetInputData(surfaceGenerator->GetOutput());
 
   // Make sure all triangles have consistent orientation (implying
   // outward-pointing normals via right hand rule)
   vtkPolyDataNormals* polyDataNormals = vtkPolyDataNormals::New();
-  polyDataNormals->SetInput( surfaceTriangular->GetOutput() );
+  polyDataNormals->SetInputData( surfaceTriangular->GetOutput() );
   polyDataNormals->SplittingOff();
   polyDataNormals->ComputePointNormalsOff();
   polyDataNormals->ComputeCellNormalsOn();
