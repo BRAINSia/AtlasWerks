@@ -72,11 +72,11 @@ inline Real conj(Real r){ return r;}
 inline Complex conj(Complex c){ return std::conj(c);}
 
 // Check if either part is NaN
-inline bool isnan(Real r){ return std::isnan(r);}
+// inline bool isnan(Real r){ return std::isnan(r);}
 inline bool isnan(Complex c){ return std::isnan(c.real()) || std::isnan(c.imag());}
 
 // Check if either part is infinity
-inline bool isinf(Real r){ return std::isinf(r);}
+// inline bool isinf(Real r){ return std::isinf(r);}
 inline bool isinf(Complex c){ return std::isinf(c.real()) || std::isinf(c.imag());}
 
 #endif // __ATLASWERKS_TYPES_H__
