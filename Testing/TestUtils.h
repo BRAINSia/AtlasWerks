@@ -19,7 +19,7 @@
 
 // include info needed for new routines
 #include "AtlasWerksTypes.h"
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "ImageUtils.h"
 #include "Array3D.h"
 #include "Array3DUtils.h"

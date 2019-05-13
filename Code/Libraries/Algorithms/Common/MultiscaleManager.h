@@ -19,7 +19,7 @@
 #include "Array3D.h"
 #include "Array3DUtils.h"
 #include "HField3DUtils.h"
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "ImageUtils.h"
 #include "ApplicationUtils.h"
 

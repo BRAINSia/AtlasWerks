@@ -14,7 +14,7 @@
 #ifndef MultiscaleFluid_h
 #define MultiscaleFluid_h
 
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "Array3D.h"
 #include "FluidWarpParameters.h"
 #include "Vector3D.h"

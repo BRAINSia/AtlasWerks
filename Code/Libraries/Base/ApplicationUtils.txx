@@ -14,7 +14,7 @@
 #ifndef ApplicationUtils_txx
 #define ApplicationUtils_txx
 
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "Image2D.h"
 #include "AtlasWerksException.h"
 #include "StringUtils.h"

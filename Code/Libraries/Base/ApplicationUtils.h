@@ -17,7 +17,7 @@
 #ifndef SWIG
 
 #include <string>
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "Image2D.h"
 #include "AtlasWerksException.h"
 #include "AtlasWerksTypes.h"

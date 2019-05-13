@@ -20,7 +20,7 @@
 #include "vtkObjectFactory.h"
 #include "vtkFloatArray.h"
 
-vtkCxxRevisionMacro(vtkPowerCrustSurfaceReconstruction, "$Revision: 1.1 $");
+// vtkCxxRevisionMacro(vtkPowerCrustSurfaceReconstruction, "$Revision: 1.1 $");
 vtkStandardNewMacro(vtkPowerCrustSurfaceReconstruction);
 
 vtkPowerCrustSurfaceReconstruction::vtkPowerCrustSurfaceReconstruction()
@@ -11554,7 +11554,7 @@ srand48(long seed)
 
 void vtkPowerCrustSurfaceReconstruction::Execute()
 {
-  vtkDataSet *input= this->GetInput();
+  vtkDataSet *input= (vtkDataSet*)this->GetInput();
 //   vtkIdType numPts=input->GetNumberOfPoints();
 
   vtkPolyData *output = this->GetOutput();
@@ -11616,28 +11616,48 @@ void vtkPowerCrustSurfaceReconstruction::PrintSelf(ostream& os, vtkIndent indent
 
 }
 
-void vtkPowerCrustSurfaceReconstruction::ComputeInputUpdateExtents(vtkDataObject *output)
+int vtkPowerCrustSurfaceReconstruction::RequestUpdateExtent(
+    vtkInformation *request,
+    vtkInformationVector **inputVector,
+    vtkInformationVector *outputVector)
 {
-  int piece, numPieces, ghostLevels;
-  
-  if (this->GetInput() == NULL)
-    {
-    vtkErrorMacro("No Input");
-    return;
-    }
-  piece = output->GetUpdatePiece();
-  numPieces = output->GetUpdateNumberOfPieces();
-  ghostLevels = output->GetUpdateGhostLevel();
-  
-  if (numPieces > 1)
-    {
-    ++ghostLevels;
-    }
+    this->vtkPolyDataAlgorithm::RequestUpdateExtent(request, inputVector,
+        outputVector);
+ 
+    // get the info objects
+    vtkInformation *inInfo = inputVector[0]->GetInformationObject(0);
+    vtkInformation *outInfo = outputVector->GetInformationObject(0);
+ 
+    vtkPolyData  *input = vtkPolyData::SafeDownCast(
+        inInfo->Get(vtkDataObject::DATA_OBJECT()));
+    vtkPolyData *output = vtkPolyData::SafeDownCast(
+        outInfo->Get(vtkDataObject::DATA_OBJECT()));
 
-  this->GetInput()->SetUpdateExtent(piece, numPieces, ghostLevels);
-
-  this->GetInput()->RequestExactExtentOn();
+    return 1;
 }
+
+// void vtkPowerCrustSurfaceReconstruction::ComputeInputUpdateExtents(vtkDataObject *output)
+// {
+//   int piece, numPieces, ghostLevels;
+  
+//   if (this->GetInput() == NULL)
+//     {
+//     vtkErrorMacro("No Input");
+//     return;
+//     }
+//   piece = output->GetUpdatePiece();
+//   numPieces = output->GetUpdateNumberOfPieces();
+//   ghostLevels = output->GetUpdateGhostLevel();
+  
+//   if (numPieces > 1)
+//     {
+//     ++ghostLevels;
+//     }
+
+//   this->GetInput()->SetUpdateExtent(piece, numPieces, ghostLevels);
+
+//   this->GetInput()->RequestExactExtentOn();
+// }
 
 void vtkPowerCrustSurfaceReconstruction::ExecuteInformation()
 {

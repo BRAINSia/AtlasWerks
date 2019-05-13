@@ -25,7 +25,7 @@
 #include "Vector3D.h"
 #include "Array3D.h"
 #include "Array3DUtils.h"
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "ROI.h"
 #include "Surface.h"
 #include "Matrix3D.h"

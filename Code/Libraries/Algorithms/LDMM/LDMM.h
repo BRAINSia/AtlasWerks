@@ -24,7 +24,7 @@
 #include "DiffOper.h"
 #include "HField3DIO.h"
 #include "HField3DUtils.h"
-#include "Image.h"
+#include "DataTypes/Image.h"
 #include "ImageUtils.h"
 #include "MultiscaleManager.h"
 
